@@ -62,5 +62,9 @@ test('official report values reproduce semiconductor indicators',async()=>{
   close(row.exports,466.52);close(row.yoy,209);close(row.delta,30.2);
   close(row.ma,291.98);close(row.avgYoy,195.76666666666665);close(row.avgDelta,13.2);
  }
- for(const p of data.products)assert.equal(p.rows.at(-1).sourceId,'ministry-report');
+ for(const p of data.products)for(const r of p.rows){
+  assert.equal(r.sourceId,'ministry-report');
+  assert.ok(r.month>=data.report.firstMonth && r.month<=data.report.lastMonth);
+ }
+ assert.equal(data.historySource,undefined);
 });

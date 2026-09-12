@@ -4,17 +4,15 @@
 
 ## 실제 자료와 출처
 
-참고 사이트는 KOSIS가 아닌 **산업통상부 수출입동향 보도자료 PDF**를 사용합니다. 이에 맞춰 배포 파이프라인을 변경했습니다. **KOSIS_API_KEY 또는 KOSIS_ENABLED를 등록할 필요가 없습니다.** 기존에 등록했다면 이번 배포에서는 사용하지 않습니다.
+산업통상부 수출입동향 보도자료 PDF만 사용합니다. KOSIS API 키는 필요 없습니다.
 
 - 2025.08~2026.08: 산업통상부 「2026년 8월 수출입동향」 20~21쪽을 직접 추출. 백만 달러를 억 달러로 환산합니다.
-- 2024.01~2025.07: 모소밤부 대시보드의 공개 월별 수치 표에서 가져온 과거 스냅샷. 이전 PDF 다운로드 오류로 과거 값 전체와 PDF의 직접 대조는 미완료입니다. 설명문·차트·디자인은 복제하지 않았습니다.
-- 품목별 수록기간은 다릅니다. 추가 5개 품목은 2025.08부터 있습니다.
-- 동일 월은 직접 확보한 최신 공식 PDF 값을 우선합니다. 각 월의 출처를 원자료 표에 표시합니다.
+- 전체 20개 품목의 수록기간은 2025.08~2026.08입니다.
+- 각 월의 출처를 원자료 표에 표시합니다.
 - 공식 공표 YoY를 우선합니다. 반올림된 수출액으로 재계산한 YoY와 작은 차이가 있을 수 있습니다.
 
 공식 원문: https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172145/view
 정부 정책브리핑: https://www.korea.kr/briefing/pressReleaseView.do?newsId=156776348
-과거 월별표: https://mosobamboocompany.github.io/korea-export-dashboard/
 
 공공누리 제1유형(출처표시). 정부 공식 사이트가 아니며 정부의 후원·보증과 무관합니다.
 
@@ -30,7 +28,7 @@ Pages Source는 GitHub Actions입니다. `main` 푸시 또는 Actions → Publis
 
 1. Python PDF 리더 설치
 2. `config/report.json`에 등록된 **공식 PDF**를 다운로드
-3. 20개 품목·월별 열·단위를 검증하고 `data/history.json`과 병합
+3. 20개 품목·월별 열·단위를 검증하고 공식 자료만 저장
 4. 계산 및 화면 데이터 테스트
 5. `dist/`만 GitHub Pages에 배포
 
@@ -38,7 +36,7 @@ Pages Source는 GitHub Actions입니다. `main` 푸시 또는 Actions → Publis
 
 ### 다음 달 갱신
 
-현재는 지정한 보도자료를 다시 수집하는 방식입니다. **새 보도자료 자동 검색과 정기 실행은 아직 구현하지 않았습니다.** 다음 달에는 공식 보도자료 확인 후 `config/report.json`의 URL, 제목, 공표일, 기간과 표 쪽수를 갱신하고 실행합니다. 현재 추출기는 연간 합계+13개월 표를 지원하며 표 형식이 바뀌면 실패하도록 되어 있습니다. 이전 출력 자료를 `data/history.json`에 보존한 뒤 새 자료로 갱신하면 긴 이력이 유지됩니다.
+현재는 지정한 보도자료를 다시 수집하는 방식입니다. **새 보도자료 자동 검색과 정기 실행은 아직 구현하지 않았습니다.** 다음 달에는 공식 보도자료 확인 후 `config/report.json`의 URL, 제목, 공표일, 기간과 표 쪽수를 갱신하고 실행합니다. 현재 추출기는 연간 합계+13개월 표를 지원하며 표 형식이 바뀌면 실패하도록 되어 있습니다. 현재는 지정 PDF에 수록된 13개월만 표시합니다.
 
 ## 로컬
 
@@ -49,8 +47,8 @@ Python 3.12 이상: `python -m pip install -r requirements.txt` 후 `python scri
 ## 구조
 
 - `config/report.json`: 검증된 공식 자료 URL 및 추출 범위
-- `scripts/fetch-report.py`: 공식 PDF 파싱 및 과거자료 병합
-- `data/history.json`: 참고 사이트 공개 수치의 스냅샷 및 출처
+- `scripts/fetch-report.py`: 공식 PDF 파싱
+- `config/products.json`: 공식 표의 20개 품목 목록
 - `dist/data/products.json`: 출처·문서 해시·월별 수출액·공표 YoY를 포함한 배포 자료
 - `dist/products.js`: 지표 계산과 자체 분류
 - `dist/render.js`: 품목별 화면

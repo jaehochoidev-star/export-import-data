@@ -1,0 +1,82 @@
+[
+  {
+    "id": "semiconductors",
+    "name": "반도체"
+  },
+  {
+    "id": "computers",
+    "name": "컴퓨터"
+  },
+  {
+    "id": "petroleum",
+    "name": "석유제품"
+  },
+  {
+    "id": "petrochemicals",
+    "name": "석유화학"
+  },
+  {
+    "id": "automobiles",
+    "name": "자동차"
+  },
+  {
+    "id": "machinery",
+    "name": "일반기계"
+  },
+  {
+    "id": "steel",
+    "name": "철강제품"
+  },
+  {
+    "id": "auto-parts",
+    "name": "자동차부품"
+  },
+  {
+    "id": "displays",
+    "name": "디스플레이"
+  },
+  {
+    "id": "ships",
+    "name": "선박"
+  },
+  {
+    "id": "wireless",
+    "name": "무선통신기기"
+  },
+  {
+    "id": "biohealth",
+    "name": "바이오헬스"
+  },
+  {
+    "id": "textiles",
+    "name": "섬유"
+  },
+  {
+    "id": "batteries",
+    "name": "이차전지"
+  },
+  {
+    "id": "appliances",
+    "name": "가전"
+  },
+  {
+    "id": "electrical",
+    "name": "전기기기"
+  },
+  {
+    "id": "nonferrous",
+    "name": "비철금속"
+  },
+  {
+    "id": "food",
+    "name": "농수산식품"
+  },
+  {
+    "id": "cosmetics",
+    "name": "화장품"
+  },
+  {
+    "id": "household",
+    "name": "생활용품"
+  }
+]

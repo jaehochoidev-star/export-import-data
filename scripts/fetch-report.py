@@ -43,16 +43,16 @@ def main():
             if list(map(int,re.findall(r'(\d+)월',line)))!=[int(m[-2:]) for m in months]: raise ValueError('Month header mismatch')
             break
     else: raise ValueError('Month header missing')
-    history=json.loads(Path('data/history.json').read_text(encoding='utf-8'))
-    names={p['name'] if p['name']!='철강제품' else '철강':p['id'] for p in history['products']}
+    catalog=json.loads(Path('config/products.json').read_text(encoding='utf-8'))
+    names={p['name'] if p['name']!='철강제품' else '철강':p['id'] for p in catalog}
     parsed=parse_report(text,months,names)
     products=[]
-    for p in history['products']:
+    for p in catalog:
         label='철강' if p['name']=='철강제품' else p['name']
-        rows={r['month']:r for r in p['rows'] if r['month']<cfg['firstMonth']}
+        rows={}
         rows.update({r['month']:r for r in parsed[label]})
         products.append({**p,'rows':sorted(rows.values(),key=lambda r:r['month'])})
-    output={'mode':'live','unit':'억 달러','source':'ministry-report','updatedAt':datetime.now(timezone.utc).isoformat(),'report':{**cfg,'sha256':hashlib.sha256(pdf).hexdigest()},'historySource':history['sourceUrl'],'products':products}
+    output={'mode':'live','unit':'억 달러','source':'ministry-report','updatedAt':datetime.now(timezone.utc).isoformat(),'report':{**cfg,'sha256':hashlib.sha256(pdf).hexdigest()},'products':products}
     target=Path('dist/data/products.json'); temp=target.with_suffix('.json.tmp')
     temp.write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');temp.replace(target)
     print(f"Validated {len(products)} products; official report through {cfg['lastMonth']}")
