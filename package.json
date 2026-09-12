@@ -1,0 +1,14 @@
+{
+  "name": "korea-trade-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "update-data": "python scripts/fetch-report.py",
+    "test": "node --test",
+    "update-kosis": "node scripts/fetch-kosis.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

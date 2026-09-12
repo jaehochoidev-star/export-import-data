@@ -1,0 +1,126 @@
+{
+  "mode": "sample",
+  "unit": "억 달러",
+  "rows": [
+    {
+      "month": "2024-01",
+      "exports": 480,
+      "imports": 493
+    },
+    {
+      "month": "2024-02",
+      "exports": 518.7,
+      "imports": 471.8
+    },
+    {
+      "month": "2024-03",
+      "exports": 479.1,
+      "imports": 442.6
+    },
+    {
+      "month": "2024-04",
+      "exports": 459.6,
+      "imports": 457.3
+    },
+    {
+      "month": "2024-05",
+      "exports": 513.3,
+      "imports": 494.7
+    },
+    {
+      "month": "2024-06",
+      "exports": 527.9,
+      "imports": 496.1
+    },
+    {
+      "month": "2024-07",
+      "exports": 479.5,
+      "imports": 462.5
+    },
+    {
+      "month": "2024-08",
+      "exports": 486.4,
+      "imports": 452.9
+    },
+    {
+      "month": "2024-09",
+      "exports": 542.1,
+      "imports": 486.7
+    },
+    {
+      "month": "2024-10",
+      "exports": 529.9,
+      "imports": 511
+    },
+    {
+      "month": "2024-11",
+      "exports": 486.4,
+      "imports": 488.8
+    },
+    {
+      "month": "2024-12",
+      "exports": 518.8,
+      "imports": 460.3
+    },
+    {
+      "month": "2025-01",
+      "exports": 563,
+      "imports": 476.1
+    },
+    {
+      "month": "2025-02",
+      "exports": 528.2,
+      "imports": 513.3
+    },
+    {
+      "month": "2025-03",
+      "exports": 502,
+      "imports": 513.5
+    },
+    {
+      "month": "2025-04",
+      "exports": 552.6,
+      "imports": 479.7
+    },
+    {
+      "month": "2025-05",
+      "exports": 574.8,
+      "imports": 471.3
+    },
+    {
+      "month": "2025-06",
+      "exports": 527.5,
+      "imports": 505.6
+    },
+    {
+      "month": "2025-07",
+      "exports": 526.5,
+      "imports": 528.9
+    },
+    {
+      "month": "2025-08",
+      "exports": 583.1,
+      "imports": 505.9
+    },
+    {
+      "month": "2025-09",
+      "exports": 578.5,
+      "imports": 478
+    },
+    {
+      "month": "2025-10",
+      "exports": 532.2,
+      "imports": 494.9
+    },
+    {
+      "month": "2025-11",
+      "exports": 557.7,
+      "imports": 531.9
+    },
+    {
+      "month": "2025-12",
+      "exports": 606.5,
+      "imports": 530.8
+    }
+  ]
+}

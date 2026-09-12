@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": "semiconductors",
+      "name": "반도체",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "computers",
+      "name": "컴퓨터",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "petroleum",
+      "name": "석유제품",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "petrochemicals",
+      "name": "석유화학",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "automobiles",
+      "name": "자동차",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "machinery",
+      "name": "일반기계",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "steel",
+      "name": "철강제품",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "auto-parts",
+      "name": "자동차부품",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "displays",
+      "name": "디스플레이",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "ships",
+      "name": "선박",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "wireless",
+      "name": "무선통신기기",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "biohealth",
+      "name": "바이오헬스",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "textiles",
+      "name": "섬유",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "batteries",
+      "name": "이차전지",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "appliances",
+      "name": "가전",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "electrical",
+      "name": "전기기기",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "nonferrous",
+      "name": "비철금속",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "food",
+      "name": "농수산식품",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "cosmetics",
+      "name": "화장품",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    },
+    {
+      "id": "household",
+      "name": "생활용품",
+      "url": "",
+      "unit": "",
+      "multiplierToHundredMillionUSD": null
+    }
+  ]
+}

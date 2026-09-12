@@ -1,0 +1,3627 @@
+{
+  "mode": "live",
+  "unit": "억 달러",
+  "source": "reference-snapshot",
+  "retrievedAt": "2026-09-12T06:41:19.519Z",
+  "sourceUrl": "https://mosobamboocompany.github.io/korea-export-dashboard/",
+  "products": [
+    {
+      "id": "semiconductors",
+      "name": "반도체",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 93.7,
+          "reportedYoy": 56.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 99.4,
+          "reportedYoy": 66.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 116.7,
+          "reportedYoy": 35.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 99.5,
+          "reportedYoy": 56.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 113.8,
+          "reportedYoy": 54.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 134.2,
+          "reportedYoy": 50.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 111.8,
+          "reportedYoy": 50.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 118.8,
+          "reportedYoy": 38.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 136.2,
+          "reportedYoy": 37.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 125.4,
+          "reportedYoy": 40.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 124.5,
+          "reportedYoy": 30.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 145.1,
+          "reportedYoy": 31.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 101.3,
+          "reportedYoy": 8.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 96.5,
+          "reportedYoy": -3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 130.6,
+          "reportedYoy": 11.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 116.7,
+          "reportedYoy": 17.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 137.9,
+          "reportedYoy": 21.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 149.6,
+          "reportedYoy": 11.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 147.1,
+          "reportedYoy": 31.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 150.9,
+          "reportedYoy": 27.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 166.2,
+          "reportedYoy": 22,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 157,
+          "reportedYoy": 25.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 172.6,
+          "reportedYoy": 38.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 207.7,
+          "reportedYoy": 43.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 205.4,
+          "reportedYoy": 102.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 251.4,
+          "reportedYoy": 160.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 328.3,
+          "reportedYoy": 151.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 318.9,
+          "reportedYoy": 173.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 371.6,
+          "reportedYoy": 169.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 448.1,
+          "reportedYoy": 199.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 410.1,
+          "reportedYoy": 178.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 466.5,
+          "reportedYoy": 209,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "computers",
+      "name": "컴퓨터",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 7.2,
+          "reportedYoy": 37.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 6.2,
+          "reportedYoy": 17.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 8.9,
+          "reportedYoy": 24.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 7.8,
+          "reportedYoy": 75.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 10.4,
+          "reportedYoy": 48.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 11.5,
+          "reportedYoy": 58.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 11.7,
+          "reportedYoy": 61.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 14.7,
+          "reportedYoy": 181.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 15.1,
+          "reportedYoy": 132,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 9.7,
+          "reportedYoy": 54.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 13.5,
+          "reportedYoy": 122.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 15,
+          "reportedYoy": 118,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 8.2,
+          "reportedYoy": 14.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 8,
+          "reportedYoy": 28.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 11.8,
+          "reportedYoy": 33.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 6.6,
+          "reportedYoy": -15.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 10.7,
+          "reportedYoy": 2.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 13.2,
+          "reportedYoy": 15,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 9.5,
+          "reportedYoy": -18.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 12,
+          "reportedYoy": -18.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 13.1,
+          "reportedYoy": -13.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 9.8,
+          "reportedYoy": 1.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 14,
+          "reportedYoy": 3.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 20.4,
+          "reportedYoy": 36.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 15.5,
+          "reportedYoy": 88.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 25.6,
+          "reportedYoy": 221.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 34.2,
+          "reportedYoy": 189.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 40.8,
+          "reportedYoy": 515.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 41.7,
+          "reportedYoy": 289.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 54.1,
+          "reportedYoy": 308.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 47.9,
+          "reportedYoy": 404.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 62.4,
+          "reportedYoy": 419.5,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "petroleum",
+      "name": "석유제품",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 48,
+          "reportedYoy": 13.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 44.3,
+          "reportedYoy": -3.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 46.5,
+          "reportedYoy": 3.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 43.4,
+          "reportedYoy": 18.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 45.2,
+          "reportedYoy": 6.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 37,
+          "reportedYoy": 10.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 44.9,
+          "reportedYoy": 15.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 43.8,
+          "reportedYoy": -2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 40.1,
+          "reportedYoy": -18.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 33.9,
+          "reportedYoy": -34.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 36.5,
+          "reportedYoy": -18.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 39.4,
+          "reportedYoy": -12.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 34.5,
+          "reportedYoy": -28.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 38.8,
+          "reportedYoy": -12.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 32.9,
+          "reportedYoy": -29.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 36.5,
+          "reportedYoy": -15.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 35.8,
+          "reportedYoy": -20.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 37.3,
+          "reportedYoy": 0.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 42.3,
+          "reportedYoy": -5.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 41.4,
+          "reportedYoy": -5.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 42,
+          "reportedYoy": 4.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 38.4,
+          "reportedYoy": 13.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 32.8,
+          "reportedYoy": -10.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 41.8,
+          "reportedYoy": 5.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 37.5,
+          "reportedYoy": 8.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 40.9,
+          "reportedYoy": 5.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 62.5,
+          "reportedYoy": 89.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 50.1,
+          "reportedYoy": 37.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 52,
+          "reportedYoy": 45.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 53.9,
+          "reportedYoy": 44.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 57.6,
+          "reportedYoy": 36,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 68.4,
+          "reportedYoy": 65.3,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "petrochemicals",
+      "name": "석유화학",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 40.2,
+          "reportedYoy": 4.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 39.6,
+          "reportedYoy": -2.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 40.5,
+          "reportedYoy": -1.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 43.1,
+          "reportedYoy": 13,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 41,
+          "reportedYoy": 7.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 39.8,
+          "reportedYoy": 11.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 41.8,
+          "reportedYoy": 18.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 41.6,
+          "reportedYoy": 6.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 38.2,
+          "reportedYoy": -1.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 39.8,
+          "reportedYoy": 10.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 35.6,
+          "reportedYoy": -5.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 38.7,
+          "reportedYoy": 1.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 35.8,
+          "reportedYoy": -11.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 39.4,
+          "reportedYoy": -0.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 36.6,
+          "reportedYoy": -9.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 38,
+          "reportedYoy": -12.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 33.3,
+          "reportedYoy": -18.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 34.3,
+          "reportedYoy": -13.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 38,
+          "reportedYoy": -9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 34.4,
+          "reportedYoy": -15.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 37.6,
+          "reportedYoy": 0,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 31.4,
+          "reportedYoy": -19.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 31.1,
+          "reportedYoy": -11.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 35.5,
+          "reportedYoy": -6.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 35.7,
+          "reportedYoy": -0.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 33.9,
+          "reportedYoy": -13.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 40.2,
+          "reportedYoy": 10,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 41.1,
+          "reportedYoy": 8.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 36.8,
+          "reportedYoy": 10.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 40.3,
+          "reportedYoy": 17.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 41.9,
+          "reportedYoy": 10.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 38.6,
+          "reportedYoy": 12.2,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "automobiles",
+      "name": "자동차",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 62.1,
+          "reportedYoy": 24.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 51.5,
+          "reportedYoy": -7.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 61.7,
+          "reportedYoy": -5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 67.8,
+          "reportedYoy": 10.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 64.9,
+          "reportedYoy": 4.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 62,
+          "reportedYoy": -0.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 53.6,
+          "reportedYoy": -9.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 50.6,
+          "reportedYoy": -4.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 54.8,
+          "reportedYoy": 4.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 62,
+          "reportedYoy": 5.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 56.4,
+          "reportedYoy": -13.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 60.5,
+          "reportedYoy": -5.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 49.9,
+          "reportedYoy": -19.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 60.6,
+          "reportedYoy": 17.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 62.3,
+          "reportedYoy": 1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 65.3,
+          "reportedYoy": -3.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 62,
+          "reportedYoy": -4.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 63.4,
+          "reportedYoy": 2.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 58.3,
+          "reportedYoy": 8.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 54.9,
+          "reportedYoy": 8.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 64,
+          "reportedYoy": 16.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 55.4,
+          "reportedYoy": -10.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 64.1,
+          "reportedYoy": 13.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 59.5,
+          "reportedYoy": -1.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 60.7,
+          "reportedYoy": 21.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 48,
+          "reportedYoy": -20.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 63.7,
+          "reportedYoy": 2.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 61.6,
+          "reportedYoy": -5.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 58.2,
+          "reportedYoy": -6.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 67,
+          "reportedYoy": 5.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 62.4,
+          "reportedYoy": 7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 38.5,
+          "reportedYoy": -29.8,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "machinery",
+      "name": "일반기계",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 43.9,
+          "reportedYoy": 13.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 44.5,
+          "reportedYoy": 0.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 43,
+          "reportedYoy": -10.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 46,
+          "reportedYoy": -0.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 42.9,
+          "reportedYoy": -3.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 41,
+          "reportedYoy": -8.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 51.7,
+          "reportedYoy": 17.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 38.6,
+          "reportedYoy": -6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 38,
+          "reportedYoy": -13.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 39.6,
+          "reportedYoy": -8.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 39.9,
+          "reportedYoy": -19,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 43.4,
+          "reportedYoy": -7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 34.2,
+          "reportedYoy": -21.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 38.9,
+          "reportedYoy": -12.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 41.4,
+          "reportedYoy": -3.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 43.1,
+          "reportedYoy": -6.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 40.6,
+          "reportedYoy": -5.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 37.8,
+          "reportedYoy": -7.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 42.6,
+          "reportedYoy": -17.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 34.6,
+          "reportedYoy": -10.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 42.1,
+          "reportedYoy": 10.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 33.4,
+          "reportedYoy": -15.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 38.2,
+          "reportedYoy": -4.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 42.4,
+          "reportedYoy": -2.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 37.1,
+          "reportedYoy": 8.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 32.8,
+          "reportedYoy": -16.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 38.9,
+          "reportedYoy": -6.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 42.1,
+          "reportedYoy": -2.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 38.2,
+          "reportedYoy": -6.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 40.8,
+          "reportedYoy": 7.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 45.3,
+          "reportedYoy": 5.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 35.3,
+          "reportedYoy": 1.8,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "steel",
+      "name": "철강제품",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 27.7,
+          "reportedYoy": 2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 26.7,
+          "reportedYoy": -10.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 28.8,
+          "reportedYoy": -7.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 28.2,
+          "reportedYoy": -5.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 29.2,
+          "reportedYoy": -12,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 25.6,
+          "reportedYoy": -24.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 28,
+          "reportedYoy": -5.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 28,
+          "reportedYoy": -2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 27.5,
+          "reportedYoy": -4.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 28.7,
+          "reportedYoy": 8.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 26.8,
+          "reportedYoy": 1.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 27.8,
+          "reportedYoy": 2.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 26.3,
+          "reportedYoy": -5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 25.6,
+          "reportedYoy": -4.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 25.6,
+          "reportedYoy": -11.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 29.6,
+          "reportedYoy": 5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 25.6,
+          "reportedYoy": -12.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 23.5,
+          "reportedYoy": -8.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 27.1,
+          "reportedYoy": -3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 19.5,
+          "reportedYoy": -16.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 21.7,
+          "reportedYoy": -1.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 18.7,
+          "reportedYoy": -17.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 18.2,
+          "reportedYoy": -16.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 20.7,
+          "reportedYoy": -7.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 20.4,
+          "reportedYoy": -2.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 19.9,
+          "reportedYoy": -5.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 20.5,
+          "reportedYoy": -0.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 21.2,
+          "reportedYoy": -10.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 20.3,
+          "reportedYoy": -2.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 21.3,
+          "reportedYoy": 9.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 23.6,
+          "reportedYoy": 4.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 21.1,
+          "reportedYoy": 7.9,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "auto-parts",
+      "name": "자동차부품",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 19,
+          "reportedYoy": 10.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 19.5,
+          "reportedYoy": -3.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 19.1,
+          "reportedYoy": -6.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 19.6,
+          "reportedYoy": 2.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 18.4,
+          "reportedYoy": -5.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 17.6,
+          "reportedYoy": -11.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 20.7,
+          "reportedYoy": 2.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 18.4,
+          "reportedYoy": -3.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 18.1,
+          "reportedYoy": -6.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 18.7,
+          "reportedYoy": 5.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 17.7,
+          "reportedYoy": -8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 18.8,
+          "reportedYoy": 5.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 15.7,
+          "reportedYoy": -17.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 18.7,
+          "reportedYoy": -4.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 18.4,
+          "reportedYoy": -3.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 20.2,
+          "reportedYoy": 3.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 16.6,
+          "reportedYoy": -9.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 18,
+          "reportedYoy": 2.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 19.2,
+          "reportedYoy": -7.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 16.6,
+          "reportedYoy": -9.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 19.1,
+          "reportedYoy": 6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 15.1,
+          "reportedYoy": -19,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 15.6,
+          "reportedYoy": -11.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 18.2,
+          "reportedYoy": -2.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 16.2,
+          "reportedYoy": 3.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 14.3,
+          "reportedYoy": -22.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 17.8,
+          "reportedYoy": -2.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 18.9,
+          "reportedYoy": -6.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 15.5,
+          "reportedYoy": -6.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 17.4,
+          "reportedYoy": -2.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 19.5,
+          "reportedYoy": 2.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 15,
+          "reportedYoy": -9.8,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "displays",
+      "name": "디스플레이",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 13,
+          "reportedYoy": 2.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 13.4,
+          "reportedYoy": 20.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 14.2,
+          "reportedYoy": 16.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 14.3,
+          "reportedYoy": 16.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 16.3,
+          "reportedYoy": 15.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 17.6,
+          "reportedYoy": 26,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 17.3,
+          "reportedYoy": 2.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 18.2,
+          "reportedYoy": -4.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 17.3,
+          "reportedYoy": -4.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 16.2,
+          "reportedYoy": -22.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 14.9,
+          "reportedYoy": -22,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 14.8,
+          "reportedYoy": -3.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 10.9,
+          "reportedYoy": -16,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 12.7,
+          "reportedYoy": -5.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 14.6,
+          "reportedYoy": 2.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 13.2,
+          "reportedYoy": -7.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 13.4,
+          "reportedYoy": -18,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 11.2,
+          "reportedYoy": -36.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 15.7,
+          "reportedYoy": -9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 16.5,
+          "reportedYoy": -9.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 17.5,
+          "reportedYoy": 0.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 14.8,
+          "reportedYoy": -8.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 14.4,
+          "reportedYoy": -2.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 14.9,
+          "reportedYoy": 0.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 13.8,
+          "reportedYoy": 26.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 12.2,
+          "reportedYoy": -4.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 14.4,
+          "reportedYoy": -1.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 12.8,
+          "reportedYoy": -2.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 14.7,
+          "reportedYoy": 9.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 15.4,
+          "reportedYoy": 37,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 16.1,
+          "reportedYoy": 2.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 15.7,
+          "reportedYoy": -4.7,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "ships",
+      "name": "선박",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 25.1,
+          "reportedYoy": 76.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 17.4,
+          "reportedYoy": 12,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 21.1,
+          "reportedYoy": 98.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 17.1,
+          "reportedYoy": 5.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 21.4,
+          "reportedYoy": 116.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 15.3,
+          "reportedYoy": -39.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 10.8,
+          "reportedYoy": -36.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 28.1,
+          "reportedYoy": 78.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 23.7,
+          "reportedYoy": 75.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 20.3,
+          "reportedYoy": -28.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 25.2,
+          "reportedYoy": 70.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 30.9,
+          "reportedYoy": -15.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 24.8,
+          "reportedYoy": -1.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 15.7,
+          "reportedYoy": -9.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 31.8,
+          "reportedYoy": 51.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 20.1,
+          "reportedYoy": 17.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 22.4,
+          "reportedYoy": 4.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 25.1,
+          "reportedYoy": 64,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 22.4,
+          "reportedYoy": 107.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 31.3,
+          "reportedYoy": 11.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 28.9,
+          "reportedYoy": 21.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 46.9,
+          "reportedYoy": 131.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 18.5,
+          "reportedYoy": -26.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 30.3,
+          "reportedYoy": -1.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 24.8,
+          "reportedYoy": -0.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 22.1,
+          "reportedYoy": 41.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 35.2,
+          "reportedYoy": 10.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 29,
+          "reportedYoy": 44.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 26.1,
+          "reportedYoy": 16.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 28.2,
+          "reportedYoy": 12.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 32.9,
+          "reportedYoy": 46.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 16.9,
+          "reportedYoy": -45.9,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "wireless",
+      "name": "무선통신기기",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 13.4,
+          "reportedYoy": -14.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 10.3,
+          "reportedYoy": -16.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 11.2,
+          "reportedYoy": 5.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 11.5,
+          "reportedYoy": 11.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 12.5,
+          "reportedYoy": 9.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 10.6,
+          "reportedYoy": 3.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 14.6,
+          "reportedYoy": 53.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 18.1,
+          "reportedYoy": 50.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 18.8,
+          "reportedYoy": 16.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 20.5,
+          "reportedYoy": 19.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 17,
+          "reportedYoy": -3.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 13.5,
+          "reportedYoy": 16.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 12.1,
+          "reportedYoy": -9.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 13.1,
+          "reportedYoy": 26.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 12.5,
+          "reportedYoy": 11.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 14.5,
+          "reportedYoy": 26.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 12.9,
+          "reportedYoy": 3.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 10.2,
+          "reportedYoy": -3.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 12,
+          "reportedYoy": -17.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 15.5,
+          "reportedYoy": -14.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 17.4,
+          "reportedYoy": -7.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 18.2,
+          "reportedYoy": -10.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 17.2,
+          "reportedYoy": 1.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 16.9,
+          "reportedYoy": 24.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 20.3,
+          "reportedYoy": 66.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 14.7,
+          "reportedYoy": 12.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 17.9,
+          "reportedYoy": 43.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 16.2,
+          "reportedYoy": 11.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 14.6,
+          "reportedYoy": 12.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 15.4,
+          "reportedYoy": 51.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 18.1,
+          "reportedYoy": 51.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 18.8,
+          "reportedYoy": 21.2,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "biohealth",
+      "name": "바이오헬스",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 11.5,
+          "reportedYoy": 3.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 11.7,
+          "reportedYoy": 9.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 13.2,
+          "reportedYoy": 9.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 12.4,
+          "reportedYoy": 21,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 12.9,
+          "reportedYoy": 18.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 12.2,
+          "reportedYoy": -6.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 12.4,
+          "reportedYoy": 28.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 12.8,
+          "reportedYoy": 38.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 12.4,
+          "reportedYoy": 9.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 12.4,
+          "reportedYoy": 18.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 14.4,
+          "reportedYoy": 19.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 12.7,
+          "reportedYoy": -2.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 11.4,
+          "reportedYoy": -1.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 12.2,
+          "reportedYoy": 4.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 14.1,
+          "reportedYoy": 6.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 13.6,
+          "reportedYoy": 9.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 13.5,
+          "reportedYoy": 4.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 16.6,
+          "reportedYoy": 36.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 11.8,
+          "reportedYoy": -4.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 11.5,
+          "reportedYoy": -9.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 16.9,
+          "reportedYoy": 37.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 11.8,
+          "reportedYoy": -4.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 14.7,
+          "reportedYoy": 2.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 16,
+          "reportedYoy": 27.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 13.5,
+          "reportedYoy": 16.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 13.3,
+          "reportedYoy": 7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 15.2,
+          "reportedYoy": 6.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 16.4,
+          "reportedYoy": 18.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 14.4,
+          "reportedYoy": 5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 19.1,
+          "reportedYoy": 13.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 15.7,
+          "reportedYoy": 30.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 14.1,
+          "reportedYoy": 22.3,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "textiles",
+      "name": "섬유",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 8.6,
+          "reportedYoy": 7.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 8.2,
+          "reportedYoy": -12,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 8.7,
+          "reportedYoy": -14.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 9.4,
+          "reportedYoy": 1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 9.6,
+          "reportedYoy": 1.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 8.8,
+          "reportedYoy": -11.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 8.8,
+          "reportedYoy": 1.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 7.9,
+          "reportedYoy": -5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 8.1,
+          "reportedYoy": -8.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 8.6,
+          "reportedYoy": 2.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 9.2,
+          "reportedYoy": -3.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 9,
+          "reportedYoy": -3.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 7.2,
+          "reportedYoy": -16.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 8,
+          "reportedYoy": -1.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 8.2,
+          "reportedYoy": -6.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 9.1,
+          "reportedYoy": -3.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 8.5,
+          "reportedYoy": -11.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 7.9,
+          "reportedYoy": -9.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 8.3,
+          "reportedYoy": -5.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 7.5,
+          "reportedYoy": -11.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 9.4,
+          "reportedYoy": 8.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 7.7,
+          "reportedYoy": -16.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 8.9,
+          "reportedYoy": -9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 9.6,
+          "reportedYoy": 0.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 8.4,
+          "reportedYoy": 7.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 7.3,
+          "reportedYoy": -16.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 9.3,
+          "reportedYoy": 4.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 10.5,
+          "reportedYoy": 6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 8.5,
+          "reportedYoy": -6.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 9.7,
+          "reportedYoy": 11.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 9.3,
+          "reportedYoy": 3.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 7.5,
+          "reportedYoy": 0.2,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "batteries",
+      "name": "이차전지",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 6,
+          "reportedYoy": -25.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 7,
+          "reportedYoy": -18.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 6.7,
+          "reportedYoy": -23.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 6.2,
+          "reportedYoy": -20.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 6.4,
+          "reportedYoy": -19.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 7.4,
+          "reportedYoy": -20.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 7.4,
+          "reportedYoy": -0.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 7.1,
+          "reportedYoy": -4.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 7,
+          "reportedYoy": -11.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 6.2,
+          "reportedYoy": -9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 6.6,
+          "reportedYoy": -26.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 8.2,
+          "reportedYoy": -13.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 5.2,
+          "reportedYoy": -12.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 6.3,
+          "reportedYoy": -9.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 6.4,
+          "reportedYoy": -4.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 7,
+          "reportedYoy": 13,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 5.2,
+          "reportedYoy": -18.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 5.9,
+          "reportedYoy": -19.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 5.8,
+          "reportedYoy": -21.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 4.8,
+          "reportedYoy": -31.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 6.3,
+          "reportedYoy": -8.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 5.3,
+          "reportedYoy": -14,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 6.7,
+          "reportedYoy": 2.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 7.2,
+          "reportedYoy": -13,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 5.5,
+          "reportedYoy": 5.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 5.9,
+          "reportedYoy": -5.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 8.2,
+          "reportedYoy": 28.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 6.5,
+          "reportedYoy": -6.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 6.9,
+          "reportedYoy": 31.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 7,
+          "reportedYoy": 17.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 6.8,
+          "reportedYoy": 17.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 6,
+          "reportedYoy": 24,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "appliances",
+      "name": "가전",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 6.7,
+          "reportedYoy": 14.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 6.6,
+          "reportedYoy": -4.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 6.9,
+          "reportedYoy": -2.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 7.4,
+          "reportedYoy": 9.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 7.2,
+          "reportedYoy": 6.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 6.6,
+          "reportedYoy": -0.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 7.2,
+          "reportedYoy": 9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 6.2,
+          "reportedYoy": -5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 6.1,
+          "reportedYoy": -14,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 6.9,
+          "reportedYoy": 5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 5.8,
+          "reportedYoy": -13.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 6.1,
+          "reportedYoy": 3.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 5.6,
+          "reportedYoy": -17.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 6.3,
+          "reportedYoy": -4.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 6.4,
+          "reportedYoy": -7.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 7,
+          "reportedYoy": -4.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 6.1,
+          "reportedYoy": -15,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 5.5,
+          "reportedYoy": -15.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 6.4,
+          "reportedYoy": -12.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 5.3,
+          "reportedYoy": -14,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 6.9,
+          "reportedYoy": 12,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 5.5,
+          "reportedYoy": -20.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 5.6,
+          "reportedYoy": -2.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 6,
+          "reportedYoy": -1.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 5.5,
+          "reportedYoy": -0.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 5.1,
+          "reportedYoy": -19.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 5.9,
+          "reportedYoy": -8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 5.7,
+          "reportedYoy": -19.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 4.8,
+          "reportedYoy": -21.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 5.5,
+          "reportedYoy": 0.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 6.1,
+          "reportedYoy": -4.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 5.2,
+          "reportedYoy": -1.5,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "electrical",
+      "name": "전기기기",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 12.9,
+          "reportedYoy": 6.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 14.8,
+          "reportedYoy": 17,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 11.4,
+          "reportedYoy": -11.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 12.8,
+          "reportedYoy": 7.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 15.7,
+          "reportedYoy": 11.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 13.4,
+          "reportedYoy": 19,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 11.9,
+          "reportedYoy": -14.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 15.2,
+          "reportedYoy": 5.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 15.7,
+          "reportedYoy": 7.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 13.5,
+          "reportedYoy": -0.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 16.5,
+          "reportedYoy": 4.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 17.9,
+          "reportedYoy": 13.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 15,
+          "reportedYoy": 16.2,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "nonferrous",
+      "name": "비철금속",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 11.9,
+          "reportedYoy": 2.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 13,
+          "reportedYoy": 17,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 12.1,
+          "reportedYoy": 6.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 12.6,
+          "reportedYoy": 14.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 15.1,
+          "reportedYoy": 15.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 14.1,
+          "reportedYoy": 40.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 12.2,
+          "reportedYoy": 17.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 14.8,
+          "reportedYoy": 29.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 18.5,
+          "reportedYoy": 49.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 16.8,
+          "reportedYoy": 42.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 18.3,
+          "reportedYoy": 46.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 17.3,
+          "reportedYoy": 24,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 14.8,
+          "reportedYoy": 23.9,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "농수산식품",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 8.8,
+          "reportedYoy": 18,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 8.5,
+          "reportedYoy": -3.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 9.3,
+          "reportedYoy": -4.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 10.3,
+          "reportedYoy": 14.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 9.8,
+          "reportedYoy": 8.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 9.6,
+          "reportedYoy": 1.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 10.4,
+          "reportedYoy": 24.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 9.3,
+          "reportedYoy": 5.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 9.6,
+          "reportedYoy": 7.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 10.3,
+          "reportedYoy": 10.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 10.1,
+          "reportedYoy": 0.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 10.7,
+          "reportedYoy": 14.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 8.5,
+          "reportedYoy": -2.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 10.2,
+          "reportedYoy": 19.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 10.3,
+          "reportedYoy": 10.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 11.2,
+          "reportedYoy": 8.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 10.3,
+          "reportedYoy": 5.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 10.1,
+          "reportedYoy": 5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 10.7,
+          "reportedYoy": 3.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 9.6,
+          "reportedYoy": 3.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 11.6,
+          "reportedYoy": 20.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 9.9,
+          "reportedYoy": -3.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 10.3,
+          "reportedYoy": 3.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 11.4,
+          "reportedYoy": 7.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 10.1,
+          "reportedYoy": 18.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 9.2,
+          "reportedYoy": -9.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 11.7,
+          "reportedYoy": 14.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 12.2,
+          "reportedYoy": 8.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 10.7,
+          "reportedYoy": 4.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 11.7,
+          "reportedYoy": 16.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 10.9,
+          "reportedYoy": 2.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 9.8,
+          "reportedYoy": 1.5,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "cosmetics",
+      "name": "화장품",
+      "rows": [
+        {
+          "month": "2024-01",
+          "exports": 8,
+          "reportedYoy": 71,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-02",
+          "exports": 7.2,
+          "reportedYoy": 11.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-03",
+          "exports": 7.8,
+          "reportedYoy": 0.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-04",
+          "exports": 8.5,
+          "reportedYoy": 25.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-05",
+          "exports": 8.8,
+          "reportedYoy": 14.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-06",
+          "exports": 7.8,
+          "reportedYoy": 5.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-07",
+          "exports": 8.3,
+          "reportedYoy": 29.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-08",
+          "exports": 8.2,
+          "reportedYoy": 17.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-09",
+          "exports": 9.2,
+          "reportedYoy": 11,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-10",
+          "exports": 10.3,
+          "reportedYoy": 36.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-11",
+          "exports": 9.2,
+          "reportedYoy": 19.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2024-12",
+          "exports": 8.8,
+          "reportedYoy": 25.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-01",
+          "exports": 7.5,
+          "reportedYoy": -4.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-02",
+          "exports": 8.9,
+          "reportedYoy": 23.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-03",
+          "exports": 9.4,
+          "reportedYoy": 21,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-04",
+          "exports": 10.3,
+          "reportedYoy": 20.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-05",
+          "exports": 9.5,
+          "reportedYoy": 8.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-06",
+          "exports": 9.4,
+          "reportedYoy": 21.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-07",
+          "exports": 9.8,
+          "reportedYoy": 18,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-08",
+          "exports": 8.6,
+          "reportedYoy": 4.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 11.5,
+          "reportedYoy": 25.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 9.2,
+          "reportedYoy": -11.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 9.5,
+          "reportedYoy": 4.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 10.7,
+          "reportedYoy": 21.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 10.2,
+          "reportedYoy": 36,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 9.1,
+          "reportedYoy": 3.1,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 11.8,
+          "reportedYoy": 26,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 13.5,
+          "reportedYoy": 31.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 11.7,
+          "reportedYoy": 23.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 13.3,
+          "reportedYoy": 41.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 13.5,
+          "reportedYoy": 37.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 13.1,
+          "reportedYoy": 52.1,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    },
+    {
+      "id": "household",
+      "name": "생활용품",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 6.7,
+          "reportedYoy": -17.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-09",
+          "exports": 7.7,
+          "reportedYoy": 13,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-10",
+          "exports": 8.6,
+          "reportedYoy": 23.8,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-11",
+          "exports": 9.5,
+          "reportedYoy": 37.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2025-12",
+          "exports": 8.3,
+          "reportedYoy": 22.7,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-01",
+          "exports": 6.8,
+          "reportedYoy": 17.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-02",
+          "exports": 6.4,
+          "reportedYoy": -11.6,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-03",
+          "exports": 7.5,
+          "reportedYoy": 4.5,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-04",
+          "exports": 7.4,
+          "reportedYoy": 1.3,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-05",
+          "exports": 6.5,
+          "reportedYoy": -5.2,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-06",
+          "exports": 7.2,
+          "reportedYoy": -4.4,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-07",
+          "exports": 8.1,
+          "reportedYoy": 12.9,
+          "sourceId": "reference-snapshot"
+        },
+        {
+          "month": "2026-08",
+          "exports": 6.5,
+          "reportedYoy": -3.4,
+          "sourceId": "reference-snapshot"
+        }
+      ]
+    }
+  ]
+}

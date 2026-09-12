@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.sites-runtime/
+
+tmp/
+__pycache__/
+*.pyc
