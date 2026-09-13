@@ -1,144 +1,20 @@
 {
-  "products": [
-    {
-      "id": "semiconductors",
-      "name": "반도체",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "computers",
-      "name": "컴퓨터",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "petroleum",
-      "name": "석유제품",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "petrochemicals",
-      "name": "석유화학",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "automobiles",
-      "name": "자동차",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "machinery",
-      "name": "일반기계",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "steel",
-      "name": "철강제품",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "auto-parts",
-      "name": "자동차부품",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "displays",
-      "name": "디스플레이",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "ships",
-      "name": "선박",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "wireless",
-      "name": "무선통신기기",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "biohealth",
-      "name": "바이오헬스",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "textiles",
-      "name": "섬유",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "batteries",
-      "name": "이차전지",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "appliances",
-      "name": "가전",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "electrical",
-      "name": "전기기기",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "nonferrous",
-      "name": "비철금속",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "food",
-      "name": "농수산식품",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "cosmetics",
-      "name": "화장품",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    },
-    {
-      "id": "household",
-      "name": "생활용품",
-      "url": "",
-      "unit": "",
-      "multiplierToHundredMillionUSD": null
-    }
+  "startMonth":"201501", "basis":"2020=100",
+  "trade":[
+    {"id":"export-value","name":"수출금액","orgId":"301","tblId":"DT_403Y001","itmId":"13103134671999","objL1":"13102134671ACC_CD.*AA","itemName":"수출금액지수"},
+    {"id":"export-volume","name":"수출물량","orgId":"301","tblId":"DT_403Y002","itmId":"13103134523999","objL1":"13102134523ACC_CD.*AA","itemName":"수출물량지수"}
+  ],
+  "industryTable":{"orgId":"101","tblId":"DT_1F02001","objL1":"00"},
+  "industries":[
+    {"id":"semiconductors","name":"반도체","match":"^반도체제조업$"},
+    {"id":"automobiles","name":"자동차","match":"^자동차및트레일러제조업$"},
+    {"id":"chemicals","name":"화학","match":"^화학물질및화학제품제조업;?의약품제외$"},
+    {"id":"steel","name":"철강","match":"^1차철강제조업$"},
+    {"id":"petroleum","name":"석유정제","match":"^코크스,?연탄및석유정제품제조업$"}
+  ],
+  "metrics":[
+    {"id":"production","itmId":"T10","itemName":"생산지수(원지수)"},
+    {"id":"shipment","itmId":"T11","itemName":"생산자제품 출하지수(원지수)"},
+    {"id":"inventory","itmId":"T12","itemName":"생산자제품 재고지수(원지수)"}
   ]
 }

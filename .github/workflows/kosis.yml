@@ -1,0 +1,57 @@
+name: Update KOSIS and publish
+on:
+  schedule:
+    # Monday 10:00 Korea time; each table has its own release date.
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Collect official KOSIS series and revisions
+        env:
+          KOSIS_API_KEY: ${{ secrets.KOSIS_API_KEY }}
+        run: node scripts/fetch-kosis.mjs
+      - name: Verify statistics
+        run: node --test
+      - name: Save accumulated observations
+        id: archive
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/kosis.json data/kosis dist/data/kosis.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update accumulated KOSIS statistics'
+            git push origin HEAD:main
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+          echo "KOSIS checked at $(date -u +%Y-%m-%dT%H:%M:%SZ)." >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/configure-pages@v5
+        if: steps.archive.outputs.changed == 'true'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.archive.outputs.changed == 'true'
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        if: steps.archive.outputs.changed == 'true'
+        id: deployment

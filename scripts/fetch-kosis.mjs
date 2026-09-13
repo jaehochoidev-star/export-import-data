@@ -1,43 +1,52 @@
-import {readFile,writeFile,rename} from 'node:fs/promises';
-import {PRODUCTS,validateProducts} from '../dist/products.js';
-const config=JSON.parse((await readFile('config/kosis.json','utf8')).replace(/^\uFEFF/,''));
-if(!process.env.KOSIS_API_KEY) throw new Error('KOSIS_API_KEY 환경변수를 설정하세요.');
-async function series(c){
-  if(!c.url || !c.unit || !Number.isFinite(c.multiplierToHundredMillionUSD) || c.multiplierToHundredMillionUSD<=0) throw new Error('config/kosis.json의 조회 URL, 원자료 단위, 환산 배수를 설정하세요.');
-  const url=new URL(c.url);
-  if(url.origin!=='https://kosis.kr' || !['/openapi/Param/statisticsParameterData.do','/openapi/statisticsData.do'].includes(url.pathname)) throw new Error('KOSIS 통계자료 조회 URL만 사용할 수 있습니다.');
-  if(url.searchParams.has('apiKey')) throw new Error('설정 파일의 URL에서 apiKey를 제거하세요.');
-  url.searchParams.set('apiKey',process.env.KOSIS_API_KEY);
-  url.searchParams.set('format','json');url.searchParams.set('jsonVD','Y');
-  let response;
-  try {response=await fetch(url,{signal:AbortSignal.timeout(60000),redirect:'error'});} catch {throw new Error('KOSIS 요청에 실패했습니다. 네트워크 및 조회 설정을 확인하세요.');}
-  if(!response.ok) throw new Error(`KOSIS HTTP ${response.status}`);
-  let data;try{data=await response.json();}catch{throw new Error('KOSIS 응답이 JSON 형식이 아닙니다.');}
-  if(!Array.isArray(data)||!data.length)throw new Error('KOSIS가 통계 배열을 반환하지 않았습니다. 인증키 및 조회 설정을 확인하세요.');
-  const result=new Map();
-  for(const r of data){
-    if(r.PRD_SE!=='M'||!/^\d{4}(0[1-9]|1[0-2])$/.test(r.PRD_DE))throw new Error('월별 자료만 지원합니다.');
-    if(r.UNIT_NM!==c.unit)throw new Error('원자료 단위가 설정한 단위와 다릅니다.');
-    const month=r.PRD_DE.slice(0,4)+'-'+r.PRD_DE.slice(4);
-    if(result.has(month))throw new Error('월별 값이 중복됩니다. 합계 한 시계열만 선택하세요.');
-    const raw=String(r.DT).replaceAll(',','').trim();
-    if(!/^\d+(\.\d+)?$/.test(raw))throw new Error('결측값 또는 숫자가 아닌 값이 있습니다.');
-    const value=Number(raw)*c.multiplierToHundredMillionUSD;
-    if(!Number.isFinite(value))throw new Error('잘못된 금액입니다.');
-    result.set(month,value);
+import {readFile,writeFile,mkdir,rename} from 'node:fs/promises';
+import {normalizeRows,mergeRows,selectIndustry} from './kosis-data.mjs';
+const key=process.env.KOSIS_API_KEY;
+if(!key)throw Error('Register KOSIS_API_KEY as a repository Actions secret.');
+const config=JSON.parse(await readFile('config/kosis.json','utf8'));
+const file='data/kosis.json';
+let previous={series:[]};try{previous=JSON.parse(await readFile(file,'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}
+if(previous.basis&&previous.basis!==config.basis)throw Error('Review changed index basis before merging.');
+const pause=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+async function request(params){
+  const url=new URL('https://kosis.kr/openapi/Param/statisticsParameterData.do');
+  for(const [k,v] of Object.entries({method:'getList',format:'json',jsonVD:'Y',prdSe:'M',...params,apiKey:key}))url.searchParams.set(k,v);
+  for(let attempt=0;attempt<3;attempt++){
+    await pause(2500*(attempt+1));
+    try{
+      const response=await fetch(url,{signal:AbortSignal.timeout(60000),redirect:'error'});
+      if(!response.ok)throw Error('HTTP');
+      const rows=await response.json();
+      if(!Array.isArray(rows)||!rows.length)throw Error('No rows');
+      return rows;
+    }catch{/* Never log URLs or exception causes containing a credential. */}
   }
-  return result;
+  throw Error('KOSIS API request failed for '+params.tblId+'. Check credential and query configuration.');
 }
-if(!Array.isArray(config.products) || config.products.length!==20 || new Set(config.products.map(p=>p.id)).size!==20)throw new Error('20개 품목의 조회 설정이 필요합니다.');
-const products=[];
-for(const product of PRODUCTS){
-  const setting=config.products.find(p=>p.id===product.id);
-  if(!setting)throw new Error('품목별 조회 설정이 누락되었습니다.');
-  const values=await series(setting);
-  products.push({...product,rows:[...values].map(([month,exports])=>({month,exports}))});
+const discovery=await request({...config.industryTable,itmId:'T10',objL2:'ALL',newEstPrdCnt:'1'});
+console.log('Available industry labels:',[...new Set(discovery.map(r=>r.C2_NM))].filter(n=>/반도체|자동차|화학|철강|석유/.test(n)).join(' / '));
+const industrySettings=config.industries.map(i=>({...i,...selectIndustry(discovery,i)}));
+const settings=[...config.trade.map(s=>({...s,group:'trade',officialName:'총지수'})),...industrySettings.flatMap(i=>config.metrics.map(m=>({...config.industryTable,...m,id:i.id+'-'+m.id,name:i.name,industryId:i.id,metric:m.id,group:'industry',objL2:i.objL2,officialName:i.officialName})))];
+const end=new Date().toISOString().slice(0,7).replace('-','');
+const series=[],rawFiles=[];
+for(const setting of settings){
+  const {orgId,tblId,itmId,objL1,objL2}=setting;
+  const selection={orgId,tblId,itmId,objL1,...(objL2?{objL2}:{})};
+  const raw=await request({...selection,startPrdDe:config.startMonth,endPrdDe:end});
+  const rows=normalizeRows(raw,setting,config.basis);
+  const old=previous.series.find(s=>s.id===setting.id);
+  if(old&&(old.officialName!==setting.officialName||JSON.stringify(old.selection)!==JSON.stringify(selection)))throw Error('Series classification changed: '+setting.id);
+  series.push({id:setting.id,name:setting.name,group:setting.group,...(setting.industryId?{industryId:setting.industryId,metric:setting.metric}:{}),officialName:setting.officialName,selection,tableName:raw[0].TBL_NM,itemName:raw[0].ITM_NM,unit:raw[0].UNIT_NM,sourceUrl:`https://kosis.kr/statHtml/statHtml.do?orgId=${orgId}&tblId=${tblId}`,rows:mergeRows(old?.rows||[],rows)});
+  const rawPath=`data/kosis/raw/${setting.id}.json`;
+  let older=[];try{older=JSON.parse(await readFile(rawPath,'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}
+  const merged=[...new Map([...older,...raw].map(r=>[r.PRD_DE,r])).values()].sort((a,b)=>a.PRD_DE.localeCompare(b.PRD_DE));
+  rawFiles.push([rawPath,JSON.stringify(merged,null,2)+'\n']);
+  console.log(setting.id+': '+rows[0].month+' to '+rows.at(-1).month+' ('+rows.length+' months)');
 }
-const data={mode:'live',unit:'억 달러',source:'KOSIS',updatedAt:new Date().toISOString(),products};
-validateProducts(data);
-await writeFile('dist/data/products.json.tmp',JSON.stringify(data,null,2)+'\n');
-await rename('dist/data/products.json.tmp','dist/data/products.json');
-console.log('20개 품목 데이터 갱신 완료');
+const changed=JSON.stringify(series)!==JSON.stringify(previous.series);
+const data={version:1,status:'live',basis:config.basis,updatedAt:changed?new Date().toISOString():previous.updatedAt,series};
+await mkdir('data/kosis/raw',{recursive:true});await mkdir('dist/data',{recursive:true});
+// Write only after every selected series validates. API errors leave all archives intact.
+for(const [path,content] of [...rawFiles,[file,JSON.stringify(data,null,2)+'\n'],['dist/data/kosis.json',JSON.stringify(data,null,2)+'\n']]){
+  await writeFile(path+'.tmp',content);await rename(path+'.tmp',path);
+}
+console.log(changed?'KOSIS archive updated.':'No observation changes; existing archive retained.');
