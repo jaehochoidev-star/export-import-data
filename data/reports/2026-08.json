@@ -1,0 +1,1697 @@
+{
+  "report": {
+    "title": "2026년 8월 수출입동향",
+    "publishedAt": "2026-09-01",
+    "firstMonth": "2025-08",
+    "lastMonth": "2026-08",
+    "pages": [
+      20,
+      21
+    ],
+    "url": "https://www.korea.kr/common/download.do?fileId=198534615&tblKey=GMN",
+    "policyUrl": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156776348",
+    "sha256": "d81033eacd4430f541e8a0eb2371958db0c96a80ad009a64397da909f7b779e3"
+  },
+  "products": [
+    {
+      "id": "semiconductors",
+      "name": "반도체",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 150.95,
+          "reportedYoy": 27.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 166.21,
+          "reportedYoy": 22.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 157.01,
+          "reportedYoy": 25.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 172.58,
+          "reportedYoy": 38.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 207.68,
+          "reportedYoy": 43.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 205.41,
+          "reportedYoy": 102.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 251.37,
+          "reportedYoy": 160.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 328.28,
+          "reportedYoy": 151.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 318.93,
+          "reportedYoy": 173.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 371.58,
+          "reportedYoy": 169.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 448.13,
+          "reportedYoy": 199.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 410.06,
+          "reportedYoy": 178.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 466.52,
+          "reportedYoy": 209.0,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "computers",
+      "name": "컴퓨터",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 12.02,
+          "reportedYoy": -18.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 13.07,
+          "reportedYoy": -13.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 9.81,
+          "reportedYoy": 1.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 13.97,
+          "reportedYoy": 3.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 20.44,
+          "reportedYoy": 36.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 15.51,
+          "reportedYoy": 88.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 25.61,
+          "reportedYoy": 221.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 34.17,
+          "reportedYoy": 189.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 40.81,
+          "reportedYoy": 515.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 41.68,
+          "reportedYoy": 289.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 54.08,
+          "reportedYoy": 308.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 47.9,
+          "reportedYoy": 404.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 62.43,
+          "reportedYoy": 419.5,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "petroleum",
+      "name": "석유제품",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 41.41,
+          "reportedYoy": -5.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 42.0,
+          "reportedYoy": 4.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 38.44,
+          "reportedYoy": 13.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 32.78,
+          "reportedYoy": -10.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 41.78,
+          "reportedYoy": 5.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 37.55,
+          "reportedYoy": 8.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 40.94,
+          "reportedYoy": 5.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 62.52,
+          "reportedYoy": 89.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 50.08,
+          "reportedYoy": 37.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 52.01,
+          "reportedYoy": 45.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 53.85,
+          "reportedYoy": 44.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 57.57,
+          "reportedYoy": 36.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 68.44,
+          "reportedYoy": 65.3,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "petrochemicals",
+      "name": "석유화학",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 34.41,
+          "reportedYoy": -15.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 37.59,
+          "reportedYoy": 0.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 31.39,
+          "reportedYoy": -19.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 31.14,
+          "reportedYoy": -11.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 35.52,
+          "reportedYoy": -6.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 35.69,
+          "reportedYoy": -0.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 33.91,
+          "reportedYoy": -13.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 40.2,
+          "reportedYoy": 10.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 41.14,
+          "reportedYoy": 8.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 36.79,
+          "reportedYoy": 10.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 40.33,
+          "reportedYoy": 17.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 41.87,
+          "reportedYoy": 10.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 38.61,
+          "reportedYoy": 12.2,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "automobiles",
+      "name": "자동차",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 54.89,
+          "reportedYoy": 8.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 64.04,
+          "reportedYoy": 16.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 55.43,
+          "reportedYoy": -10.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 64.09,
+          "reportedYoy": 13.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 59.52,
+          "reportedYoy": -1.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 60.66,
+          "reportedYoy": 21.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 48.02,
+          "reportedYoy": -20.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 63.67,
+          "reportedYoy": 2.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 61.62,
+          "reportedYoy": -5.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 58.21,
+          "reportedYoy": -6.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 67.03,
+          "reportedYoy": 5.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 62.38,
+          "reportedYoy": 7.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 38.51,
+          "reportedYoy": -29.8,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "machinery",
+      "name": "일반기계",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 34.65,
+          "reportedYoy": -10.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 42.08,
+          "reportedYoy": 10.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 33.41,
+          "reportedYoy": -15.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 38.21,
+          "reportedYoy": -4.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 42.36,
+          "reportedYoy": -2.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 37.15,
+          "reportedYoy": 8.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 32.75,
+          "reportedYoy": -16.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 38.93,
+          "reportedYoy": -6.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 42.06,
+          "reportedYoy": -2.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 38.17,
+          "reportedYoy": -6.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 40.78,
+          "reportedYoy": 7.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 45.27,
+          "reportedYoy": 5.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 35.28,
+          "reportedYoy": 1.8,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "steel",
+      "name": "철강제품",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 19.52,
+          "reportedYoy": -16.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 21.7,
+          "reportedYoy": -1.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 18.74,
+          "reportedYoy": -17.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 18.21,
+          "reportedYoy": -16.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 20.69,
+          "reportedYoy": -7.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 20.41,
+          "reportedYoy": -2.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 19.87,
+          "reportedYoy": -5.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 20.54,
+          "reportedYoy": -0.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 21.18,
+          "reportedYoy": -10.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 20.26,
+          "reportedYoy": -2.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 21.34,
+          "reportedYoy": 9.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 23.61,
+          "reportedYoy": 4.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 21.07,
+          "reportedYoy": 7.9,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "auto-parts",
+      "name": "자동차부품",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 16.61,
+          "reportedYoy": -9.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 19.11,
+          "reportedYoy": 6.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 15.09,
+          "reportedYoy": -19.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 15.6,
+          "reportedYoy": -11.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 18.22,
+          "reportedYoy": -2.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 16.18,
+          "reportedYoy": 3.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 14.32,
+          "reportedYoy": -22.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 17.83,
+          "reportedYoy": -2.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 18.91,
+          "reportedYoy": -6.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 15.52,
+          "reportedYoy": -6.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 17.42,
+          "reportedYoy": -2.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 19.51,
+          "reportedYoy": 2.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 14.98,
+          "reportedYoy": -9.8,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "displays",
+      "name": "디스플레이",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 16.49,
+          "reportedYoy": -9.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 17.47,
+          "reportedYoy": 0.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 14.77,
+          "reportedYoy": -8.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 14.43,
+          "reportedYoy": -2.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 14.89,
+          "reportedYoy": 0.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 13.79,
+          "reportedYoy": 26.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 12.15,
+          "reportedYoy": -4.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 14.39,
+          "reportedYoy": -1.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 12.85,
+          "reportedYoy": -2.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 14.66,
+          "reportedYoy": 9.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 15.4,
+          "reportedYoy": 37.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 16.1,
+          "reportedYoy": 2.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 15.7,
+          "reportedYoy": -4.7,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "ships",
+      "name": "선박",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 31.26,
+          "reportedYoy": 11.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 28.93,
+          "reportedYoy": 21.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 46.88,
+          "reportedYoy": 131.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 18.54,
+          "reportedYoy": -26.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 30.33,
+          "reportedYoy": -1.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 24.76,
+          "reportedYoy": -0.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 22.13,
+          "reportedYoy": 41.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 35.25,
+          "reportedYoy": 10.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 28.97,
+          "reportedYoy": 44.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 26.08,
+          "reportedYoy": 16.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 28.25,
+          "reportedYoy": 12.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 32.92,
+          "reportedYoy": 46.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 16.92,
+          "reportedYoy": -45.9,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "wireless",
+      "name": "무선통신기기",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 15.54,
+          "reportedYoy": -14.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 17.37,
+          "reportedYoy": -7.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 18.25,
+          "reportedYoy": -10.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 17.22,
+          "reportedYoy": 1.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 16.86,
+          "reportedYoy": 24.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 20.26,
+          "reportedYoy": 66.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 14.67,
+          "reportedYoy": 12.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 17.85,
+          "reportedYoy": 43.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 16.2,
+          "reportedYoy": 11.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 14.56,
+          "reportedYoy": 12.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 15.44,
+          "reportedYoy": 51.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 18.13,
+          "reportedYoy": 51.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 18.84,
+          "reportedYoy": 21.2,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "biohealth",
+      "name": "바이오헬스",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 11.53,
+          "reportedYoy": -9.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 16.92,
+          "reportedYoy": 37.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 11.75,
+          "reportedYoy": -4.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 14.65,
+          "reportedYoy": 2.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 16.02,
+          "reportedYoy": 27.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 13.49,
+          "reportedYoy": 16.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 13.3,
+          "reportedYoy": 7.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 15.22,
+          "reportedYoy": 6.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 16.39,
+          "reportedYoy": 18.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 14.39,
+          "reportedYoy": 5.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 19.13,
+          "reportedYoy": 13.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 15.74,
+          "reportedYoy": 30.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 14.11,
+          "reportedYoy": 22.3,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "textiles",
+      "name": "섬유",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 7.5,
+          "reportedYoy": -11.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 9.43,
+          "reportedYoy": 8.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 7.71,
+          "reportedYoy": -16.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 8.94,
+          "reportedYoy": -9.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 9.64,
+          "reportedYoy": 0.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 8.43,
+          "reportedYoy": 7.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 7.27,
+          "reportedYoy": -16.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 9.29,
+          "reportedYoy": 4.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 10.48,
+          "reportedYoy": 6.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 8.51,
+          "reportedYoy": -6.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 9.68,
+          "reportedYoy": 11.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 9.32,
+          "reportedYoy": 3.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 7.51,
+          "reportedYoy": 0.2,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "batteries",
+      "name": "이차전지",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 4.85,
+          "reportedYoy": -31.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 6.35,
+          "reportedYoy": -8.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 5.35,
+          "reportedYoy": -14.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 6.72,
+          "reportedYoy": 2.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 7.15,
+          "reportedYoy": -13.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 5.5,
+          "reportedYoy": 5.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 5.93,
+          "reportedYoy": -5.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 8.19,
+          "reportedYoy": 28.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 6.53,
+          "reportedYoy": -6.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 6.87,
+          "reportedYoy": 31.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 6.98,
+          "reportedYoy": 17.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 6.83,
+          "reportedYoy": 17.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 6.02,
+          "reportedYoy": 24.0,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "appliances",
+      "name": "가전",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 5.3,
+          "reportedYoy": -14.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 6.86,
+          "reportedYoy": 12.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 5.52,
+          "reportedYoy": -20.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 5.6,
+          "reportedYoy": -2.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 6.03,
+          "reportedYoy": -1.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 5.55,
+          "reportedYoy": -0.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 5.08,
+          "reportedYoy": -19.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 5.88,
+          "reportedYoy": -8.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 5.66,
+          "reportedYoy": -19.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 4.78,
+          "reportedYoy": -21.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 5.54,
+          "reportedYoy": 0.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 6.1,
+          "reportedYoy": -4.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 5.22,
+          "reportedYoy": -1.5,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "electrical",
+      "name": "전기기기",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 12.91,
+          "reportedYoy": 6.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 14.8,
+          "reportedYoy": 17.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 11.43,
+          "reportedYoy": -11.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 12.82,
+          "reportedYoy": 7.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 15.66,
+          "reportedYoy": 11.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 13.41,
+          "reportedYoy": 19.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 11.87,
+          "reportedYoy": -14.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 15.15,
+          "reportedYoy": 5.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 15.71,
+          "reportedYoy": 7.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 13.47,
+          "reportedYoy": -0.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 16.54,
+          "reportedYoy": 4.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 17.94,
+          "reportedYoy": 13.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 15.0,
+          "reportedYoy": 16.2,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "nonferrous",
+      "name": "비철금속",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 11.93,
+          "reportedYoy": 2.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 13.0,
+          "reportedYoy": 17.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 12.14,
+          "reportedYoy": 6.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 12.58,
+          "reportedYoy": 14.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 15.1,
+          "reportedYoy": 15.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 14.08,
+          "reportedYoy": 40.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 12.19,
+          "reportedYoy": 17.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 14.76,
+          "reportedYoy": 29.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 18.51,
+          "reportedYoy": 49.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 16.78,
+          "reportedYoy": 42.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 18.27,
+          "reportedYoy": 46.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 17.28,
+          "reportedYoy": 24.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 14.78,
+          "reportedYoy": 23.9,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "농수산식품",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 9.63,
+          "reportedYoy": 3.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 11.61,
+          "reportedYoy": 20.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 9.91,
+          "reportedYoy": -3.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 10.34,
+          "reportedYoy": 3.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 11.4,
+          "reportedYoy": 7.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 10.13,
+          "reportedYoy": 18.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 9.21,
+          "reportedYoy": -9.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 11.74,
+          "reportedYoy": 14.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 12.17,
+          "reportedYoy": 8.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 10.71,
+          "reportedYoy": 4.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 11.71,
+          "reportedYoy": 16.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 10.94,
+          "reportedYoy": 2.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 9.77,
+          "reportedYoy": 1.5,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "cosmetics",
+      "name": "화장품",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 8.63,
+          "reportedYoy": 4.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 11.47,
+          "reportedYoy": 25.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 9.17,
+          "reportedYoy": -11.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 9.46,
+          "reportedYoy": 4.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 10.65,
+          "reportedYoy": 21.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 10.24,
+          "reportedYoy": 36.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 9.13,
+          "reportedYoy": 3.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 11.84,
+          "reportedYoy": 26.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 13.52,
+          "reportedYoy": 31.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 11.72,
+          "reportedYoy": 23.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 13.29,
+          "reportedYoy": 41.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 13.51,
+          "reportedYoy": 37.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 13.12,
+          "reportedYoy": 52.1,
+          "sourceId": "ministry-report"
+        }
+      ]
+    },
+    {
+      "id": "household",
+      "name": "생활용품",
+      "rows": [
+        {
+          "month": "2025-08",
+          "exports": 6.69,
+          "reportedYoy": -17.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-09",
+          "exports": 7.65,
+          "reportedYoy": 13.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-10",
+          "exports": 8.62,
+          "reportedYoy": 23.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-11",
+          "exports": 9.48,
+          "reportedYoy": 37.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2025-12",
+          "exports": 8.31,
+          "reportedYoy": 22.7,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-01",
+          "exports": 6.8,
+          "reportedYoy": 17.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-02",
+          "exports": 6.43,
+          "reportedYoy": -11.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-03",
+          "exports": 7.51,
+          "reportedYoy": 4.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-04",
+          "exports": 7.43,
+          "reportedYoy": 1.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-05",
+          "exports": 6.52,
+          "reportedYoy": -5.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-06",
+          "exports": 7.25,
+          "reportedYoy": -4.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-07",
+          "exports": 8.1,
+          "reportedYoy": 12.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-08",
+          "exports": 6.47,
+          "reportedYoy": -3.4,
+          "sourceId": "ministry-report"
+        }
+      ]
+    }
+  ]
+}

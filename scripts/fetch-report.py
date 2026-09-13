@@ -22,11 +22,13 @@ def parse_report(text, months, names):
     if set(result)!=set(names): raise ValueError('Report does not contain exactly the expected 20 products')
     return result
 
-def main():
-    cfg=json.loads(Path('config/report.json').read_text(encoding='utf-8-sig'))
+def main(cfg=None, pdf_bytes=None):
+    cfg=cfg or json.loads(Path('config/report.json').read_text(encoding='utf-8-sig'))
     from urllib.parse import urlparse
     if urlparse(cfg['url']).hostname not in ['www.korea.kr','www.motir.go.kr']: raise ValueError('Official sources only')
-    if len(sys.argv)>1:
+    if pdf_bytes is not None:
+        pdf=pdf_bytes
+    elif len(sys.argv)>1:
         pdf=Path(sys.argv[1]).read_bytes()
     else:
         with urllib.request.urlopen(cfg['url'],timeout=90) as response: pdf=response.read(15_000_001)
@@ -46,13 +48,21 @@ def main():
     catalog=json.loads(Path('config/products.json').read_text(encoding='utf-8'))
     names={p['name'] if p['name']!='철강제품' else '철강':p['id'] for p in catalog}
     parsed=parse_report(text,months,names)
+    previous=json.loads(Path("dist/data/products.json").read_text(encoding="utf-8"))
+    history=json.loads(Path("data/history.json").read_text(encoding="utf-8"))
     products=[]
     for p in catalog:
         label='철강' if p['name']=='철강제품' else p['name']
-        rows={}
+        rows={r["month"]:r for source in [history,previous] for item in source["products"] if item["id"]==p["id"] for r in item["rows"]}
         rows.update({r['month']:r for r in parsed[label]})
         products.append({**p,'rows':sorted(rows.values(),key=lambda r:r['month'])})
     output={'mode':'live','unit':'억 달러','source':'ministry-report','updatedAt':datetime.now(timezone.utc).isoformat(),'report':{**cfg,'sha256':hashlib.sha256(pdf).hexdigest()},'products':products}
+    if all(output.get(k)==previous.get(k) for k in ['report','products','source']):
+        output['updatedAt']=previous['updatedAt']
+    archive=Path('data/reports'); archive.mkdir(parents=True,exist_ok=True)
+    snapshot={'report':output['report'],'products':[{**p,'rows':parsed['철강' if p['name']=='철강제품' else p['name']]} for p in catalog]}
+    (archive/(cfg['lastMonth']+'.json')).write_text(json.dumps(snapshot,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    Path('config/report.json').write_text(json.dumps(cfg,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     target=Path('dist/data/products.json'); temp=target.with_suffix('.json.tmp')
     temp.write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');temp.replace(target)
     print(f"Validated {len(products)} products; official report through {cfg['lastMonth']}")

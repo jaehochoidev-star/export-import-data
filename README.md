@@ -1,57 +1,55 @@
-# 20대 주요 수출품목 대시보드
+# 한국 수출 통계 대시보드
 
 공개 주소: https://jaehochoidev-star.github.io/export-import-data/
 
-## 실제 자료와 출처
-
-산업통상부 수출입동향 보도자료 PDF만 사용합니다. KOSIS API 키는 필요 없습니다.
-
-- 2025.08~2026.08: 산업통상부 「2026년 8월 수출입동향」 20~21쪽을 직접 추출. 백만 달러를 억 달러로 환산합니다.
-- 전체 20개 품목의 수록기간은 2025.08~2026.08입니다.
-- 각 월의 출처를 원자료 표에 표시합니다.
-- 공식 공표 YoY를 우선합니다. 반올림된 수출액으로 재계산한 YoY와 작은 차이가 있을 수 있습니다.
-
-공식 원문: https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172145/view
-정부 정책브리핑: https://www.korea.kr/briefing/pressReleaseView.do?newsId=156776348
-
-공공누리 제1유형(출처표시). 정부 공식 사이트가 아니며 정부의 후원·보증과 무관합니다.
-
 ## 화면
 
-20개 품목 각각 수출액·12M MA 그래프, YoY 그래프, 8개 요약 지표, 자체 분류와 설명, 월별 원자료를 제공합니다. 계산에 필요한 연속 월이 없으면 이동평균은 —로 표시합니다. 공표 YoY가 있으면 과거 금액이 없어도 성장률을 표시합니다.
+- 산업통상부: 20대 품목의 월별 수출액·12M MA·YoY와 8개 요약 지표. 기존 보관 자료와 공식 PDF 수치를 연결합니다.
+- 관세청: 주요 10대 품목 및 전체 수출의 1~10일·1~20일·월 전체 누적 수출액과 전년 동일 기간 대비. API 인증 전에는 연결 준비 상태를 표시합니다.
+- KOSIS: 향후 통계표 추가를 위한 탭입니다. 현재 미연결입니다.
 
-ΔYoY = 이번 달 YoY − 전월 YoY (%p). 3개월 평균 = 해당 월 및 직전 2개월 지표 평균. 12M MA = 해당 월 포함 12개월 수출액 평균. MA 대비 = (수출액 / MA − 1) × 100. 화면의 지표 설명에 자체 상태 분류 기준도 공개되어 있습니다.
+산업통상부와 관세청은 품목 분류가 다르며 금액을 서로 합산하지 않습니다. 비교에 필요한 월이 없으면 지표를 비워 둡니다.
 
-## GitHub Actions 배포
+## 저장하는 자료
 
-Pages Source는 GitHub Actions입니다. `main` 푸시 또는 Actions → Publish dashboard → Run workflow로 실행합니다.
+- `data/history.json`: 2025년 7월 이전의 기존 보관 수치. 추가 수집하지 않는 초기 이력이며 원문 PDF 대조는 미완료입니다.
+- `data/reports/YYYY-MM.json`: 각 월 산업통상부 공식 보고서에서 추출한 수치와 PDF 해시. 같은 보고서의 수정치는 Git 변경 이력에 남습니다.
+- `dist/data/products.json`: 과거 이력과 새 공식 자료를 합친 전체 월별 데이터. 겹치는 월은 새 공식 수치를 우선합니다.
+- `data/customs/YYYY-MM-DD.json`: 관세청 수집 시점별 수치와 응답 해시. 키는 저장하지 않습니다.
+- `dist/data/customs.json`: 관세청 최신 누적 이력.
 
-1. Python PDF 리더 설치
-2. `config/report.json`에 등록된 **공식 PDF**를 다운로드
-3. 20개 품목·월별 열·단위를 검증하고 공식 자료만 저장
-4. 계산 및 화면 데이터 테스트
-5. `dist/`만 GitHub Pages에 배포
+공식 공표 YoY가 있으면 우선 사용합니다. 상태 분류는 자체 기준이며 화면에서 계산 방법을 확인할 수 있습니다. 보관 자료는 공식 PDF에서 직접 추출한 것으로 표시하지 않습니다.
 
-새 PDF를 수집하거나 검증하는 데 실패하면 기존 공개 페이지를 유지합니다. 가상 데이터로 대체하지 않습니다. 비밀키는 필요하지 않으며 파이프라인은 KOSIS를 호출하지 않습니다.
+## 정기 갱신과 배포
 
-### 다음 달 갱신
+GitHub Actions `Publish dashboard`:
 
-현재는 지정한 보도자료를 다시 수집하는 방식입니다. **새 보도자료 자동 검색과 정기 실행은 아직 구현하지 않았습니다.** 다음 달에는 공식 보도자료 확인 후 `config/report.json`의 URL, 제목, 공표일, 기간과 표 쪽수를 갱신하고 실행합니다. 현재 추출기는 연간 합계+13개월 표를 지원하며 표 형식이 바뀌면 실패하도록 되어 있습니다. 현재는 지정 PDF에 수록된 13개월만 표시합니다.
+- 매월 2일 10:00 한국시간: 전월 산업통상부 보고서를 정부 정책브리핑에서 검색 → PDF의 20대 품목 표 확인 → 기존 데이터와 병합 → 검사 → Git commit/push → Pages 배포.
+- 매월 2·12·22일 10:00 한국시간: 관세청 인증키가 등록된 경우 공식 API를 조회 → 과거 수정치 반영 → 수집본과 누적 데이터 저장 → 검사 → Git commit/push → Pages 배포.
+- 수동 `Run workflow`: 두 자료를 갱신한 뒤 저장·배포합니다.
+- `main` 코드 push: 저장된 데이터로 검사·배포합니다. 외부 자료는 다시 수집하지 않습니다.
 
-## 로컬
+봇 push는 다음 workflow를 자동 실행하지 않으므로, 데이터를 저장한 같은 실행에서 직접 배포합니다. 새 자료를 찾지 못하거나 검증에 실패하면 push·배포하지 않아 기존 공개 자료를 유지합니다. 공개 저장소의 예약 실행은 GitHub 정책에 따라 비활성화될 수 있으므로 Actions 실패·비활성 상태를 확인하세요. 예약 시간은 실행 대기열에 따라 지연될 수 있습니다.
 
-`node scripts/serve.mjs` → http://127.0.0.1:4173/
-`node --test` → JavaScript 검증
-Python 3.12 이상: `python -m pip install -r requirements.txt` 후 `python scripts/fetch-report.py`로 공식 PDF 수집. 이미 받은 PDF는 `python scripts/fetch-report.py 경로.pdf`로 사용합니다.
+산업통상부 추출기는 현재 연간 합계+13개월 형식을 지원합니다. 표 형식이 달라지면 잘못된 수치를 저장하지 않고 실패합니다. 수동 복구 시 `config/report.json`의 검증된 보고서 설정을 수정하고 `python scripts/fetch-report.py`를 실행할 수 있습니다.
 
-## 구조
+## 관세청 연결 (최초 1회)
 
-- `config/report.json`: 검증된 공식 자료 URL 및 추출 범위
-- `scripts/fetch-report.py`: 공식 PDF 파싱
-- `config/products.json`: 공식 표의 20개 품목 목록
-- `dist/data/products.json`: 출처·문서 해시·월별 수출액·공표 YoY를 포함한 배포 자료
-- `dist/products.js`: 지표 계산과 자체 분류
-- `dist/render.js`: 품목별 화면
-- `.github/workflows/pages.yml`: 공식 자료 수집 후 배포
+1. https://www.data.go.kr/data/15157908/openapi.do 에서 활용신청합니다. 서비스명은 **관세청_수출 주요품목별 10일 단위 잠정치 통계**입니다.
+2. 저장소 Settings → Secrets and variables → Actions → New repository secret에 `CUSTOMS_API_KEY`라는 이름으로 공공데이터포털 인증키를 등록합니다. 키는 소스코드나 채팅에 넣지 않습니다.
+3. Actions → Publish dashboard → Run workflow를 실행합니다.
 
-기존 `scripts/fetch-kosis.mjs`와 `config/kosis.json`은 향후 KOSIS 통계표가 확정됐을 때 사용할 별도 수집기로 보존하며, 현재 Actions와는 연결하지 않습니다. `scripts/create-sample.mjs`는 예시 데이터 생성용이므로 실제 자료를 유지하려면 실행하지 마세요. 총계용 trade.json/stats.js는 현재 화면에서 사용하지 않습니다.
+최초 조회는 2024년 1월부터입니다. 관세청 API는 매월 11일·21일·익월 1일에 각각 1~10일·1~20일·월 전체를 제공합니다. 매번 저장된 전체 기간을 다시 조회하여 정정 내역도 반영합니다. 이 서비스의 실제 응답 연결 검증은 인증키 등록 후 완료할 수 있습니다. API 응답 형식이 명세와 다르면 기존 자료를 보존하고 실패합니다.
+
+현재는 수출 API만 연결합니다. 수입과 KOSIS는 별도로 추가할 수 있습니다. KOSIS 키로 관세청 API를 호출할 수 없습니다.
+
+## 로컬 실행
+
+- `node scripts/serve.mjs`: http://127.0.0.1:4173/
+- `node --test`: 지표와 화면 데이터 검사
+- `python -m pip install -r requirements.txt`
+- `python -m unittest discover -s tests -p "test_*.py"`: 수집기 검사
+- `python scripts/update-monthly.py`: 전월 공식 보고서 검색·누적
+- `python scripts/fetch-customs.py`: 환경변수 CUSTOMS_API_KEY로 관세청 수집
+
+현재 공개 화면은 `dist/`입니다. 기존 KOSIS 수집기와 샘플 생성기는 정기 실행에서 사용하지 않습니다. 샘플 생성기를 실행하면 실자료를 덮어쓸 수 있으므로 주의하세요.
