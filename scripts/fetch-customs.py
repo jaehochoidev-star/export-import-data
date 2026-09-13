@@ -1,5 +1,5 @@
 """Collect official cumulative ten-day export data; credentials never enter output."""
-import os, json, re, calendar, hashlib
+import os, json, re, calendar, hashlib, time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urlencode, unquote
@@ -54,15 +54,23 @@ def main():
         year,month=divmod(serial,12);month+=1
         stamp=f'{year:04d}{month:02d}'
         query=urlencode({'serviceKey':unquote(key),'strtYymm':stamp,'endYymm':stamp})
-        try:
-            with urlopen(ENDPOINT+'?'+query,timeout=60) as response: raw=response.read(5_000_001)
-            if len(raw)>5_000_000: raise ValueError('Response too large')
-            rows=parse(raw,f'{year:04d}-{month:02d}')
-        except Exception:
-            raise RuntimeError(f'Customs collection failed for {stamp}; check API approval and response schema') from None
+        for attempt in range(4):
+            try:
+                with urlopen(ENDPOINT+'?'+query,timeout=30) as response: raw=response.read(5_000_001)
+                if len(raw)>5_000_000: raise ValueError('Response too large')
+                rows=parse(raw,f'{year:04d}-{month:02d}')
+                break
+            except Exception as error:
+                # Never log URLs or exception text: either may contain the key.
+                print(f'{stamp}: attempt {attempt+1} failed ({type(error).__name__})',flush=True)
+                if attempt==3:
+                    raise RuntimeError(f'Customs collection failed for {stamp}; check API approval and response schema') from None
+                time.sleep(2**attempt)
         if not rows and serial<end: raise ValueError('Historical month unexpectedly empty')
         if serial<end and {r['window'] for r in rows}!={10,20,30}: raise ValueError('Historical month incomplete')
         hashes[stamp]=hashlib.sha256(raw).hexdigest();collected.extend(rows)
+        print(f'{stamp}: validated {len(rows)} cumulative periods',flush=True)
+        time.sleep(0.5)
     if not collected: raise ValueError('Empty dataset')
     old={(r['month'],r['window']) for r in previous['rows']}
     if not old.issubset({(r['month'],r['window']) for r in collected}): raise ValueError('Previously collected periods disappeared')
