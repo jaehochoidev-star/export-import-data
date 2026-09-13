@@ -10,5 +10,12 @@ def main():
     target=Path('dist/data/products.json');target.parent.mkdir(parents=True,exist_ok=True)
     target.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print('Built dashboard data from cumulative repository archive')
+    kosis=Path('data/kosis.json')
+    if kosis.exists():
+        indices=json.loads(kosis.read_text(encoding='utf-8'))
+        if indices.get('status')!='live' or len(indices.get('series',[]))!=17:
+            raise ValueError('Invalid KOSIS cumulative archive')
+        Path('dist/data/kosis.json').write_text(json.dumps(indices,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        print('Built KOSIS indices from cumulative repository archive')
 
 if __name__=='__main__': main()
