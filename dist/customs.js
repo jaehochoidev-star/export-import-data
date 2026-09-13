@@ -35,11 +35,29 @@ export function signalPlot(series,keys,label,small=false){
  const rows=Array.from({length:Math.max(0,end-start+1)},(_,i)=>lookup.get(start+i)||{index:start+i});
  const vals=rows.flatMap(r=>keys.map(k=>r[k.key])).filter(Number.isFinite);
  if(!vals.length)return '<span class="muted">자료 부족</span>';
- const w=small?120:750,h=small?36:230,pad=small?4:40,min=Math.min(...vals),max=Math.max(...vals),range=max-min||1;
- const x=i=>pad+i*(w-pad*2)/Math.max(1,rows.length-1),y=v=>h-pad-(v-min)/range*(h-pad*2);
+ const w=small?120:750,h=small?36:270,left=small?4:78,right=small?4:24,top=small?4:20,bottom=small?4:52;
+ let min=Math.min(...vals),max=Math.max(...vals),step=1;
+ if(!small){
+  const rough=(max-min||Math.max(Math.abs(max)*.2,1))/4,power=10**Math.floor(Math.log10(rough));
+  step=([1,2,5,10].find(n=>n*power>=rough)||10)*power;
+  min=Math.floor(min/step)*step;max=Math.ceil(max/step)*step;
+  if(min===max){min-=step;max+=step;}
+ }
+ const range=max-min||1;
+ const x=i=>left+i*(w-left-right)/Math.max(1,rows.length-1),y=v=>h-bottom-(v-min)/range*(h-top-bottom);
  let svg='';
+ if(!small){
+  for(let i=0;i<=Math.round((max-min)/step);i++){
+   const value=min+i*step,zero=Math.abs(value)<step*1e-8;
+   svg+=`<line class="signal-grid-y" x1="${left}" x2="${w-right}" y1="${y(value)}" y2="${y(value)}" stroke="${zero?'#9caec5':'#e0e7f0'}" stroke-width="${zero?1.4:1}"/><text x="${left-12}" y="${y(value)+4}" text-anchor="end">${number(zero?0:value)}</text>`;
+  }
+  const ticks=new Set(Array.from({length:5},(_,i)=>Math.round(i*(rows.length-1)/4)));
+  for(const i of ticks){
+   const serial=start+i,monthIndex=Math.floor(serial/3),month=`${Math.floor(monthIndex/12)}-${String(monthIndex%12+1).padStart(2,'0')}`,segment=['01~10','11~20','21~말일'][serial%3];
+   svg+=`<line class="signal-grid-x" x1="${x(i)}" x2="${x(i)}" y1="${top}" y2="${h-bottom}" stroke="#e0e7f0" stroke-dasharray="3 3"/><text x="${x(i)}" y="${h-bottom+22}" text-anchor="middle"><tspan x="${x(i)}">${month}</tspan><tspan x="${x(i)}" dy="16">${segment}</tspan></text>`;
+  }
+ }
  for(const k of keys){let path='',active=false;rows.forEach((r,i)=>{if(!Number.isFinite(r[k.key])){active=false;return;}path+=(active?'L':'M')+x(i)+','+y(r[k.key]);active=true;});svg+=`<path d="${path}" stroke="${k.color}" stroke-width="${small?1.8:2.4}" fill="none"/>`;const last=rows.at(-1);if(Number.isFinite(last[k.key]))svg+=`<circle cx="${x(rows.length-1)}" cy="${y(last[k.key])}" r="3" fill="${k.color}"/>`;}
- if(!small)svg+=`<text x="4" y="${pad}">${number(max)}</text><text x="4" y="${h-pad}">${number(min)}</text><text x="${pad}" y="${h-6}">${rows[0]?.month||''}</text><text x="${w-95}" y="${h-6}">${rows.at(-1)?.month||''}</text>`;
  return `<svg class="${small?'signal-spark':'customs-plot'}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${escape(label)}"><title>${escape(label)}</title>${svg}</svg>`;
 }
 export function renderSignalBoard(board){
