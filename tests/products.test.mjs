@@ -53,6 +53,12 @@ test('chart breaks paths across calendar gaps and supplies empty state',()=>{
  assert.equal((path.match(/L/g)||[]).length,0);
  assert.match(chart([{month:'2025-01',yoy:null}],[{key:'yoy'}],'test','%'),/자료가 부족/);
 });
+test('chart includes archived months older than the latest 24 months',()=>{
+ const rows=Array.from({length:36},(_,i)=>({month:monthOffset('2024-01',i),yoy:i}));
+ const svg=chart(rows,[{key:'yoy',label:'YoY',color:'green'}],'test','%');
+ assert.match(svg,/2024\.01/);assert.match(svg,/누적 36개월/);
+ assert.equal((svg.match(/<circle /g)||[]).length,36);
+});
 test('official report values reproduce semiconductor indicators',async()=>{
  const data=JSON.parse(await readFile('dist/data/products.json','utf8'));
  assert.equal(data.mode,'live');assert.equal(data.source,'ministry-report');

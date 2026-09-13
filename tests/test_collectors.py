@@ -10,6 +10,17 @@ customs=module('fetch-customs')
 report=module('fetch-report')
 
 class Collectors(unittest.TestCase):
+    def test_rolling_13_month_report_accumulates_14_months(self):
+        catalog=[{'id':'test','name':'test'}]
+        months=[f'{2025+(7+i)//12:04d}-{(7+i)%12+1:02d}' for i in range(14)]
+        old={'products':[{'id':'test','rows':[{'month':m,'exports':100} for m in months[:13]]}]}
+        new={'products':[{'id':'test','rows':[{'month':m,'exports':200} for m in months[1:]]}]}
+        rows=report.merge_products(catalog,[old,new])[0]['rows']
+        self.assertEqual(len(rows),14)
+        self.assertEqual(rows[0],{'month':'2025-08','exports':100})
+        self.assertEqual(rows[1],{'month':'2025-09','exports':200})
+        self.assertEqual(rows[-1]['month'],'2026-09')
+
     def test_customs_cumulative_period_and_unit(self):
         fields=''.join(f'<itemUsdAmt{i:02d}>123,456</itemUsdAmt{i:02d}>' for i in range(11))
         raw=f'<response><header><resultCode>00</resultCode></header><body><totalCount>1</totalCount><items><item><priodYear>2026</priodYear><priodMon>09</priodMon><priodDt>1~10</priodDt>{fields}</item></items></body></response>'

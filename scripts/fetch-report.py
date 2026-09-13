@@ -4,6 +4,15 @@ from pathlib import Path
 from datetime import datetime, timezone
 import pdfplumber
 
+def merge_products(catalog, sources):
+    merged={p['id']:{} for p in catalog}
+    for source in sources:
+        for product in source['products']:
+            if product['id'] not in merged: raise ValueError('Unknown archived product')
+            for row in product['rows']:
+                merged[product['id']][row['month']]=row
+    return [{**p,'rows':sorted(merged[p['id']].values(),key=lambda r:r['month'])} for p in catalog]
+
 def parse_report(text, months, names):
     text = text.split('③')[0]
     text = '\n'.join(line for line in text.splitlines() if not any(word in line for word in ['품목명','전체','백만달러','년','수출 추이']))
@@ -48,14 +57,14 @@ def main(cfg=None, pdf_bytes=None):
     catalog=json.loads(Path('config/products.json').read_text(encoding='utf-8'))
     names={p['name'] if p['name']!='철강제품' else '철강':p['id'] for p in catalog}
     parsed=parse_report(text,months,names)
-    previous=json.loads(Path("dist/data/products.json").read_text(encoding="utf-8"))
+    previous_path=Path('data/ministry.json')
+    if not previous_path.exists(): previous_path=Path('dist/data/products.json')
+    previous=json.loads(previous_path.read_text(encoding='utf-8')) if previous_path.exists() else {'products':[]}
     history=json.loads(Path("data/history.json").read_text(encoding="utf-8"))
-    products=[]
-    for p in catalog:
-        label='철강' if p['name']=='철강제품' else p['name']
-        rows={r["month"]:r for source in [history,previous] for item in source["products"] if item["id"]==p["id"] for r in item["rows"]}
-        rows.update({r['month']:r for r in parsed[label]})
-        products.append({**p,'rows':sorted(rows.values(),key=lambda r:r['month'])})
+    if previous.get('report',{}).get('lastMonth','')>cfg['lastMonth']: raise ValueError('Cannot replace a newer report with an older report')
+    archives=[json.loads(p.read_text(encoding='utf-8')) for p in sorted(Path('data/reports').glob('*.json'))]
+    current={'products':[{**p,'rows':parsed['철강' if p['name']=='철강제품' else p['name']]} for p in catalog]}
+    products=merge_products(catalog,[history,previous,*archives,current])
     output={'mode':'live','unit':'억 달러','source':'ministry-report','updatedAt':datetime.now(timezone.utc).isoformat(),'report':{**cfg,'sha256':hashlib.sha256(pdf).hexdigest()},'products':products}
     if all(output.get(k)==previous.get(k) for k in ['report','products','source']):
         output['updatedAt']=previous['updatedAt']
@@ -64,6 +73,9 @@ def main(cfg=None, pdf_bytes=None):
     (archive/(cfg['lastMonth']+'.json')).write_text(json.dumps(snapshot,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     Path('config/report.json').write_text(json.dumps(cfg,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     target=Path('dist/data/products.json'); temp=target.with_suffix('.json.tmp')
+    target.parent.mkdir(parents=True,exist_ok=True)
     temp.write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');temp.replace(target)
+    canonical=Path('data/ministry.json');temp=canonical.with_suffix('.json.tmp')
+    temp.write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');temp.replace(canonical)
     print(f"Validated {len(products)} products; official report through {cfg['lastMonth']}")
 if __name__=='__main__': main()

@@ -15,6 +15,7 @@
 - `data/history.json`: 2025년 7월 이전의 기존 보관 수치. 추가 수집하지 않는 초기 이력이며 원문 PDF 대조는 미완료입니다.
 - `data/reports/YYYY-MM.json`: 각 월 산업통상부 공식 보고서에서 추출한 수치와 PDF 해시. 같은 보고서의 수정치는 Git 변경 이력에 남습니다.
 - `dist/data/products.json`: 과거 이력과 새 공식 자료를 합친 전체 월별 데이터. 겹치는 월은 새 공식 수치를 우선합니다.
+- `data/ministry.json`: 저장소에 보존하는 누적 원본입니다. 배포할 때 이 파일에서 웹용 데이터를 다시 만듭니다. 새 PDF에서 제외된 오래된 월도 삭제하지 않으며 그래프와 지표는 누적 전체 자료를 사용합니다.
 - `data/customs/YYYY-MM-DD.json`: 관세청 수집 시점별 수치와 응답 해시. 키는 저장하지 않습니다.
 - `dist/data/customs.json`: 관세청 최신 누적 이력.
 
@@ -39,7 +40,7 @@ GitHub Actions `Publish dashboard`:
 2. 저장소 Settings → Secrets and variables → Actions → New repository secret에 `CUSTOMS_API_KEY`라는 이름으로 공공데이터포털 인증키를 등록합니다. 키는 소스코드나 채팅에 넣지 않습니다.
 3. Actions → Publish dashboard → Run workflow를 실행합니다.
 
-최초 조회는 2024년 1월부터입니다. 관세청 API는 매월 11일·21일·익월 1일에 각각 1~10일·1~20일·월 전체를 제공합니다. 매번 저장된 전체 기간을 다시 조회하여 정정 내역도 반영합니다. 이 서비스의 실제 응답 연결 검증은 인증키 등록 후 완료할 수 있습니다. API 응답 형식이 명세와 다르면 기존 자료를 보존하고 실패합니다.
+최초 조회는 2024년 1월부터입니다. 관세청 API는 매월 11일·21일·익월 1일에 각각 1~10일·1~20일·월 전체를 제공합니다. 매번 저장된 전체 기간을 다시 조회하여 정정 내역도 반영합니다. 2026년 9월 13일 실제 API 연결과 97개 누적기간의 저장·배포를 확인했습니다. API 응답 형식이 명세와 다르면 기존 자료를 보존하고 실패합니다.
 
 현재는 수출 API만 연결합니다. 수입과 KOSIS는 별도로 추가할 수 있습니다. KOSIS 키로 관세청 API를 호출할 수 없습니다.
 
@@ -47,6 +48,7 @@ GitHub Actions `Publish dashboard`:
 
 - `node scripts/serve.mjs`: http://127.0.0.1:4173/
 - `node --test`: 지표와 화면 데이터 검사
+- `python scripts/build-data.py`: 저장소의 누적 원본으로 웹용 데이터 재생성 (외부 조회 없음)
 - `python -m pip install -r requirements.txt`
 - `python -m unittest discover -s tests -p "test_*.py"`: 수집기 검사
 - `python scripts/update-monthly.py`: 전월 공식 보고서 검색·누적

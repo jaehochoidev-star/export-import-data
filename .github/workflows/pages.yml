@@ -48,6 +48,8 @@ jobs:
           else
             echo 'Customs API credential is not configured; retaining current Customs data.'
           fi
+      - name: Build public data from repository archive
+        run: python scripts/build-data.py
       - name: Verify statistics and public data
         run: |
           python -m unittest discover -s tests -p 'test_*.py'

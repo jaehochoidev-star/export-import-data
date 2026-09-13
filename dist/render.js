@@ -5,14 +5,17 @@ const tone=v=>v>0?'positive':v<0?'negative':'';
 const money=v=>v===null?'—':`${num(v)}억`;
 const date=m=>m.replace('-','.');
 export function chart(series, keys, title, unit) {
-  const end=series.at(-1).month, start=monthOffset(end,-23), lookup=new Map(series.map(r=>[r.month,r]));
-  const rows=Array.from({length:24},(_,i)=>lookup.get(monthOffset(start,i)) || {month:monthOffset(start,i)});
+  if(!series.length)return '<p class="chart-empty">그래프를 그릴 자료가 부족합니다.</p>';
+  const end=series.at(-1).month, start=series[0].month, lookup=new Map(series.map(r=>[r.month,r]));
+  const serial=m=>Number(m.slice(0,4))*12+Number(m.slice(5));
+  const count=serial(end)-serial(start)+1;
+  const rows=Array.from({length:count},(_,i)=>lookup.get(monthOffset(start,i)) || {month:monthOffset(start,i)});
   const values=rows.flatMap(r=>keys.map(k=>r[k.key])).filter(Number.isFinite);
   if (!values.length) return '<p class="chart-empty">그래프를 그릴 자료가 부족합니다.</p>';
   const width=620,height=240,left=64,right=28,top=16,bottom=38;
   let min=Math.min(0,...values),max=Math.max(0,...values);
   const range=max-min || 1; if(min<0)min-=range*.08; max+=range*.08;
-  const x=i=>left+i*(width-left-right)/23, y=v=>height-bottom-(v-min)/(max-min)*(height-top-bottom);
+  const x=i=>left+i*(width-left-right)/Math.max(1,count-1), y=v=>height-bottom-(v-min)/(max-min)*(height-top-bottom);
   let svg='';
   for(let i=0;i<=4;i++){
     const v=min+(max-min)*i/4;
@@ -25,8 +28,9 @@ export function chart(series, keys, title, unit) {
     svg+=`<path d="${path}" fill="none" stroke="${key.color}" stroke-width="2.5" ${key.dash?'stroke-dasharray="6 4"':''} stroke-linejoin="round"/>`;
     rows.forEach((r,i)=>{if(Number.isFinite(r[key.key]))svg+=`<circle cx="${x(i)}" cy="${y(r[key.key])}" r="2.8" fill="${key.color}"><title>${date(r.month)} · ${key.label} ${num(r[key.key])}${unit}</title></circle>`;});
   }
-  rows.forEach((r,i)=>{if([0,6,12,18,23].includes(i))svg+=`<text x="${x(i)}" y="${height-10}" text-anchor="middle">${date(r.month)}</text>`;});
-  return `<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${title}. 최근 24개월. 상세 값은 아래 월별 원자료에서 확인할 수 있습니다.">${svg}</svg>`;
+  const ticks=new Set(Array.from({length:5},(_,i)=>Math.round(i*(count-1)/4)));
+  rows.forEach((r,i)=>{if(ticks.has(i))svg+=`<text x="${x(i)}" y="${height-10}" text-anchor="middle">${date(r.month)}</text>`;});
+  return `<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${title}. 누적 ${count}개월. 상세 값은 아래 월별 원자료에서 확인할 수 있습니다.">${svg}</svg>`;
 }
 export function renderProduct(product,index){
   const series=calculateSeries(product.rows),r=series.at(-1),status=classify(r);
