@@ -1,33 +1,49 @@
-const number=v=>v==null?'—':v.toLocaleString('ko-KR',{maximumFractionDigits:1});
+import {signalBoard,segmentLabel} from './customs-signals.js';
+const number=v=>v==null?'—':v.toLocaleString('ko-KR',{minimumFractionDigits:1,maximumFractionDigits:1});
 const rate=v=>v==null?'—':`${v>0?'+':''}${number(v)}%`;
+const signed=v=>v==null?'—':`${v>0?'+':''}${number(v)}`;
+const color=v=>v>0?'signal-positive':v<0?'signal-negative':'';
+const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const period={10:'1~10일',20:'1~20일',30:'월 전체'};
 export function seriesFor(data,product,window){
  const rows=data.rows.filter(r=>r.window===Number(window)).sort((a,b)=>a.month.localeCompare(b.month));
  const values=new Map(rows.map(r=>[r.month,r.values[product]]));
  return rows.map(r=>{const value=r.values[product],previous=values.get(`${Number(r.month.slice(0,4))-1}${r.month.slice(4)}`);return {...r,value,yoy:previous>0?(value/previous-1)*100:null};});
 }
-function plot(rows,key,label){
- const vals=rows.map(r=>r[key]).filter(Number.isFinite);
- if(!vals.length)return '<p>전년 같은 기간의 자료가 쌓이면 성장률 그래프가 표시됩니다.</p>';
- const min=Math.min(0,...vals),max=Math.max(1,...vals),x=i=>55+i*660/Math.max(rows.length-1,1),y=v=>195-(v-min)/(max-min)*160;
- let path='',previous=null;
- rows.forEach((r,i)=>{if(!Number.isFinite(r[key])){previous=null;return;}const serial=Number(r.month.slice(0,4))*12+Number(r.month.slice(5));path+=(previous===serial-1?'L':'M')+x(i)+','+y(r[key]);previous=serial;});
- return `<svg class="customs-plot" viewBox="0 0 750 230" role="img" aria-label="${label}"><title>${label}</title><path d="M55 35V195H720" stroke="#cbd5e1" fill="none"/><text x="0" y="40">${number(max)}</text><text x="0" y="195">${number(min)}</text><path d="${path}" stroke="#168b78" stroke-width="3" fill="none"/>${rows.map((r,i)=>Number.isFinite(r[key])?`<circle cx="${x(i)}" cy="${y(r[key])}" r="3" fill="#168b78"><title>${r.month}: ${number(r[key])}</title></circle>`:'').join('')}<text x="55" y="222">${rows[0]?.month||''}</text><text x="650" y="222">${rows.at(-1)?.month||''}</text></svg>`;
-}
 export async function mountCustoms(root){
  try{
   const response=await fetch('./data/customs.json');if(!response.ok)throw Error('데이터를 불러오지 못했습니다.');
   const data=await response.json();
   if(data.status!=='live'||!data.rows.length){root.innerHTML='<div class="panel"><h2>관세청 자료 연결 준비 중</h2><p>공식 API 인증이 완료되면 주요 10대 품목의 누적 수출액과 전년 동기 대비 그래프가 이곳에 표시됩니다.</p></div>';return;}
-  root.innerHTML='<div class="customs-controls"><label>수출품목<select id="customs-product"></select></label><label>비교 기간<select id="customs-window"><option value="10">1~10일</option><option value="20">1~20일</option><option value="30">월 전체</option></select></label></div><div id="customs-detail"></div>';
-  const select=root.querySelector('#customs-product');
-  for(const p of data.products){const option=document.createElement('option');option.value=p.id;option.textContent=p.name;select.append(option);}
-  const windowSelect=root.querySelector('#customs-window');
-  function render(){
-   const rows=seriesFor(data,select.value,windowSelect.value),last=rows.at(-1),detail=root.querySelector('#customs-detail');
-   if(!last){detail.textContent='선택한 기간의 자료가 없습니다.';return;}
-   detail.innerHTML=`<div class="panel"><div class="customs-summary"><div>최신 기준월<strong>${last.month}</strong>${period[last.window]}</div><div>누적 수출액<strong>${number(last.value/100000)}억 달러</strong></div><div>전년 같은 기간 대비<strong>${rate(last.yoy)}</strong></div></div><h2>누적 수출액 · 억 달러</h2>${plot(rows.slice(-36).map(r=>({...r,value:r.value/100000})),'value','누적 수출액')}<h2>전년 같은 기간 대비 · %</h2>${plot(rows.slice(-36),'yoy','누적 YoY')}<details class="raw-data"><summary>월별 원자료</summary><div class="table-wrap"><table><thead><tr><th>기준월</th><th>기간</th><th>누적 수출액 (억 달러)</th><th>YoY</th></tr></thead><tbody>${[...rows].reverse().map(r=>`<tr><td>${r.month}</td><td>${period[r.window]}</td><td>${number(r.value/100000)}</td><td>${rate(r.yoy)}</td></tr>`).join('')}</tbody></table></div></details></div>`;
-  }
-  select.addEventListener('change',render);windowSelect.addEventListener('change',render);render();
+  const board=signalBoard(data);
+  root.innerHTML=renderSignalBoard(board)+`<dialog class="signal-dialog" aria-labelledby="signal-detail-title"><div class="signal-dialog-head"><h2 id="signal-detail-title"></h2><button type="button" class="signal-close">닫기 ×</button></div><div class="signal-detail-body"></div></dialog>`;
+  const dialog=root.querySelector('dialog');
+  root.querySelector('.signal-close').addEventListener('click',()=>dialog.close());
+  root.querySelector('.signal-table tbody').addEventListener('click',event=>{
+   const row=event.target.closest('tr[data-product]');if(!row)return;
+   const p=board.find(p=>p.id===row.dataset.product),r=p.latest;
+   root.querySelector('#signal-detail-title').textContent=p.name+' · '+segmentLabel(r);
+   root.querySelector('.signal-detail-body').innerHTML=`<p class="signal-badge ${p.signal.tone}">${p.signal.icon} ${p.signal.label}</p><dl class="product-metrics signal-detail-metrics">${[['최신구간 YoY',rate(r.yoy)],['모멘텀',signed(r.momentum)+' pp'],['당월누적 YoY',rate(r.cumulativeYoy)],['TTM YoY',rate(r.ttmYoy)]].map(([k,v])=>`<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl><h3>10일 구간 YoY 및 9구간 이동평균 · %</h3><p class="muted">초록: 구간 YoY · 보라: MA9 · 저장된 전체 기간</p>${signalPlot(p.series,[{key:'yoy',color:'#168b78'},{key:'ma9',color:'#9365c9'}],'구간 YoY 및 MA9')}<h3>TTM YoY · %</h3>${signalPlot(p.series,[{key:'ttmYoy',color:'#216de3'}],'TTM YoY')}<h3>최근 12개월 수출액 · 억 달러</h3>${signalPlot(p.series.map(r=>({...r,ttm:r.ttm==null?null:r.ttm/100000})),[{key:'ttm',color:'#9365c9'}],'TTM 수출액')}<details class="raw-data"><summary>구간별 원자료와 계산 결과</summary><div class="table-wrap"><table><thead><tr><th>구간</th><th>구간액(억 달러)</th><th>구간 YoY</th><th>누적 YoY</th><th>모멘텀(pp)</th><th>TTM YoY</th></tr></thead><tbody>${[...p.series].reverse().map(r=>`<tr><td>${segmentLabel(r)}</td><td>${number(r.value==null?null:r.value/100000)}</td><td>${rate(r.yoy)}</td><td>${rate(r.cumulativeYoy)}</td><td>${signed(r.momentum)}</td><td>${rate(r.ttmYoy)}</td></tr>`).join('')}</tbody></table></div></details>`;
+   dialog.showModal();
+  });
  }catch(error){root.textContent=error.message;}
+}
+
+export function signalPlot(series,keys,label,small=false){
+ const end=series.at(-1)?.index,start=small?end-8:series[0]?.index;
+ const lookup=new Map(series.map(r=>[r.index,r]));
+ const rows=Array.from({length:Math.max(0,end-start+1)},(_,i)=>lookup.get(start+i)||{index:start+i});
+ const vals=rows.flatMap(r=>keys.map(k=>r[k.key])).filter(Number.isFinite);
+ if(!vals.length)return '<span class="muted">자료 부족</span>';
+ const w=small?120:750,h=small?36:230,pad=small?4:40,min=Math.min(...vals),max=Math.max(...vals),range=max-min||1;
+ const x=i=>pad+i*(w-pad*2)/Math.max(1,rows.length-1),y=v=>h-pad-(v-min)/range*(h-pad*2);
+ let svg='';
+ for(const k of keys){let path='',active=false;rows.forEach((r,i)=>{if(!Number.isFinite(r[k.key])){active=false;return;}path+=(active?'L':'M')+x(i)+','+y(r[k.key]);active=true;});svg+=`<path d="${path}" stroke="${k.color}" stroke-width="${small?1.8:2.4}" fill="none"/>`;const last=rows.at(-1);if(Number.isFinite(last[k.key]))svg+=`<circle cx="${x(rows.length-1)}" cy="${y(last[k.key])}" r="3" fill="${k.color}"/>`;}
+ if(!small)svg+=`<text x="4" y="${pad}">${number(max)}</text><text x="4" y="${h-pad}">${number(min)}</text><text x="${pad}" y="${h-6}">${rows[0]?.month||''}</text><text x="${w-95}" y="${h-6}">${rows.at(-1)?.month||''}</text>`;
+ return `<svg class="${small?'signal-spark':'customs-plot'}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${escape(label)}"><title>${escape(label)}</title>${svg}</svg>`;
+}
+export function renderSignalBoard(board){
+ const explanations=['최신 10일 구간 수출액을 전년 같은 구간과 비교합니다.','최근 9구간의 YoY입니다. 점은 현재이며 색은 최신값의 부호입니다.','최근 3구간 평균 YoY − 직전 3구간 평균 YoY (%p).','당월 1일부터 최신 구간까지의 누적을 전년 같은 기간과 비교합니다.','최근 36개 구간 수출액 합계를 직전 36개 구간과 비교합니다.','최근 36개 구간의 수출액 합계. 단위는 억 달러입니다.'];
+ const headers=['최신구간 YoY','3개월 추세','모멘텀(pp)','당월누적 YoY','TTM YoY','TTM(억$)'];
+ return `<section class="panel signal-panel"><div class="signal-heading"><h2>시그널 보드 · 최신구간 <strong>${segmentLabel(board[0].latest)}</strong></h2><span class="muted">행 클릭 = 상세 · 모멘텀 순</span></div><p class="signal-intro"><strong>판단 기준은 ‘레벨’이 아니라 ‘속도’입니다.</strong> 같은 상승이라도 YoY가 계속 빨라지는지(가속), 식는 중인지(둔화)를 구분합니다.</p><p class="signal-legend">🔴 가속 상승 · 🟠 상승 유지 · 🟡 상승 둔화 · 🟣 꼭지 의심 · 🟢 반전 조짐 · 🔵 하락 · ⬜ 중립</p><details class="signal-method"><summary>지표 설명과 시그널 분류 기준</summary><ul>${headers.map((h,i)=>`<li><strong>${h}</strong>: ${explanations[i]}</li>`).join('')}</ul><p>10일 구간액은 1~10일 누적, 1~20일 누적−1~10일 누적, 월 전체−1~20일 누적으로 계산합니다. TTM은 최신 구간까지 36개 구간을 사용합니다. 계절·조업일수 영향이 완전히 제거되는 것은 아닙니다.</p><p>자체 분류 기준: 최근 3구간 평균 YoY를 레벨로 사용합니다. 레벨 ≥30%, 모멘텀 ≤−15pp는 꼭지 의심. 나머지 중 레벨 ≥5%이면 모멘텀 ≥5pp 가속 상승, ≤−5pp 상승 둔화, 그 외 상승 유지. 레벨이 음수이고 모멘텀 ≥5pp이면 반전 조짐, 나머지 중 레벨 ≤−5%이면 하락. 나머지는 중립입니다. 필요한 구간이 없으면 자료 부족으로 표시합니다.</p></details><div class="signal-table-wrap"><table class="signal-table"><caption class="sr-only">품목별 수출 시그널, 모멘텀 내림차순</caption><thead><tr><th>품목</th><th>시그널</th>${headers.map((h,i)=>`<th>${h} <span tabindex="0" class="metric-help" aria-label="${explanations[i]}" title="${explanations[i]}">?</span></th>`).join('')}<th><span class="sr-only">상세 보기</span></th></tr></thead><tbody>${board.map(p=>{const r=p.latest;return `<tr data-product="${p.id}"><td>${escape(p.name)}</td><td><span class="signal-badge ${p.signal.tone}">${p.signal.icon} ${p.signal.label}</span></td><td class="${color(r.yoy)}">${rate(r.yoy)}</td><td>${signalPlot(p.series,[{key:'yoy',color:r.yoy>=0?'#158563':'#ce4f5f'}],p.name+' 최근 9구간 YoY',true)}</td><td class="${color(r.momentum)}">${signed(r.momentum)}</td><td class="${color(r.cumulativeYoy)}">${rate(r.cumulativeYoy)} <small class="window-tag">${period[r.window]}</small></td><td class="${color(r.ttmYoy)}">${rate(r.ttmYoy)}</td><td>${number(r.ttm==null?null:r.ttm/100000)}</td><td><button type="button" class="signal-detail-button" aria-label="${escape(p.name)} 상세 보기">상세 ›</button></td></tr>`;}).join('')}</tbody></table></div></section>`;
 }
