@@ -1,0 +1,62 @@
+name: Update FRED and publish
+on:
+  schedule:
+    # Daily 10:00 Korea time; retain original daily/monthly frequencies.
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Collect official FRED series and revisions
+        id: collect
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: node scripts/fetch-fred.mjs
+      - name: Summarize collection failure
+        if: failure() && steps.collect.outcome == 'failure'
+        run: |
+          echo 'FRED collection failed. Existing repository data and the published site were retained. See the safe HTTP/API/network error code in the collection step.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Verify statistics
+        run: node --test
+      - name: Save accumulated observations
+        id: archive
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/fred.json data/fred dist/data/fred.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update accumulated FRED statistics'
+            git push origin HEAD:main
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+          echo "FRED checked at $(date -u +%Y-%m-%dT%H:%M:%SZ)." >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/configure-pages@v5
+        if: steps.archive.outputs.changed == 'true'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.archive.outputs.changed == 'true'
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        if: steps.archive.outputs.changed == 'true'
+        id: deployment

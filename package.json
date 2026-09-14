@@ -6,7 +6,8 @@
     "dev": "node scripts/serve.mjs",
     "update-data": "python scripts/fetch-report.py",
     "test": "node --test",
-    "update-kosis": "node scripts/fetch-kosis.mjs"
+    "update-kosis": "node scripts/fetch-kosis.mjs",
+    "update-fred": "node scripts/fetch-fred.mjs"
   },
   "engines": {
     "node": ">=22"

@@ -17,5 +17,12 @@ def main():
             raise ValueError('Invalid KOSIS cumulative archive')
         Path('dist/data/kosis.json').write_text(json.dumps(indices,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         print('Built KOSIS indices from cumulative repository archive')
+    fred=Path('data/fred.json')
+    if fred.exists():
+        prices=json.loads(fred.read_text(encoding='utf-8'))
+        if prices.get('status')!='live' or len(prices.get('series',[]))!=10:
+            raise ValueError('Invalid FRED cumulative archive')
+        Path('dist/data/fred.json').write_text(json.dumps(prices,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        print('Built FRED data from cumulative repository archive')
 
 if __name__=='__main__': main()

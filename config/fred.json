@@ -1,0 +1,94 @@
+{
+  "startDate": "2000-01-01",
+  "series": [
+    {
+      "id": "DGS2",
+      "name": "미국 국채 2년물",
+      "group": "rates",
+      "frequency": "D",
+      "unit": "%",
+      "units": "Percent"
+    },
+    {
+      "id": "DGS5",
+      "name": "미국 국채 5년물",
+      "group": "rates",
+      "frequency": "D",
+      "unit": "%",
+      "units": "Percent"
+    },
+    {
+      "id": "DGS10",
+      "name": "미국 국채 10년물",
+      "group": "rates",
+      "frequency": "D",
+      "unit": "%",
+      "units": "Percent"
+    },
+    {
+      "id": "T10Y2Y",
+      "name": "10년−2년 금리차",
+      "group": "spread",
+      "frequency": "D",
+      "unit": "%p",
+      "units": "Percent"
+    },
+    {
+      "id": "PSILVUSDM",
+      "name": "은",
+      "group": "metals",
+      "frequency": "M",
+      "unit": "달러/트로이온스",
+      "units": "U.S. Dollars per Troy Ounce",
+      "enabled": false
+    },
+    {
+      "id": "PCOPPUSDM",
+      "name": "구리",
+      "group": "metals",
+      "frequency": "M",
+      "unit": "달러/톤",
+      "units": "U.S. Dollars per Metric Ton"
+    },
+    {
+      "id": "DCOILWTICO",
+      "name": "WTI 원유",
+      "group": "oil",
+      "frequency": "D",
+      "unit": "달러/배럴",
+      "units": "Dollars per Barrel"
+    },
+    {
+      "id": "DCOILBRENTEU",
+      "name": "브렌트 원유",
+      "group": "oil",
+      "frequency": "D",
+      "unit": "달러/배럴",
+      "units": "Dollars per Barrel"
+    },
+    {
+      "id": "PMAIZMTUSDM",
+      "name": "옥수수",
+      "group": "grains",
+      "frequency": "M",
+      "unit": "달러/톤",
+      "units": "U.S. Dollars per Metric Ton"
+    },
+    {
+      "id": "PWHEAMTUSDM",
+      "name": "밀",
+      "group": "grains",
+      "frequency": "M",
+      "unit": "달러/톤",
+      "units": "U.S. Dollars per Metric Ton"
+    },
+    {
+      "id": "PSOYBUSDM",
+      "name": "대두",
+      "group": "grains",
+      "frequency": "M",
+      "unit": "달러/톤",
+      "units": "U.S. Dollars per Metric Ton"
+    }
+  ]
+}
