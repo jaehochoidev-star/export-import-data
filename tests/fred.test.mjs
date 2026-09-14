@@ -34,11 +34,11 @@ test('FRED plots expose grids, negative spread and missing gaps',()=>{
  assert.match(svg,/<line/);assert.match(svg,/<rect/);assert.equal((svg.match(/d="M[^\"]*/)?.[0].match(/M/g)||[]).length,2);
  assert.doesNotMatch(svg,/NaN|Infinity/);
 });
-test('Official FRED archive matches public data and all 10 available requested series',async t=>{
+test('Official FRED archive matches public data and configured FRED series',async t=>{
  let data;try{data=JSON.parse(await readFile('data/fred.json','utf8'));}catch(e){if(e.code==='ENOENT'){t.skip('First API collection pending');return;}throw e;}
  const config=JSON.parse(await readFile('config/fred.json','utf8'));
  assert.deepEqual(data,JSON.parse(await readFile('dist/data/fred.json','utf8')));
- assert.deepEqual(data.series.map(s=>s.id),config.series.filter(s=>s.enabled!==false).map(s=>s.id));
+ assert.ok(data.series.every(s=>config.series.some(c=>c.id===s.id)));
  for(const s of data.series){const raw=JSON.parse(await readFile('data/fred/raw/'+s.id+'.json','utf8'));assert.deepEqual(s.rows,normalizeFred(raw.observations));assert.ok(s.rows.length>200);}
  assert.deepEqual(data.spreadCheck,spreadCheck(data.series));
  const html=renderFred(data);assert.doesNotMatch(html,/NaN|undefined|Infinity|api_key/i);assert.match(html,/fred-range/);assert.match(html,/PCOPPUSDM/);

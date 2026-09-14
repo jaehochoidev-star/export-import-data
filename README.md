@@ -82,3 +82,9 @@ GitHub Actions `Publish dashboard`:
 - 금리차 검산은 세 지표가 모두 있는 날짜에만 수행합니다. 반올림 오차 0.01%p를 허용하며 FRED 금리차를 임의로 계산값으로 덮어쓰지 않습니다.
 - 모든 그래프에 가로·세로 그리드와 단위를 표시합니다. 1년/3년/5년/전체 기간 선택, 최근 원자료 표, 누적 데이터 다운로드를 제공합니다.
 
+
+### FRED 확장 및 세계은행 은 가격
+
+- FRED 15개 시리즈: 기존 10개에 DEXKOUS, DTWEXBGS, DFII10, T10YIE, INDPRO를 추가합니다. INDPRO는 2017=100 계절조정 지수이며 나머지는 공식 원래 주기를 유지합니다.
+- 세계은행 은은 `scripts/fetch-worldbank.py`로 공식 Pink Sheet 월별 XLSX의 Silver 열과 단위를 검증합니다. `data/worldbank.json`, `data/worldbank/raw/pink-sheet-monthly.xlsx`를 저장하고 `dist/data/worldbank.json`으로 표시합니다. 기존 월을 보존하며 같은 월은 수정치를 반영합니다. 원본 XLSX는 값이 바뀔 때만 갱신합니다.
+- 매일 FRED 갱신 작업에서 세계은행 파일도 확인하므로 월별 자료 발표 뒤 자동 반영됩니다. 공식 다운로드 주소가 변경되면 수집은 실패하고 기존 공개 자료를 유지합니다.

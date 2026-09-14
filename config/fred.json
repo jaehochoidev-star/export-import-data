@@ -34,15 +34,6 @@
       "units": "Percent"
     },
     {
-      "id": "PSILVUSDM",
-      "name": "은",
-      "group": "metals",
-      "frequency": "M",
-      "unit": "달러/트로이온스",
-      "units": "U.S. Dollars per Troy Ounce",
-      "enabled": false
-    },
-    {
       "id": "PCOPPUSDM",
       "name": "구리",
       "group": "metals",
@@ -89,6 +80,47 @@
       "frequency": "M",
       "unit": "달러/톤",
       "units": "U.S. Dollars per Metric Ton"
+    },
+    {
+      "id": "DEXKOUS",
+      "name": "원/달러 환율",
+      "group": "fx",
+      "frequency": "D",
+      "unit": "원/달러",
+      "units": "South Korean Won to One U.S. Dollar"
+    },
+    {
+      "id": "DTWEXBGS",
+      "name": "광의 달러지수",
+      "group": "fx",
+      "frequency": "D",
+      "unit": "2006년 1월=100",
+      "units": "Index Jan 2006=100"
+    },
+    {
+      "id": "DFII10",
+      "name": "미국 10년 실질금리",
+      "group": "realrates",
+      "frequency": "D",
+      "unit": "%",
+      "units": "Percent"
+    },
+    {
+      "id": "T10YIE",
+      "name": "10년 기대인플레이션",
+      "group": "realrates",
+      "frequency": "D",
+      "unit": "%",
+      "units": "Percent"
+    },
+    {
+      "id": "INDPRO",
+      "name": "미국 산업생산",
+      "group": "activity",
+      "frequency": "M",
+      "unit": "2017년=100",
+      "units": "Index 2017=100",
+      "adjustment": "SA"
     }
   ]
 }

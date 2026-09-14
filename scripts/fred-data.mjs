@@ -12,7 +12,7 @@ export function normalizeFred(observations){
 }
 export const mergeFred=(older,newer)=>[...new Map([...older,...newer].map(r=>[r.date,r])).values()].sort((a,b)=>a.date.localeCompare(b.date));
 export function validateFredMetadata(meta,setting){
-  if(meta?.id!==setting.id||meta.frequency_short!==setting.frequency||meta.units!==setting.units||meta.seasonal_adjustment_short!=='NSA')throw Error(setting.id+': unexpected FRED series identity, frequency, units or adjustment');
+  if(meta?.id!==setting.id||meta.frequency_short!==setting.frequency||meta.units!==setting.units||meta.seasonal_adjustment_short!==(setting.adjustment||'NSA'))throw Error(setting.id+': unexpected FRED series identity, frequency, units or adjustment');
 }
 export function spreadCheck(series){
   const map=id=>new Map(series.find(s=>s.id===id).rows.filter(r=>Number.isFinite(r.value)).map(r=>[r.date,r.value]));
