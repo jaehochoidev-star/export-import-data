@@ -44,7 +44,7 @@ export function createKosisClient({apiKey,fetchImpl=fetch,sleep=ms=>new Promise(
         if(result.rows)return result.rows;
         failure=result.error;
       }catch(e){
-        const code=networkCodes.has(e?.cause?.code)?e.cause.code:networkCodes.has(e?.code)?e.code:e?.name==='TimeoutError'?'REQUEST_TIMEOUT':'NETWORK_ERROR';
+        const code=networkCodes.has(e?.cause?.code)?e.cause.code:networkCodes.has(e?.code)?e.code:['TimeoutError','AbortError'].includes(e?.name)?'REQUEST_TIMEOUT':'NETWORK_ERROR';
         failure=new KosisRequestError(code,'KOSIS connection failed',true);
       }
       log(`${table}: attempt ${attempt+1}/${delays.length}: ${failure.code} (${failure.message})`);
