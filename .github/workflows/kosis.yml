@@ -29,9 +29,14 @@ jobs:
         with:
           node-version: 24
       - name: Collect official KOSIS series and revisions
+        id: collect
         env:
           KOSIS_API_KEY: ${{ secrets.KOSIS_API_KEY }}
         run: node scripts/fetch-kosis.mjs
+      - name: Summarize collection failure
+        if: failure() && steps.collect.outcome == 'failure'
+        run: |
+          echo 'KOSIS collection failed. Existing repository data and the published site were retained. See the safe HTTP/API/network error code in the collection step.' >> "$GITHUB_STEP_SUMMARY"
       - name: Verify statistics
         run: node --test
       - name: Save accumulated observations

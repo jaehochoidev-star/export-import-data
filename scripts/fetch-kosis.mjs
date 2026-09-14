@@ -1,27 +1,13 @@
 import {readFile,writeFile,mkdir,rename} from 'node:fs/promises';
 import {normalizeRows,mergeRows,selectIndustry} from './kosis-data.mjs';
+import {createKosisClient} from './kosis-client.mjs';
 const key=process.env.KOSIS_API_KEY;
 if(!key)throw Error('Register KOSIS_API_KEY as a repository Actions secret.');
 const config=JSON.parse(await readFile('config/kosis.json','utf8'));
 const file='data/kosis.json';
 let previous={series:[]};try{previous=JSON.parse(await readFile(file,'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}
 if(previous.basis&&previous.basis!==config.basis)throw Error('Review changed index basis before merging.');
-const pause=ms=>new Promise(resolve=>setTimeout(resolve,ms));
-async function request(params){
-  const url=new URL('https://kosis.kr/openapi/Param/statisticsParameterData.do');
-  for(const [k,v] of Object.entries({method:'getList',format:'json',jsonVD:'Y',prdSe:'M',...params,apiKey:key}))url.searchParams.set(k,v);
-  for(let attempt=0;attempt<3;attempt++){
-    await pause(2500*(attempt+1));
-    try{
-      const response=await fetch(url,{signal:AbortSignal.timeout(60000),redirect:'error'});
-      if(!response.ok)throw Error('HTTP');
-      const rows=await response.json();
-      if(!Array.isArray(rows)||!rows.length)throw Error('No rows');
-      return rows;
-    }catch{/* Never log URLs or exception causes containing a credential. */}
-  }
-  throw Error('KOSIS API request failed for '+params.tblId+'. Check credential and query configuration.');
-}
+const request=createKosisClient({apiKey:key});
 const discovery=await request({...config.industryTable,itmId:'T10',objL2:'ALL',newEstPrdCnt:'1'});
 console.log('Available industry labels:',[...new Set(discovery.map(r=>r.C2_NM))].filter(n=>/반도체|자동차|화학|철강|석유/.test(n)).join(' / '));
 const industrySettings=config.industries.map(i=>({...i,...selectIndustry(discovery,i)}));
