@@ -2,7 +2,6 @@
 import io, json, re, math, urllib.request
 from pathlib import Path
 from datetime import datetime, timezone
-from urllib.parse import urljoin, urlparse
 import openpyxl
 
 PAGE='https://www.worldbank.org/en/research/commodity-markets'

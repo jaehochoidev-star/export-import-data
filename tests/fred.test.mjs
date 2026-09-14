@@ -38,8 +38,17 @@ test('Official FRED archive matches public data and configured FRED series',asyn
  let data;try{data=JSON.parse(await readFile('data/fred.json','utf8'));}catch(e){if(e.code==='ENOENT'){t.skip('First API collection pending');return;}throw e;}
  const config=JSON.parse(await readFile('config/fred.json','utf8'));
  assert.deepEqual(data,JSON.parse(await readFile('dist/data/fred.json','utf8')));
- assert.ok(data.series.every(s=>config.series.some(c=>c.id===s.id)));
+ assert.deepEqual(data.series.map(s=>s.id),config.series.filter(s=>s.enabled!==false).map(s=>s.id));
  for(const s of data.series){const raw=JSON.parse(await readFile('data/fred/raw/'+s.id+'.json','utf8'));assert.deepEqual(s.rows,normalizeFred(raw.observations));assert.ok(s.rows.length>200);}
  assert.deepEqual(data.spreadCheck,spreadCheck(data.series));
  const html=renderFred(data);assert.doesNotMatch(html,/NaN|undefined|Infinity|api_key/i);assert.match(html,/fred-range/);assert.match(html,/PCOPPUSDM/);
+});
+
+test('World Bank silver renders alongside all 15 FRED series with distinct sources',async()=>{
+ const data=JSON.parse(await readFile('data/fred.json','utf8')),wb=JSON.parse(await readFile('data/worldbank.json','utf8'));
+ assert.equal(data.series.length,15);assert.equal(wb.series[0].id,'WB_SILVER');assert.deepEqual(wb,JSON.parse(await readFile('dist/data/worldbank.json','utf8')));
+ for(const range of ['1','3','5','all']){const html=renderFred(data,range,wb);assert.doesNotMatch(html,/NaN|undefined|Infinity|연결 확인 중/);for(const id of ['WB_SILVER','DEXKOUS','DTWEXBGS','DFII10','T10YIE','INDPRO'])assert.ok(html.includes(id));}
+ const setting={id:'INDPRO',frequency:'M',units:'Index 2017=100',adjustment:'SA'};
+ assert.doesNotThrow(()=>validateFredMetadata({id:'INDPRO',frequency_short:'M',units:setting.units,seasonal_adjustment_short:'SA'},setting));
+ assert.throws(()=>validateFredMetadata({id:'INDPRO',frequency_short:'M',units:setting.units,seasonal_adjustment_short:'NSA'},setting));
 });
