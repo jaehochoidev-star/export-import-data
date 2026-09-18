@@ -3,14 +3,14 @@
     "id": "T10YIE",
     "title": "10-Year Breakeven Inflation Rate",
     "observation_start": "2003-01-02",
-    "observation_end": "2026-09-16",
+    "observation_end": "2026-09-17",
     "frequency": "Daily",
     "frequency_short": "D",
     "units": "Percent",
     "units_short": "%",
     "seasonal_adjustment": "Not Seasonally Adjusted",
     "seasonal_adjustment_short": "NSA",
-    "last_updated": "2026-09-16 16:03:29-05",
+    "last_updated": "2026-09-17 16:03:33-05",
     "popularity": 91,
     "notes": "The breakeven inflation rate represents a measure of expected inflation derived from 10-Year Treasury Constant Maturity Securities (DGS10 (https://fred.stlouisfed.org/series/DGS10)) and 10-Year Treasury Inflation-Indexed Constant Maturity Securities (DFII10 (https://fred.stlouisfed.org/series/DFII10)). The latest value implies what market participants expect inflation to be in the next 10 years, on average.\r\nStarting with the update on June 21, 2019, the Treasury bond data used in calculating interest rate spreads is obtained directly from the U.S. Treasury Department (https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=yield)."
   },
@@ -37123,6 +37123,12 @@
       "realtime_start": "2026-09-16",
       "realtime_end": "2026-09-16",
       "date": "2026-09-16",
+      "value": "2.33"
+    },
+    {
+      "realtime_start": "2026-09-18",
+      "realtime_end": "2026-09-18",
+      "date": "2026-09-17",
       "value": "2.33"
     }
   ]
