@@ -3,14 +3,14 @@
     "id": "DFII10",
     "title": "Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Quoted on an Investment Basis, Inflation-Indexed",
     "observation_start": "2003-01-02",
-    "observation_end": "2026-09-17",
+    "observation_end": "2026-09-18",
     "frequency": "Daily",
     "frequency_short": "D",
     "units": "Percent",
     "units_short": "%",
     "seasonal_adjustment": "Not Seasonally Adjusted",
     "seasonal_adjustment_short": "NSA",
-    "last_updated": "2026-09-18 15:16:31-05",
+    "last_updated": "2026-09-21 15:16:39-05",
     "popularity": 92,
     "notes": "H.15 Statistical Release notes (https://www.federalreserve.gov/releases/h15/default.htm) and the Treasury Yield Curve Methodology (https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/treasury-yield-curve-methodology).\n\nFor questions on the data, please contact the data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h15/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>"
   },
@@ -37130,6 +37130,12 @@
       "realtime_end": "2026-09-19",
       "date": "2026-09-17",
       "value": "2.61"
+    },
+    {
+      "realtime_start": "2026-09-22",
+      "realtime_end": "2026-09-22",
+      "date": "2026-09-18",
+      "value": "2.68"
     }
   ]
 }

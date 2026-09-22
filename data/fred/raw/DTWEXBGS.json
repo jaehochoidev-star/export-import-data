@@ -3,14 +3,14 @@
     "id": "DTWEXBGS",
     "title": "Nominal Broad U.S. Dollar Index",
     "observation_start": "2006-01-02",
-    "observation_end": "2026-09-11",
+    "observation_end": "2026-09-18",
     "frequency": "Daily",
     "frequency_short": "D",
     "units": "Index Jan 2006=100",
     "units_short": "Index Jan 2006=100",
     "seasonal_adjustment": "Not Seasonally Adjusted",
     "seasonal_adjustment_short": "NSA",
-    "last_updated": "2026-09-14 15:16:42-05",
+    "last_updated": "2026-09-21 15:16:40-05",
     "popularity": 83,
     "notes": "data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h10/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>"
   },
@@ -32414,6 +32414,36 @@
       "realtime_end": "2026-09-14",
       "date": "2026-09-11",
       "value": "118.2126"
+    },
+    {
+      "realtime_start": "2026-09-22",
+      "realtime_end": "2026-09-22",
+      "date": "2026-09-14",
+      "value": "118.6923"
+    },
+    {
+      "realtime_start": "2026-09-22",
+      "realtime_end": "2026-09-22",
+      "date": "2026-09-15",
+      "value": "118.8822"
+    },
+    {
+      "realtime_start": "2026-09-22",
+      "realtime_end": "2026-09-22",
+      "date": "2026-09-16",
+      "value": "118.9206"
+    },
+    {
+      "realtime_start": "2026-09-22",
+      "realtime_end": "2026-09-22",
+      "date": "2026-09-17",
+      "value": "119.3489"
+    },
+    {
+      "realtime_start": "2026-09-22",
+      "realtime_end": "2026-09-22",
+      "date": "2026-09-18",
+      "value": "119.5133"
     }
   ]
 }
