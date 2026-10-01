@@ -3,14 +3,14 @@
     "id": "DCOILWTICO",
     "title": "Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma",
     "observation_start": "1986-01-02",
-    "observation_end": "2026-09-22",
+    "observation_end": "2026-09-29",
     "frequency": "Daily",
     "frequency_short": "D",
     "units": "Dollars per Barrel",
     "units_short": "$ per Barrel",
     "seasonal_adjustment": "Not Seasonally Adjusted",
     "seasonal_adjustment_short": "NSA",
-    "last_updated": "2026-09-23 12:17:29-05",
+    "last_updated": "2026-09-30 12:18:31-05",
     "popularity": 84,
     "notes": "Definitions, Sources and Explanatory Notes (http://www.eia.doe.gov/dnav/pet/TblDefs/pet_pri_spt_tbldef2.asp)"
   },
@@ -41846,6 +41846,36 @@
       "realtime_end": "2026-09-24",
       "date": "2026-09-22",
       "value": "96.41"
+    },
+    {
+      "realtime_start": "2026-10-01",
+      "realtime_end": "2026-10-01",
+      "date": "2026-09-23",
+      "value": "93.38"
+    },
+    {
+      "realtime_start": "2026-10-01",
+      "realtime_end": "2026-10-01",
+      "date": "2026-09-24",
+      "value": "95.88"
+    },
+    {
+      "realtime_start": "2026-10-01",
+      "realtime_end": "2026-10-01",
+      "date": "2026-09-25",
+      "value": "85.23"
+    },
+    {
+      "realtime_start": "2026-10-01",
+      "realtime_end": "2026-10-01",
+      "date": "2026-09-28",
+      "value": "99.37"
+    },
+    {
+      "realtime_start": "2026-10-01",
+      "realtime_end": "2026-10-01",
+      "date": "2026-09-29",
+      "value": "96.16"
     }
   ]
 }
