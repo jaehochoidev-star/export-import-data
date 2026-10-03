@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "live",
-  "updatedAt": "2026-09-14T21:51:28.591028+00:00",
+  "updatedAt": "2026-10-03T05:59:38.021244+00:00",
   "workbookUrl": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
   "series": [
     {
@@ -1292,6 +1292,10 @@
         {
           "date": "2026-08-01",
           "value": 65.4
+        },
+        {
+          "date": "2026-09-01",
+          "value": 64.6
         }
       ]
     }
