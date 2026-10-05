@@ -2,7 +2,7 @@
   "version": 1,
   "status": "live",
   "basis": "2020=100",
-  "updatedAt": "2026-09-13T22:19:13.943Z",
+  "updatedAt": "2026-10-05T06:27:08.951Z",
   "series": [
     {
       "id": "export-value",
@@ -23,697 +23,702 @@
         {
           "month": "2015-01",
           "value": 99.42,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-02",
           "value": 87.92,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-03",
           "value": 105.55,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-04",
           "value": 105.32,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-05",
           "value": 97.74,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-06",
           "value": 102.84,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-07",
           "value": 102.62,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-08",
           "value": 91.2,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-09",
           "value": 99.41,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-10",
           "value": 101.64,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-11",
           "value": 93.83,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-12",
           "value": 96.93,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-01",
           "value": 81.45,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-02",
           "value": 80.77,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-03",
           "value": 96.71,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-04",
           "value": 91.21,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-05",
           "value": 92.34,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-06",
           "value": 95.91,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-07",
           "value": 94.62,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-08",
           "value": 89.97,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-09",
           "value": 94.3,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-10",
           "value": 96.5,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-11",
           "value": 101.58,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-12",
           "value": 104.74,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-01",
           "value": 93.07,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-02",
           "value": 98.64,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-03",
           "value": 111.45,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-04",
           "value": 105.41,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-05",
           "value": 102.57,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-06",
           "value": 106.43,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-07",
           "value": 103.24,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-08",
           "value": 106.1,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-09",
           "value": 122.38,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-10",
           "value": 101.51,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-11",
           "value": 119.11,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-12",
           "value": 113.47,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-01",
           "value": 114.23,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-02",
           "value": 102.48,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-03",
           "value": 120.21,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-04",
           "value": 116.91,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-05",
           "value": 121.64,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-06",
           "value": 121.05,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-07",
           "value": 120.82,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-08",
           "value": 122.18,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-09",
           "value": 119.68,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-10",
           "value": 129.67,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-11",
           "value": 120.19,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-12",
           "value": 109.28,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-01",
           "value": 108.17,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-02",
           "value": 93.06,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-03",
           "value": 109.55,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-04",
           "value": 111.99,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-05",
           "value": 108.19,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-06",
           "value": 102.12,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-07",
           "value": 108.6,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-08",
           "value": 102.84,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-09",
           "value": 104.26,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-10",
           "value": 109.34,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-11",
           "value": 105.2,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-12",
           "value": 108.23,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-01",
           "value": 97.78,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-02",
           "value": 96.15,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-03",
           "value": 108.98,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-04",
           "value": 85.86,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-05",
           "value": 81.1,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-06",
           "value": 91.64,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-07",
           "value": 99.41,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-08",
           "value": 93.29,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-09",
           "value": 112.33,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-10",
           "value": 105.56,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-11",
           "value": 109.25,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-12",
           "value": 118.65,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-01",
           "value": 108.86,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-02",
           "value": 105.87,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-03",
           "value": 125.1,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-04",
           "value": 121.87,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-05",
           "value": 120.86,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-06",
           "value": 128.8,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-07",
           "value": 130.69,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-08",
           "value": 126.02,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-09",
           "value": 133.18,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-10",
           "value": 132.29,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-11",
           "value": 138.64,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-12",
           "value": 144.75,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-01",
           "value": 133.66,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-02",
           "value": 127.41,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-03",
           "value": 152.14,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-04",
           "value": 139.04,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-05",
           "value": 145.18,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-06",
           "value": 137.94,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-07",
           "value": 140.66,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-08",
           "value": 135.14,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-09",
           "value": 136.49,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-10",
           "value": 123.64,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-11",
           "value": 122.79,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-12",
           "value": 127.09,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-01",
           "value": 109.39,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-02",
           "value": 118.24,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-03",
           "value": 131.25,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-04",
           "value": 116.47,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-05",
           "value": 123.81,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-06",
           "value": 125.27,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-07",
           "value": 118.78,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-08",
           "value": 122.63,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-09",
           "value": 129.76,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-10",
           "value": 126.28,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-11",
           "value": 131.52,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-12",
           "value": 131.17,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-01",
           "value": 126.58,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-02",
           "value": 122.48,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-03",
           "value": 132.73,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-04",
           "value": 131.47,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-05",
           "value": 136.08,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-06",
           "value": 135.16,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-07",
           "value": 136.35,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-08",
           "value": 132.3,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-09",
           "value": 135.66,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-10",
           "value": 133.9,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-11",
           "value": 131,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-12",
           "value": 141.3,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-01",
           "value": 112.86,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-02",
           "value": 123.31,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-03",
           "value": 133.44,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-04",
           "value": 135.18,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-05",
           "value": 133.41,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-06",
           "value": 139.04,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-07",
           "value": 141.97,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-08",
           "value": 134.82,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-09",
           "value": 151.89,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-10",
           "value": 133.06,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-11",
           "value": 142.77,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-12",
           "value": 162.11,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2026-01",
           "value": 154.7,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2026-02",
           "value": 158.62,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2026-03",
           "value": 203.63,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2026-04",
           "value": 203.06,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2026-05",
           "value": 209.43,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2026-06",
           "value": 242.77,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2026-07",
-          "value": 233.11,
-          "sourceUpdatedAt": "2026-09-13"
+          "value": 233.29,
+          "sourceUpdatedAt": "2026-10-04"
+        },
+        {
+          "month": "2026-08",
+          "value": 237.04,
+          "sourceUpdatedAt": "2026-10-04"
         }
       ]
     },
@@ -736,697 +741,702 @@
         {
           "month": "2015-01",
           "value": 87.5,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-02",
           "value": 77.35,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-03",
           "value": 93.39,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-04",
           "value": 93.18,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-05",
           "value": 85.87,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-06",
           "value": 90.74,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-07",
           "value": 92.27,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-08",
           "value": 84.05,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-09",
           "value": 92.95,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-10",
           "value": 95.9,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-11",
           "value": 89.52,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2015-12",
           "value": 94.19,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-01",
           "value": 80.85,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-02",
           "value": 80.93,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-03",
           "value": 95.97,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-04",
           "value": 90.1,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-05",
           "value": 90.67,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-06",
           "value": 93.93,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-07",
           "value": 92.67,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-08",
           "value": 87.26,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-09",
           "value": 90.36,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-10",
           "value": 90.67,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-11",
           "value": 95.08,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2016-12",
           "value": 96.75,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-01",
           "value": 85.44,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-02",
           "value": 88.82,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-03",
           "value": 100.29,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-04",
           "value": 94.1,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-05",
           "value": 91.92,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-06",
           "value": 96.13,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-07",
           "value": 92.77,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-08",
           "value": 94.74,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-09",
           "value": 108.09,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-10",
           "value": 88.89,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-11",
           "value": 103.42,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2017-12",
           "value": 98.34,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-01",
           "value": 97.99,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-02",
           "value": 87.86,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-03",
           "value": 103.07,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-04",
           "value": 99.72,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-05",
           "value": 102.78,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-06",
           "value": 102.81,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-07",
           "value": 102.55,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-08",
           "value": 103.72,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-09",
           "value": 101.3,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-10",
           "value": 109.95,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-11",
           "value": 104.09,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2018-12",
           "value": 97.01,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-01",
           "value": 97.87,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-02",
           "value": 84.33,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-03",
           "value": 99.53,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-04",
           "value": 101.89,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-05",
           "value": 99.23,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-06",
           "value": 95.23,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-07",
           "value": 101.95,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-08",
           "value": 97.58,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-09",
           "value": 99.05,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-10",
           "value": 104.79,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-11",
           "value": 101.45,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2019-12",
           "value": 104.47,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-01",
           "value": 94.82,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-02",
           "value": 93.99,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-03",
           "value": 109.44,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-04",
           "value": 88.44,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-05",
           "value": 84.51,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-06",
           "value": 93.89,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-07",
           "value": 100.98,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-08",
           "value": 93.99,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-09",
           "value": 112.43,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-10",
           "value": 104.99,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-11",
           "value": 107.15,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2020-12",
           "value": 113.85,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-01",
           "value": 102.34,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-02",
           "value": 97.56,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-03",
           "value": 113.14,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-04",
           "value": 106.35,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-05",
           "value": 103.78,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-06",
           "value": 108.56,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-07",
           "value": 108.37,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-08",
           "value": 104.43,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-09",
           "value": 109.73,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-10",
           "value": 108.03,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-11",
           "value": 113.23,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2021-12",
           "value": 119.29,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-01",
           "value": 110.81,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-02",
           "value": 104.07,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-03",
           "value": 119.92,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-04",
           "value": 108.06,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-05",
           "value": 112,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-06",
           "value": 105.95,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-07",
           "value": 111.64,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-08",
           "value": 110.25,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-09",
           "value": 114.1,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-10",
           "value": 104.68,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-11",
           "value": 106.08,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2022-12",
           "value": 111.74,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-01",
           "value": 96.62,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-02",
           "value": 104.97,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-03",
           "value": 116.69,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-04",
           "value": 104.27,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-05",
           "value": 111.96,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-06",
           "value": 114.35,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-07",
           "value": 108.35,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-08",
           "value": 110.4,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-09",
           "value": 115.68,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-10",
           "value": 112.56,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-11",
           "value": 118.45,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2023-12",
           "value": 119.06,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-01",
           "value": 113.46,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-02",
           "value": 108.92,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-03",
           "value": 117.14,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-04",
           "value": 114.05,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-05",
           "value": 118.56,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-06",
           "value": 117.9,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-07",
           "value": 118.18,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-08",
           "value": 115.69,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-09",
           "value": 119.92,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-10",
           "value": 119,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-11",
           "value": 116.72,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2024-12",
           "value": 126.83,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-01",
           "value": 101.49,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-02",
           "value": 111.36,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-03",
           "value": 120.62,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-04",
           "value": 122.66,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-05",
           "value": 121.31,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-06",
           "value": 125.95,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-07",
           "value": 127.79,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-08",
           "value": 121.87,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-09",
           "value": 137.21,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-10",
           "value": 117.76,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-11",
           "value": 124.9,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2025-12",
           "value": 142.25,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2026-01",
           "value": 130.03,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2026-02",
           "value": 129.86,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2026-03",
           "value": 149.03,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2026-04",
           "value": 137.84,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2026-05",
           "value": 139.25,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2026-06",
           "value": 163.25,
-          "sourceUpdatedAt": "2026-09-13"
+          "sourceUpdatedAt": "2026-10-04"
         },
         {
           "month": "2026-07",
-          "value": 153.33,
-          "sourceUpdatedAt": "2026-09-13"
+          "value": 153.43,
+          "sourceUpdatedAt": "2026-10-04"
+        },
+        {
+          "month": "2026-08",
+          "value": 153.48,
+          "sourceUpdatedAt": "2026-10-04"
         }
       ]
     },
@@ -2136,13 +2146,18 @@
         },
         {
           "month": "2026-06",
-          "value": 204.6,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 203.9,
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
-          "value": 185.3,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 184.5,
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 187.8,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     },
@@ -2852,13 +2867,18 @@
         },
         {
           "month": "2026-06",
-          "value": 218.5,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 217.9,
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
-          "value": 159.1,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 158.7,
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 194.8,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     },
@@ -3568,13 +3588,18 @@
         },
         {
           "month": "2026-06",
-          "value": 88.7,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 88.3,
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
-          "value": 106.5,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 106.1,
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 100.2,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     },
@@ -4285,12 +4310,17 @@
         {
           "month": "2026-06",
           "value": 145.8,
-          "sourceUpdatedAt": "2026-08-21"
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
-          "value": 133,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 132.7,
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 86.6,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     },
@@ -5001,12 +5031,17 @@
         {
           "month": "2026-06",
           "value": 141.5,
-          "sourceUpdatedAt": "2026-08-21"
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
-          "value": 129.9,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 129.7,
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 88.7,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     },
@@ -5717,12 +5752,17 @@
         {
           "month": "2026-06",
           "value": 141.8,
-          "sourceUpdatedAt": "2026-08-21"
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
-          "value": 144.5,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 144.1,
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 142.5,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     },
@@ -6433,12 +6473,17 @@
         {
           "month": "2026-06",
           "value": 90.8,
-          "sourceUpdatedAt": "2026-08-21"
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
-          "value": 92.2,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 91.9,
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 88.1,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     },
@@ -7148,13 +7193,18 @@
         },
         {
           "month": "2026-06",
-          "value": 86.1,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 86.3,
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
-          "value": 91.5,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 91,
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 89.3,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     },
@@ -7864,13 +7914,18 @@
         },
         {
           "month": "2026-06",
-          "value": 104.5,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 104.4,
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
-          "value": 105.8,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 106,
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 103.9,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     },
@@ -8580,13 +8635,18 @@
         },
         {
           "month": "2026-06",
-          "value": 95.4,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 95.1,
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
-          "value": 101.7,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 102.1,
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 96.3,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     },
@@ -9296,13 +9356,18 @@
         },
         {
           "month": "2026-06",
-          "value": 96.8,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 96.7,
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
           "value": 97.5,
-          "sourceUpdatedAt": "2026-08-21"
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 90.5,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     },
@@ -10012,13 +10077,18 @@
         },
         {
           "month": "2026-06",
-          "value": 92.5,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 90.7,
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
-          "value": 97.3,
-          "sourceUpdatedAt": "2026-08-21"
+          "value": 96.7,
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 105.6,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     },
@@ -10729,12 +10799,17 @@
         {
           "month": "2026-06",
           "value": 93.9,
-          "sourceUpdatedAt": "2026-08-21"
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
           "value": 104.9,
-          "sourceUpdatedAt": "2026-08-21"
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 107.7,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     },
@@ -11445,12 +11520,17 @@
         {
           "month": "2026-06",
           "value": 91.7,
-          "sourceUpdatedAt": "2026-08-21"
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
           "value": 104.2,
-          "sourceUpdatedAt": "2026-08-21"
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 102.2,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     },
@@ -12161,12 +12241,17 @@
         {
           "month": "2026-06",
           "value": 98.8,
-          "sourceUpdatedAt": "2026-08-21"
+          "sourceUpdatedAt": "2026-09-22"
         },
         {
           "month": "2026-07",
           "value": 88.5,
-          "sourceUpdatedAt": "2026-08-21"
+          "sourceUpdatedAt": "2026-09-22"
+        },
+        {
+          "month": "2026-08",
+          "value": 97.3,
+          "sourceUpdatedAt": "2026-09-22"
         }
       ]
     }
