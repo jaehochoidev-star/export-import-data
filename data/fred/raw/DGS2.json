@@ -3,14 +3,14 @@
     "id": "DGS2",
     "title": "Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity, Quoted on an Investment Basis",
     "observation_start": "1976-06-01",
-    "observation_end": "2026-10-08",
+    "observation_end": "2026-10-09",
     "frequency": "Daily",
     "frequency_short": "D",
     "units": "Percent",
     "units_short": "%",
     "seasonal_adjustment": "Not Seasonally Adjusted",
     "seasonal_adjustment_short": "NSA",
-    "last_updated": "2026-10-09 15:16:36-05",
+    "last_updated": "2026-10-13 15:17:09-05",
     "popularity": 86,
     "notes": "H.15 Statistical Release notes (https://www.federalreserve.gov/releases/h15/default.htm) and the Treasury Yield Curve Methodology (https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/treasury-yield-curve-methodology).\n\nFor questions on the data, please contact the data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h15/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>"
   },
@@ -41918,6 +41918,12 @@
       "realtime_end": "2026-10-10",
       "date": "2026-10-08",
       "value": "4.75"
+    },
+    {
+      "realtime_start": "2026-10-14",
+      "realtime_end": "2026-10-14",
+      "date": "2026-10-09",
+      "value": "4.8"
     }
   ]
 }

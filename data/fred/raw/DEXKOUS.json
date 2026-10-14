@@ -3,14 +3,14 @@
     "id": "DEXKOUS",
     "title": "South Korean Won to U.S. Dollar Spot Exchange Rate",
     "observation_start": "1981-04-13",
-    "observation_end": "2026-10-02",
+    "observation_end": "2026-10-09",
     "frequency": "Daily",
     "frequency_short": "D",
     "units": "South Korean Won to One U.S. Dollar",
     "units_short": "South Korean Won to  1 U.S. $",
     "seasonal_adjustment": "Not Seasonally Adjusted",
     "seasonal_adjustment_short": "NSA",
-    "last_updated": "2026-10-05 15:16:37-05",
+    "last_updated": "2026-10-13 15:16:40-05",
     "popularity": 66,
     "notes": "data source (https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h10/%). For questions on FRED functionality, please contact us here (https://fred.stlouisfed.org/contactus/).</p>"
   },
@@ -41894,6 +41894,36 @@
       "realtime_end": "2026-10-06",
       "date": "2026-10-02",
       "value": "1345.75"
+    },
+    {
+      "realtime_start": "2026-10-14",
+      "realtime_end": "2026-10-14",
+      "date": "2026-10-05",
+      "value": "1341.7"
+    },
+    {
+      "realtime_start": "2026-10-14",
+      "realtime_end": "2026-10-14",
+      "date": "2026-10-06",
+      "value": "1337.88"
+    },
+    {
+      "realtime_start": "2026-10-14",
+      "realtime_end": "2026-10-14",
+      "date": "2026-10-07",
+      "value": "1339.12"
+    },
+    {
+      "realtime_start": "2026-10-14",
+      "realtime_end": "2026-10-14",
+      "date": "2026-10-08",
+      "value": "1343.34"
+    },
+    {
+      "realtime_start": "2026-10-14",
+      "realtime_end": "2026-10-14",
+      "date": "2026-10-09",
+      "value": "1342.13"
     }
   ]
 }
