@@ -1,0 +1,1807 @@
+{
+  "status": "live",
+  "unit": "천 달러",
+  "sourceUrl": "https://www.data.go.kr/data/15157908/openapi.do",
+  "updatedAt": "2026-10-22T14:41:44.379565+09:00",
+  "products": [
+    {
+      "id": "itemUsdAmt00",
+      "name": "전체"
+    },
+    {
+      "id": "itemUsdAmt01",
+      "name": "반도체"
+    },
+    {
+      "id": "itemUsdAmt02",
+      "name": "철강제품"
+    },
+    {
+      "id": "itemUsdAmt03",
+      "name": "승용차"
+    },
+    {
+      "id": "itemUsdAmt04",
+      "name": "석유제품"
+    },
+    {
+      "id": "itemUsdAmt05",
+      "name": "무선통신기기"
+    },
+    {
+      "id": "itemUsdAmt06",
+      "name": "선박"
+    },
+    {
+      "id": "itemUsdAmt07",
+      "name": "자동차부품"
+    },
+    {
+      "id": "itemUsdAmt08",
+      "name": "컴퓨터주변기기"
+    },
+    {
+      "id": "itemUsdAmt09",
+      "name": "정밀기기"
+    },
+    {
+      "id": "itemUsdAmt10",
+      "name": "가전제품"
+    }
+  ],
+  "rows": [
+    {
+      "month": "2024-01",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 15422243.0,
+        "itemUsdAmt01": 2571669.0,
+        "itemUsdAmt02": 1063288.0,
+        "itemUsdAmt03": 1297173.0,
+        "itemUsdAmt04": 1604041.0,
+        "itemUsdAmt05": 437098.0,
+        "itemUsdAmt06": 993895.0,
+        "itemUsdAmt07": 508896.0,
+        "itemUsdAmt08": 217458.0,
+        "itemUsdAmt09": 292047.0,
+        "itemUsdAmt10": 161935.0
+      }
+    },
+    {
+      "month": "2024-01",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 33319854.0,
+        "itemUsdAmt01": 5297202.0,
+        "itemUsdAmt02": 2467132.0,
+        "itemUsdAmt03": 3472991.0,
+        "itemUsdAmt04": 2904876.0,
+        "itemUsdAmt05": 871535.0,
+        "itemUsdAmt06": 1919785.0,
+        "itemUsdAmt07": 1099700.0,
+        "itemUsdAmt08": 509244.0,
+        "itemUsdAmt09": 598458.0,
+        "itemUsdAmt10": 427317.0
+      }
+    },
+    {
+      "month": "2024-01",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 54709823.0,
+        "itemUsdAmt01": 9529970.0,
+        "itemUsdAmt02": 4038358.0,
+        "itemUsdAmt03": 5985821.0,
+        "itemUsdAmt04": 4835458.0,
+        "itemUsdAmt05": 1262803.0,
+        "itemUsdAmt06": 2457555.0,
+        "itemUsdAmt07": 1830200.0,
+        "itemUsdAmt08": 804623.0,
+        "itemUsdAmt09": 961706.0,
+        "itemUsdAmt10": 734908.0
+      }
+    },
+    {
+      "month": "2024-02",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 14757600.0,
+        "itemUsdAmt01": 2782701.0,
+        "itemUsdAmt02": 1041104.0,
+        "itemUsdAmt03": 1108032.0,
+        "itemUsdAmt04": 1398748.0,
+        "itemUsdAmt05": 374575.0,
+        "itemUsdAmt06": 58628.0,
+        "itemUsdAmt07": 628455.0,
+        "itemUsdAmt08": 203335.0,
+        "itemUsdAmt09": 260804.0,
+        "itemUsdAmt10": 224325.0
+      }
+    },
+    {
+      "month": "2024-02",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 30436349.0,
+        "itemUsdAmt01": 5286142.0,
+        "itemUsdAmt02": 2233463.0,
+        "itemUsdAmt03": 2570010.0,
+        "itemUsdAmt04": 2902843.0,
+        "itemUsdAmt05": 772717.0,
+        "itemUsdAmt06": 848631.0,
+        "itemUsdAmt07": 1122644.0,
+        "itemUsdAmt08": 404455.0,
+        "itemUsdAmt09": 513025.0,
+        "itemUsdAmt10": 456453.0
+      }
+    },
+    {
+      "month": "2024-02",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 52076390.0,
+        "itemUsdAmt01": 10051003.0,
+        "itemUsdAmt02": 3855480.0,
+        "itemUsdAmt03": 4926226.0,
+        "itemUsdAmt04": 4472387.0,
+        "itemUsdAmt05": 1252575.0,
+        "itemUsdAmt06": 1645263.0,
+        "itemUsdAmt07": 1880966.0,
+        "itemUsdAmt08": 749509.0,
+        "itemUsdAmt09": 865522.0,
+        "itemUsdAmt10": 716519.0
+      }
+    },
+    {
+      "month": "2024-03",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 13481826.0,
+        "itemUsdAmt01": 2750362.0,
+        "itemUsdAmt02": 915141.0,
+        "itemUsdAmt03": 1135906.0,
+        "itemUsdAmt04": 1010248.0,
+        "itemUsdAmt05": 387940.0,
+        "itemUsdAmt06": 787437.0,
+        "itemUsdAmt07": 472652.0,
+        "itemUsdAmt08": 204456.0,
+        "itemUsdAmt09": 233812.0,
+        "itemUsdAmt10": 179889.0
+      }
+    },
+    {
+      "month": "2024-03",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 34008930.0,
+        "itemUsdAmt01": 6335694.0,
+        "itemUsdAmt02": 2556703.0,
+        "itemUsdAmt03": 3181426.0,
+        "itemUsdAmt04": 2842956.0,
+        "itemUsdAmt05": 845137.0,
+        "itemUsdAmt06": 1237534.0,
+        "itemUsdAmt07": 1257285.0,
+        "itemUsdAmt08": 535580.0,
+        "itemUsdAmt09": 586117.0,
+        "itemUsdAmt10": 461653.0
+      }
+    },
+    {
+      "month": "2024-03",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 56518309.0,
+        "itemUsdAmt01": 11828220.0,
+        "itemUsdAmt02": 4088495.0,
+        "itemUsdAmt03": 5895260.0,
+        "itemUsdAmt04": 4684902.0,
+        "itemUsdAmt05": 1302894.0,
+        "itemUsdAmt06": 2010119.0,
+        "itemUsdAmt07": 1843098.0,
+        "itemUsdAmt08": 1023607.0,
+        "itemUsdAmt09": 913231.0,
+        "itemUsdAmt10": 737465.0
+      }
+    },
+    {
+      "month": "2024-04",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 16351815.0,
+        "itemUsdAmt01": 2572297.0,
+        "itemUsdAmt02": 1247392.0,
+        "itemUsdAmt03": 1640356.0,
+        "itemUsdAmt04": 1359830.0,
+        "itemUsdAmt05": 448641.0,
+        "itemUsdAmt06": 81586.0,
+        "itemUsdAmt07": 640044.0,
+        "itemUsdAmt08": 259251.0,
+        "itemUsdAmt09": 307619.0,
+        "itemUsdAmt10": 276639.0
+      }
+    },
+    {
+      "month": "2024-04",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 35745087.0,
+        "itemUsdAmt01": 5845510.0,
+        "itemUsdAmt02": 2644750.0,
+        "itemUsdAmt03": 3925128.0,
+        "itemUsdAmt04": 2825625.0,
+        "itemUsdAmt05": 919798.0,
+        "itemUsdAmt06": 1114562.0,
+        "itemUsdAmt07": 1226422.0,
+        "itemUsdAmt08": 574259.0,
+        "itemUsdAmt09": 609527.0,
+        "itemUsdAmt10": 534008.0
+      }
+    },
+    {
+      "month": "2024-04",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 56148299.0,
+        "itemUsdAmt01": 10098828.0,
+        "itemUsdAmt02": 4043924.0,
+        "itemUsdAmt03": 6571649.0,
+        "itemUsdAmt04": 4367812.0,
+        "itemUsdAmt05": 1319708.0,
+        "itemUsdAmt06": 1595345.0,
+        "itemUsdAmt07": 1865845.0,
+        "itemUsdAmt08": 896911.0,
+        "itemUsdAmt09": 942337.0,
+        "itemUsdAmt10": 807984.0
+      }
+    },
+    {
+      "month": "2024-05",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 16844225.0,
+        "itemUsdAmt01": 3000345.0,
+        "itemUsdAmt02": 1297926.0,
+        "itemUsdAmt03": 1461719.0,
+        "itemUsdAmt04": 1571089.0,
+        "itemUsdAmt05": 514744.0,
+        "itemUsdAmt06": 686723.0,
+        "itemUsdAmt07": 531534.0,
+        "itemUsdAmt08": 362018.0,
+        "itemUsdAmt09": 325464.0,
+        "itemUsdAmt10": 226564.0
+      }
+    },
+    {
+      "month": "2024-05",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 32744481.0,
+        "itemUsdAmt01": 6194388.0,
+        "itemUsdAmt02": 2404996.0,
+        "itemUsdAmt03": 3288392.0,
+        "itemUsdAmt04": 2924832.0,
+        "itemUsdAmt05": 937923.0,
+        "itemUsdAmt06": 1281921.0,
+        "itemUsdAmt07": 1008812.0,
+        "itemUsdAmt08": 642059.0,
+        "itemUsdAmt09": 535755.0,
+        "itemUsdAmt10": 441752.0
+      }
+    },
+    {
+      "month": "2024-05",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 58020557.0,
+        "itemUsdAmt01": 11548564.0,
+        "itemUsdAmt02": 4187795.0,
+        "itemUsdAmt03": 6292123.0,
+        "itemUsdAmt04": 4555694.0,
+        "itemUsdAmt05": 1557773.0,
+        "itemUsdAmt06": 2048236.0,
+        "itemUsdAmt07": 1749614.0,
+        "itemUsdAmt08": 1183022.0,
+        "itemUsdAmt09": 956457.0,
+        "itemUsdAmt10": 747199.0
+      }
+    },
+    {
+      "month": "2024-06",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 14683823.0,
+        "itemUsdAmt01": 2974252.0,
+        "itemUsdAmt02": 980464.0,
+        "itemUsdAmt03": 1199200.0,
+        "itemUsdAmt04": 1395778.0,
+        "itemUsdAmt05": 518259.0,
+        "itemUsdAmt06": 725916.0,
+        "itemUsdAmt07": 432335.0,
+        "itemUsdAmt08": 186584.0,
+        "itemUsdAmt09": 225111.0,
+        "itemUsdAmt10": 202936.0
+      }
+    },
+    {
+      "month": "2024-06",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 35696916.0,
+        "itemUsdAmt01": 7274456.0,
+        "itemUsdAmt02": 2451977.0,
+        "itemUsdAmt03": 3349374.0,
+        "itemUsdAmt04": 2567126.0,
+        "itemUsdAmt05": 1074610.0,
+        "itemUsdAmt06": 1066905.0,
+        "itemUsdAmt07": 1160835.0,
+        "itemUsdAmt08": 588047.0,
+        "itemUsdAmt09": 566999.0,
+        "itemUsdAmt10": 480657.0
+      }
+    },
+    {
+      "month": "2024-06",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 57341634.0,
+        "itemUsdAmt01": 13617989.0,
+        "itemUsdAmt02": 3802935.0,
+        "itemUsdAmt03": 6018509.0,
+        "itemUsdAmt04": 3721189.0,
+        "itemUsdAmt05": 1570229.0,
+        "itemUsdAmt06": 1412705.0,
+        "itemUsdAmt07": 1685582.0,
+        "itemUsdAmt08": 1286149.0,
+        "itemUsdAmt09": 865675.0,
+        "itemUsdAmt10": 717811.0
+      }
+    },
+    {
+      "month": "2024-07",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 17723084.0,
+        "itemUsdAmt01": 3392657.0,
+        "itemUsdAmt02": 1245727.0,
+        "itemUsdAmt03": 1589141.0,
+        "itemUsdAmt04": 1424865.0,
+        "itemUsdAmt05": 476568.0,
+        "itemUsdAmt06": 378636.0,
+        "itemUsdAmt07": 686209.0,
+        "itemUsdAmt08": 250712.0,
+        "itemUsdAmt09": 271316.0,
+        "itemUsdAmt10": 252465.0
+      }
+    },
+    {
+      "month": "2024-07",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 36881422.0,
+        "itemUsdAmt01": 6774622.0,
+        "itemUsdAmt02": 2642261.0,
+        "itemUsdAmt03": 3491826.0,
+        "itemUsdAmt04": 3050268.0,
+        "itemUsdAmt05": 973634.0,
+        "itemUsdAmt06": 527921.0,
+        "itemUsdAmt07": 1271812.0,
+        "itemUsdAmt08": 667075.0,
+        "itemUsdAmt09": 563224.0,
+        "itemUsdAmt10": 506242.0
+      }
+    },
+    {
+      "month": "2024-07",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 57458788.0,
+        "itemUsdAmt01": 11413079.0,
+        "itemUsdAmt02": 4164877.0,
+        "itemUsdAmt03": 5168203.0,
+        "itemUsdAmt04": 4521513.0,
+        "itemUsdAmt05": 1489947.0,
+        "itemUsdAmt06": 988217.0,
+        "itemUsdAmt07": 1995921.0,
+        "itemUsdAmt08": 1340198.0,
+        "itemUsdAmt09": 872338.0,
+        "itemUsdAmt10": 802783.0
+      }
+    },
+    {
+      "month": "2024-08",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 15369466.0,
+        "itemUsdAmt01": 3478623.0,
+        "itemUsdAmt02": 1063847.0,
+        "itemUsdAmt03": 875451.0,
+        "itemUsdAmt04": 1517540.0,
+        "itemUsdAmt05": 542079.0,
+        "itemUsdAmt06": 619461.0,
+        "itemUsdAmt07": 403559.0,
+        "itemUsdAmt08": 300838.0,
+        "itemUsdAmt09": 244633.0,
+        "itemUsdAmt10": 216615.0
+      }
+    },
+    {
+      "month": "2024-08",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 33003156.0,
+        "itemUsdAmt01": 6726551.0,
+        "itemUsdAmt02": 2286044.0,
+        "itemUsdAmt03": 2278060.0,
+        "itemUsdAmt04": 2863981.0,
+        "itemUsdAmt05": 1125303.0,
+        "itemUsdAmt06": 1790615.0,
+        "itemUsdAmt07": 1029232.0,
+        "itemUsdAmt08": 670859.0,
+        "itemUsdAmt09": 513996.0,
+        "itemUsdAmt10": 390489.0
+      }
+    },
+    {
+      "month": "2024-08",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 57642924.0,
+        "itemUsdAmt01": 12061638.0,
+        "itemUsdAmt02": 4035867.0,
+        "itemUsdAmt03": 4876018.0,
+        "itemUsdAmt04": 4416588.0,
+        "itemUsdAmt05": 1784600.0,
+        "itemUsdAmt06": 2730852.0,
+        "itemUsdAmt07": 1775009.0,
+        "itemUsdAmt08": 1640029.0,
+        "itemUsdAmt09": 914610.0,
+        "itemUsdAmt10": 675842.0
+      }
+    },
+    {
+      "month": "2024-09",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 18470294.0,
+        "itemUsdAmt01": 3469509.0,
+        "itemUsdAmt02": 1271192.0,
+        "itemUsdAmt03": 1582684.0,
+        "itemUsdAmt04": 1487601.0,
+        "itemUsdAmt05": 634417.0,
+        "itemUsdAmt06": 579392.0,
+        "itemUsdAmt07": 643234.0,
+        "itemUsdAmt08": 314928.0,
+        "itemUsdAmt09": 326225.0,
+        "itemUsdAmt10": 222775.0
+      }
+    },
+    {
+      "month": "2024-09",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 35354624.0,
+        "itemUsdAmt01": 7472921.0,
+        "itemUsdAmt02": 2362523.0,
+        "itemUsdAmt03": 2975256.0,
+        "itemUsdAmt04": 2804007.0,
+        "itemUsdAmt05": 1210188.0,
+        "itemUsdAmt06": 1029714.0,
+        "itemUsdAmt07": 1127614.0,
+        "itemUsdAmt08": 763757.0,
+        "itemUsdAmt09": 610698.0,
+        "itemUsdAmt10": 400679.0
+      }
+    },
+    {
+      "month": "2024-09",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 58544693.0,
+        "itemUsdAmt01": 13751072.0,
+        "itemUsdAmt02": 3908378.0,
+        "itemUsdAmt03": 5302123.0,
+        "itemUsdAmt04": 4038055.0,
+        "itemUsdAmt05": 1750910.0,
+        "itemUsdAmt06": 2237197.0,
+        "itemUsdAmt07": 1742391.0,
+        "itemUsdAmt08": 1681512.0,
+        "itemUsdAmt09": 988484.0,
+        "itemUsdAmt10": 601200.0
+      }
+    },
+    {
+      "month": "2024-10",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 15298567.0,
+        "itemUsdAmt01": 3064714.0,
+        "itemUsdAmt02": 1070140.0,
+        "itemUsdAmt03": 1380222.0,
+        "itemUsdAmt04": 1142189.0,
+        "itemUsdAmt05": 515318.0,
+        "itemUsdAmt06": 907010.0,
+        "itemUsdAmt07": 512435.0,
+        "itemUsdAmt08": 197305.0,
+        "itemUsdAmt09": 264330.0,
+        "itemUsdAmt10": 187531.0
+      }
+    },
+    {
+      "month": "2024-10",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 32711578.0,
+        "itemUsdAmt01": 7097664.0,
+        "itemUsdAmt02": 2238009.0,
+        "itemUsdAmt03": 3184806.0,
+        "itemUsdAmt04": 2112065.0,
+        "itemUsdAmt05": 1070089.0,
+        "itemUsdAmt06": 1359068.0,
+        "itemUsdAmt07": 1024100.0,
+        "itemUsdAmt08": 509724.0,
+        "itemUsdAmt09": 548267.0,
+        "itemUsdAmt10": 367237.0
+      }
+    },
+    {
+      "month": "2024-10",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 57500192.0,
+        "itemUsdAmt01": 12670057.0,
+        "itemUsdAmt02": 4074297.0,
+        "itemUsdAmt03": 6004017.0,
+        "itemUsdAmt04": 3434887.0,
+        "itemUsdAmt05": 1691457.0,
+        "itemUsdAmt06": 1958620.0,
+        "itemUsdAmt07": 1814224.0,
+        "itemUsdAmt08": 1095272.0,
+        "itemUsdAmt09": 981203.0,
+        "itemUsdAmt10": 653883.0
+      }
+    },
+    {
+      "month": "2024-11",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 14872900.0,
+        "itemUsdAmt01": 3279955.0,
+        "itemUsdAmt02": 1009766.0,
+        "itemUsdAmt03": 1326421.0,
+        "itemUsdAmt04": 1152318.0,
+        "itemUsdAmt05": 590161.0,
+        "itemUsdAmt06": 601506.0,
+        "itemUsdAmt07": 454584.0,
+        "itemUsdAmt08": 253148.0,
+        "itemUsdAmt09": 259190.0,
+        "itemUsdAmt10": 160786.0
+      }
+    },
+    {
+      "month": "2024-11",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 35559900.0,
+        "itemUsdAmt01": 7711150.0,
+        "itemUsdAmt02": 2480112.0,
+        "itemUsdAmt03": 3096549.0,
+        "itemUsdAmt04": 2656318.0,
+        "itemUsdAmt05": 1199964.0,
+        "itemUsdAmt06": 1128325.0,
+        "itemUsdAmt07": 1136715.0,
+        "itemUsdAmt08": 737302.0,
+        "itemUsdAmt09": 594781.0,
+        "itemUsdAmt10": 355286.0
+      }
+    },
+    {
+      "month": "2024-11",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 56288629.0,
+        "itemUsdAmt01": 12578985.0,
+        "itemUsdAmt02": 3872988.0,
+        "itemUsdAmt03": 5449951.0,
+        "itemUsdAmt04": 3694379.0,
+        "itemUsdAmt05": 1638511.0,
+        "itemUsdAmt06": 2435682.0,
+        "itemUsdAmt07": 1694134.0,
+        "itemUsdAmt08": 1490034.0,
+        "itemUsdAmt09": 932883.0,
+        "itemUsdAmt10": 566892.0
+      }
+    },
+    {
+      "month": "2024-12",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 17541285.0,
+        "itemUsdAmt01": 3613270.0,
+        "itemUsdAmt02": 1175688.0,
+        "itemUsdAmt03": 1444340.0,
+        "itemUsdAmt04": 1229316.0,
+        "itemUsdAmt05": 505990.0,
+        "itemUsdAmt06": 1083986.0,
+        "itemUsdAmt07": 570762.0,
+        "itemUsdAmt08": 291192.0,
+        "itemUsdAmt09": 296492.0,
+        "itemUsdAmt10": 196808.0
+      }
+    },
+    {
+      "month": "2024-12",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 40285842.0,
+        "itemUsdAmt01": 8211201.0,
+        "itemUsdAmt02": 2787902.0,
+        "itemUsdAmt03": 3726732.0,
+        "itemUsdAmt04": 2661446.0,
+        "itemUsdAmt05": 1028518.0,
+        "itemUsdAmt06": 1867912.0,
+        "itemUsdAmt07": 1240474.0,
+        "itemUsdAmt08": 809087.0,
+        "itemUsdAmt09": 700002.0,
+        "itemUsdAmt10": 477061.0
+      }
+    },
+    {
+      "month": "2024-12",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 61359250.0,
+        "itemUsdAmt01": 14619210.0,
+        "itemUsdAmt02": 4093382.0,
+        "itemUsdAmt03": 5833631.0,
+        "itemUsdAmt04": 4000311.0,
+        "itemUsdAmt05": 1319215.0,
+        "itemUsdAmt06": 2981019.0,
+        "itemUsdAmt07": 1803834.0,
+        "itemUsdAmt08": 1639594.0,
+        "itemUsdAmt09": 976061.0,
+        "itemUsdAmt10": 606962.0
+      }
+    },
+    {
+      "month": "2025-01",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 15918926.0,
+        "itemUsdAmt01": 3183772.0,
+        "itemUsdAmt02": 1200349.0,
+        "itemUsdAmt03": 1352570.0,
+        "itemUsdAmt04": 883329.0,
+        "itemUsdAmt05": 335369.0,
+        "itemUsdAmt06": 1056787.0,
+        "itemUsdAmt07": 474471.0,
+        "itemUsdAmt08": 203270.0,
+        "itemUsdAmt09": 272982.0,
+        "itemUsdAmt10": 200275.0
+      }
+    },
+    {
+      "month": "2025-01",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 31633210.0,
+        "itemUsdAmt01": 6307186.0,
+        "itemUsdAmt02": 2388604.0,
+        "itemUsdAmt03": 3213179.0,
+        "itemUsdAmt04": 2092175.0,
+        "itemUsdAmt05": 707985.0,
+        "itemUsdAmt06": 1621617.0,
+        "itemUsdAmt07": 985609.0,
+        "itemUsdAmt08": 456252.0,
+        "itemUsdAmt09": 518310.0,
+        "itemUsdAmt10": 404078.0
+      }
+    },
+    {
+      "month": "2025-01",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 49176984.0,
+        "itemUsdAmt01": 10218918.0,
+        "itemUsdAmt02": 3731804.0,
+        "itemUsdAmt03": 4828883.0,
+        "itemUsdAmt04": 3480879.0,
+        "itemUsdAmt05": 1008827.0,
+        "itemUsdAmt06": 2396385.0,
+        "itemUsdAmt07": 1515262.0,
+        "itemUsdAmt08": 931936.0,
+        "itemUsdAmt09": 756434.0,
+        "itemUsdAmt10": 564601.0
+      }
+    },
+    {
+      "month": "2025-02",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 14811188.0,
+        "itemUsdAmt01": 2832428.0,
+        "itemUsdAmt02": 947107.0,
+        "itemUsdAmt03": 1384207.0,
+        "itemUsdAmt04": 1086454.0,
+        "itemUsdAmt05": 446569.0,
+        "itemUsdAmt06": 934921.0,
+        "itemUsdAmt07": 457219.0,
+        "itemUsdAmt08": 242978.0,
+        "itemUsdAmt09": 270530.0,
+        "itemUsdAmt10": 149065.0
+      }
+    },
+    {
+      "month": "2025-02",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 35228231.0,
+        "itemUsdAmt01": 6455746.0,
+        "itemUsdAmt02": 2486991.0,
+        "itemUsdAmt03": 3604913.0,
+        "itemUsdAmt04": 2624725.0,
+        "itemUsdAmt05": 839548.0,
+        "itemUsdAmt06": 1058665.0,
+        "itemUsdAmt07": 1223908.0,
+        "itemUsdAmt08": 585809.0,
+        "itemUsdAmt09": 648037.0,
+        "itemUsdAmt10": 388397.0
+      }
+    },
+    {
+      "month": "2025-02",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 52292301.0,
+        "itemUsdAmt01": 9795611.0,
+        "itemUsdAmt02": 3778184.0,
+        "itemUsdAmt03": 5848945.0,
+        "itemUsdAmt04": 3908568.0,
+        "itemUsdAmt05": 1145297.0,
+        "itemUsdAmt06": 1472970.0,
+        "itemUsdAmt07": 1808863.0,
+        "itemUsdAmt08": 963189.0,
+        "itemUsdAmt09": 934408.0,
+        "itemUsdAmt10": 603499.0
+      }
+    },
+    {
+      "month": "2025-03",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 13798090.0,
+        "itemUsdAmt01": 2750586.0,
+        "itemUsdAmt02": 833473.0,
+        "itemUsdAmt03": 1205666.0,
+        "itemUsdAmt04": 987011.0,
+        "itemUsdAmt05": 451641.0,
+        "itemUsdAmt06": 1222229.0,
+        "itemUsdAmt07": 436837.0,
+        "itemUsdAmt08": 173185.0,
+        "itemUsdAmt09": 216006.0,
+        "itemUsdAmt10": 146652.0
+      }
+    },
+    {
+      "month": "2025-03",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 35436582.0,
+        "itemUsdAmt01": 7070184.0,
+        "itemUsdAmt02": 2274120.0,
+        "itemUsdAmt03": 3297757.0,
+        "itemUsdAmt04": 2114983.0,
+        "itemUsdAmt05": 946188.0,
+        "itemUsdAmt06": 2227638.0,
+        "itemUsdAmt07": 1182877.0,
+        "itemUsdAmt08": 603470.0,
+        "itemUsdAmt09": 583409.0,
+        "itemUsdAmt10": 355099.0
+      }
+    },
+    {
+      "month": "2025-03",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 58064562.0,
+        "itemUsdAmt01": 13196760.0,
+        "itemUsdAmt02": 3874596.0,
+        "itemUsdAmt03": 6011597.0,
+        "itemUsdAmt04": 3324448.0,
+        "itemUsdAmt05": 1392090.0,
+        "itemUsdAmt06": 3062292.0,
+        "itemUsdAmt07": 1793278.0,
+        "itemUsdAmt08": 1348200.0,
+        "itemUsdAmt09": 900999.0,
+        "itemUsdAmt10": 567422.0
+      }
+    },
+    {
+      "month": "2025-04",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 18444823.0,
+        "itemUsdAmt01": 3394493.0,
+        "itemUsdAmt02": 1298966.0,
+        "itemUsdAmt03": 1830140.0,
+        "itemUsdAmt04": 1264689.0,
+        "itemUsdAmt05": 490722.0,
+        "itemUsdAmt06": 643529.0,
+        "itemUsdAmt07": 706082.0,
+        "itemUsdAmt08": 222733.0,
+        "itemUsdAmt09": 323956.0,
+        "itemUsdAmt10": 214993.0
+      }
+    },
+    {
+      "month": "2025-04",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 33718845.0,
+        "itemUsdAmt01": 6471961.0,
+        "itemUsdAmt02": 2404359.0,
+        "itemUsdAmt03": 3662348.0,
+        "itemUsdAmt04": 2146809.0,
+        "itemUsdAmt05": 914781.0,
+        "itemUsdAmt06": 1008645.0,
+        "itemUsdAmt07": 1203792.0,
+        "itemUsdAmt08": 440859.0,
+        "itemUsdAmt09": 573607.0,
+        "itemUsdAmt10": 374316.0
+      }
+    },
+    {
+      "month": "2025-04",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 58035745.0,
+        "itemUsdAmt01": 11803393.0,
+        "itemUsdAmt02": 4360393.0,
+        "itemUsdAmt03": 6298092.0,
+        "itemUsdAmt04": 3696099.0,
+        "itemUsdAmt05": 1402528.0,
+        "itemUsdAmt06": 1845260.0,
+        "itemUsdAmt07": 1963757.0,
+        "itemUsdAmt08": 829446.0,
+        "itemUsdAmt09": 942102.0,
+        "itemUsdAmt10": 659422.0
+      }
+    },
+    {
+      "month": "2025-05",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 12824191.0,
+        "itemUsdAmt01": 3417924.0,
+        "itemUsdAmt02": 761170.0,
+        "itemUsdAmt03": 1121561.0,
+        "itemUsdAmt04": 995574.0,
+        "itemUsdAmt05": 396598.0,
+        "itemUsdAmt06": 632597.0,
+        "itemUsdAmt07": 304651.0,
+        "itemUsdAmt08": 236742.0,
+        "itemUsdAmt09": 198223.0,
+        "itemUsdAmt10": 119640.0
+      }
+    },
+    {
+      "month": "2025-05",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 31953120.0,
+        "itemUsdAmt01": 7265549.0,
+        "itemUsdAmt02": 2115130.0,
+        "itemUsdAmt03": 3077966.0,
+        "itemUsdAmt04": 2212067.0,
+        "itemUsdAmt05": 881997.0,
+        "itemUsdAmt06": 1289371.0,
+        "itemUsdAmt07": 901198.0,
+        "itemUsdAmt08": 604528.0,
+        "itemUsdAmt09": 520396.0,
+        "itemUsdAmt10": 353986.0
+      }
+    },
+    {
+      "month": "2025-05",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 57261063.0,
+        "itemUsdAmt01": 13929723.0,
+        "itemUsdAmt02": 3789307.0,
+        "itemUsdAmt03": 5939575.0,
+        "itemUsdAmt04": 3646694.0,
+        "itemUsdAmt05": 1388196.0,
+        "itemUsdAmt06": 2166226.0,
+        "itemUsdAmt07": 1602541.0,
+        "itemUsdAmt08": 1244659.0,
+        "itemUsdAmt09": 861826.0,
+        "itemUsdAmt10": 591566.0
+      }
+    },
+    {
+      "month": "2025-06",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 15400571.0,
+        "itemUsdAmt01": 3619434.0,
+        "itemUsdAmt02": 945477.0,
+        "itemUsdAmt03": 1294923.0,
+        "itemUsdAmt04": 1146079.0,
+        "itemUsdAmt05": 294700.0,
+        "itemUsdAmt06": 892638.0,
+        "itemUsdAmt07": 484126.0,
+        "itemUsdAmt08": 258238.0,
+        "itemUsdAmt09": 227935.0,
+        "itemUsdAmt10": 141520.0
+      }
+    },
+    {
+      "month": "2025-06",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 38659030.0,
+        "itemUsdAmt01": 8846348.0,
+        "itemUsdAmt02": 2484227.0,
+        "itemUsdAmt03": 3653575.0,
+        "itemUsdAmt04": 2644141.0,
+        "itemUsdAmt05": 718611.0,
+        "itemUsdAmt06": 1583188.0,
+        "itemUsdAmt07": 1221088.0,
+        "itemUsdAmt08": 779684.0,
+        "itemUsdAmt09": 586333.0,
+        "itemUsdAmt10": 354543.0
+      }
+    },
+    {
+      "month": "2025-06",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 59833797.0,
+        "itemUsdAmt01": 15138595.0,
+        "itemUsdAmt02": 3694192.0,
+        "itemUsdAmt03": 5995652.0,
+        "itemUsdAmt04": 3785438.0,
+        "itemUsdAmt05": 981636.0,
+        "itemUsdAmt06": 2332840.0,
+        "itemUsdAmt07": 1715525.0,
+        "itemUsdAmt08": 1459274.0,
+        "itemUsdAmt09": 889037.0,
+        "itemUsdAmt10": 544959.0
+      }
+    },
+    {
+      "month": "2025-07",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 19385119.0,
+        "itemUsdAmt01": 3824839.0,
+        "itemUsdAmt02": 1296503.0,
+        "itemUsdAmt03": 1796507.0,
+        "itemUsdAmt04": 1427336.0,
+        "itemUsdAmt05": 407667.0,
+        "itemUsdAmt06": 881731.0,
+        "itemUsdAmt07": 699035.0,
+        "itemUsdAmt08": 283786.0,
+        "itemUsdAmt09": 294732.0,
+        "itemUsdAmt10": 202251.0
+      }
+    },
+    {
+      "month": "2025-07",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 36058354.0,
+        "itemUsdAmt01": 7880336.0,
+        "itemUsdAmt02": 2382438.0,
+        "itemUsdAmt03": 3626578.0,
+        "itemUsdAmt04": 2557351.0,
+        "itemUsdAmt05": 805963.0,
+        "itemUsdAmt06": 1432700.0,
+        "itemUsdAmt07": 1163635.0,
+        "itemUsdAmt08": 614378.0,
+        "itemUsdAmt09": 527081.0,
+        "itemUsdAmt10": 400268.0
+      }
+    },
+    {
+      "month": "2025-07",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 60724322.0,
+        "itemUsdAmt01": 14900808.0,
+        "itemUsdAmt02": 4188696.0,
+        "itemUsdAmt03": 5492658.0,
+        "itemUsdAmt04": 4271110.0,
+        "itemUsdAmt05": 1356219.0,
+        "itemUsdAmt06": 2115617.0,
+        "itemUsdAmt07": 1825083.0,
+        "itemUsdAmt08": 1112993.0,
+        "itemUsdAmt09": 893140.0,
+        "itemUsdAmt10": 702744.0
+      }
+    },
+    {
+      "month": "2025-08",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 14646230.0,
+        "itemUsdAmt01": 3896567.0,
+        "itemUsdAmt02": 863210.0,
+        "itemUsdAmt03": 948921.0,
+        "itemUsdAmt04": 1208499.0,
+        "itemUsdAmt05": 517507.0,
+        "itemUsdAmt06": 1125793.0,
+        "itemUsdAmt07": 350911.0,
+        "itemUsdAmt08": 245274.0,
+        "itemUsdAmt09": 222673.0,
+        "itemUsdAmt10": 124222.0
+      }
+    },
+    {
+      "month": "2025-08",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 35394043.0,
+        "itemUsdAmt01": 8712461.0,
+        "itemUsdAmt02": 2180914.0,
+        "itemUsdAmt03": 2769818.0,
+        "itemUsdAmt04": 2710881.0,
+        "itemUsdAmt05": 995037.0,
+        "itemUsdAmt06": 2313910.0,
+        "itemUsdAmt07": 996067.0,
+        "itemUsdAmt08": 665826.0,
+        "itemUsdAmt09": 522878.0,
+        "itemUsdAmt10": 317711.0
+      }
+    },
+    {
+      "month": "2025-08",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 58259332.0,
+        "itemUsdAmt01": 15299467.0,
+        "itemUsdAmt02": 3560149.0,
+        "itemUsdAmt03": 5212759.0,
+        "itemUsdAmt04": 4173194.0,
+        "itemUsdAmt05": 1588463.0,
+        "itemUsdAmt06": 2978223.0,
+        "itemUsdAmt07": 1582444.0,
+        "itemUsdAmt08": 1373278.0,
+        "itemUsdAmt09": 874037.0,
+        "itemUsdAmt10": 514282.0
+      }
+    },
+    {
+      "month": "2025-09",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 19154390.0,
+        "itemUsdAmt01": 4453532.0,
+        "itemUsdAmt02": 1235279.0,
+        "itemUsdAmt03": 1552382.0,
+        "itemUsdAmt04": 1191055.0,
+        "itemUsdAmt05": 597549.0,
+        "itemUsdAmt06": 896530.0,
+        "itemUsdAmt07": 655774.0,
+        "itemUsdAmt08": 328598.0,
+        "itemUsdAmt09": 358328.0,
+        "itemUsdAmt10": 198831.0
+      }
+    },
+    {
+      "month": "2025-09",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 40050000.0,
+        "itemUsdAmt01": 9495449.0,
+        "itemUsdAmt02": 2511412.0,
+        "itemUsdAmt03": 3418359.0,
+        "itemUsdAmt04": 2714051.0,
+        "itemUsdAmt05": 1250165.0,
+        "itemUsdAmt06": 1501289.0,
+        "itemUsdAmt07": 1209270.0,
+        "itemUsdAmt08": 810182.0,
+        "itemUsdAmt09": 683501.0,
+        "itemUsdAmt10": 405054.0
+      }
+    },
+    {
+      "month": "2025-09",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 65904118.0,
+        "itemUsdAmt01": 16793796.0,
+        "itemUsdAmt02": 4010790.0,
+        "itemUsdAmt03": 6042273.0,
+        "itemUsdAmt04": 4241471.0,
+        "itemUsdAmt05": 1843236.0,
+        "itemUsdAmt06": 2770339.0,
+        "itemUsdAmt07": 1826428.0,
+        "itemUsdAmt08": 1451348.0,
+        "itemUsdAmt09": 1070757.0,
+        "itemUsdAmt10": 628772.0
+      }
+    },
+    {
+      "month": "2025-10",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 12925797.0,
+        "itemUsdAmt01": 4502158.0,
+        "itemUsdAmt02": 726572.0,
+        "itemUsdAmt03": 664405.0,
+        "itemUsdAmt04": 1207142.0,
+        "itemUsdAmt05": 366146.0,
+        "itemUsdAmt06": 787768.0,
+        "itemUsdAmt07": 260805.0,
+        "itemUsdAmt08": 163100.0,
+        "itemUsdAmt09": 152855.0,
+        "itemUsdAmt10": 89146.0
+      }
+    },
+    {
+      "month": "2025-10",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 30003320.0,
+        "itemUsdAmt01": 8532873.0,
+        "itemUsdAmt02": 1814795.0,
+        "itemUsdAmt03": 2383057.0,
+        "itemUsdAmt04": 2346221.0,
+        "itemUsdAmt05": 880195.0,
+        "itemUsdAmt06": 1516205.0,
+        "itemUsdAmt07": 701779.0,
+        "itemUsdAmt08": 464097.0,
+        "itemUsdAmt09": 416475.0,
+        "itemUsdAmt10": 267555.0
+      }
+    },
+    {
+      "month": "2025-10",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 59511578.0,
+        "itemUsdAmt01": 15861970.0,
+        "itemUsdAmt02": 3497302.0,
+        "itemUsdAmt03": 5246367.0,
+        "itemUsdAmt04": 3871514.0,
+        "itemUsdAmt05": 1544872.0,
+        "itemUsdAmt06": 4621065.0,
+        "itemUsdAmt07": 1432872.0,
+        "itemUsdAmt08": 1133567.0,
+        "itemUsdAmt09": 845434.0,
+        "itemUsdAmt10": 511663.0
+      }
+    },
+    {
+      "month": "2025-11",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 15794269.0,
+        "itemUsdAmt01": 3857254.0,
+        "itemUsdAmt02": 863811.0,
+        "itemUsdAmt03": 1541069.0,
+        "itemUsdAmt04": 1002173.0,
+        "itemUsdAmt05": 465312.0,
+        "itemUsdAmt06": 655543.0,
+        "itemUsdAmt07": 421667.0,
+        "itemUsdAmt08": 309735.0,
+        "itemUsdAmt09": 245204.0,
+        "itemUsdAmt10": 147176.0
+      }
+    },
+    {
+      "month": "2025-11",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 38419340.0,
+        "itemUsdAmt01": 9752081.0,
+        "itemUsdAmt02": 2249573.0,
+        "itemUsdAmt03": 3803397.0,
+        "itemUsdAmt04": 2150055.0,
+        "itemUsdAmt05": 1022831.0,
+        "itemUsdAmt06": 1158010.0,
+        "itemUsdAmt07": 1043984.0,
+        "itemUsdAmt08": 851386.0,
+        "itemUsdAmt09": 614705.0,
+        "itemUsdAmt10": 338673.0
+      }
+    },
+    {
+      "month": "2025-11",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 60752618.0,
+        "itemUsdAmt01": 17442597.0,
+        "itemUsdAmt02": 3480452.0,
+        "itemUsdAmt03": 6043663.0,
+        "itemUsdAmt04": 3313953.0,
+        "itemUsdAmt05": 1538658.0,
+        "itemUsdAmt06": 1726991.0,
+        "itemUsdAmt07": 1477229.0,
+        "itemUsdAmt08": 1530127.0,
+        "itemUsdAmt09": 925587.0,
+        "itemUsdAmt10": 495173.0
+      }
+    },
+    {
+      "month": "2025-12",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 20539795.0,
+        "itemUsdAmt01": 5271795.0,
+        "itemUsdAmt02": 1198581.0,
+        "itemUsdAmt03": 1358660.0,
+        "itemUsdAmt04": 1489405.0,
+        "itemUsdAmt05": 632941.0,
+        "itemUsdAmt06": 562190.0,
+        "itemUsdAmt07": 575305.0,
+        "itemUsdAmt08": 481667.0,
+        "itemUsdAmt09": 361743.0,
+        "itemUsdAmt10": 184333.0
+      }
+    },
+    {
+      "month": "2025-12",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 42971602.0,
+        "itemUsdAmt01": 11645487.0,
+        "itemUsdAmt02": 2572088.0,
+        "itemUsdAmt03": 3250935.0,
+        "itemUsdAmt04": 2593436.0,
+        "itemUsdAmt05": 1211443.0,
+        "itemUsdAmt06": 1460197.0,
+        "itemUsdAmt07": 1176743.0,
+        "itemUsdAmt08": 1203954.0,
+        "itemUsdAmt09": 756296.0,
+        "itemUsdAmt10": 399382.0
+      }
+    },
+    {
+      "month": "2025-12",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 69513624.0,
+        "itemUsdAmt01": 20917832.0,
+        "itemUsdAmt02": 4021349.0,
+        "itemUsdAmt03": 5587815.0,
+        "itemUsdAmt04": 4216318.0,
+        "itemUsdAmt05": 1636225.0,
+        "itemUsdAmt06": 2890840.0,
+        "itemUsdAmt07": 1730319.0,
+        "itemUsdAmt08": 2179775.0,
+        "itemUsdAmt09": 1079049.0,
+        "itemUsdAmt10": 557783.0
+      }
+    },
+    {
+      "month": "2026-01",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 15573445.0,
+        "itemUsdAmt01": 4636494.0,
+        "itemUsdAmt02": 977304.0,
+        "itemUsdAmt03": 1017252.0,
+        "itemUsdAmt04": 1020393.0,
+        "itemUsdAmt05": 450083.0,
+        "itemUsdAmt06": 918516.0,
+        "itemUsdAmt07": 381917.0,
+        "itemUsdAmt08": 256207.0,
+        "itemUsdAmt09": 239476.0,
+        "itemUsdAmt10": 99953.0
+      }
+    },
+    {
+      "month": "2026-01",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 36346976.0,
+        "itemUsdAmt01": 10731562.0,
+        "itemUsdAmt02": 2416409.0,
+        "itemUsdAmt03": 2862928.0,
+        "itemUsdAmt04": 2486005.0,
+        "itemUsdAmt05": 1044513.0,
+        "itemUsdAmt06": 1324470.0,
+        "itemUsdAmt07": 869099.0,
+        "itemUsdAmt08": 640814.0,
+        "itemUsdAmt09": 524092.0,
+        "itemUsdAmt10": 277168.0
+      }
+    },
+    {
+      "month": "2026-01",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 65843485.0,
+        "itemUsdAmt01": 20687759.0,
+        "itemUsdAmt02": 4072163.0,
+        "itemUsdAmt03": 5743616.0,
+        "itemUsdAmt04": 3796655.0,
+        "itemUsdAmt05": 1913420.0,
+        "itemUsdAmt06": 2360600.0,
+        "itemUsdAmt07": 1541585.0,
+        "itemUsdAmt08": 1696075.0,
+        "itemUsdAmt09": 884597.0,
+        "itemUsdAmt10": 560987.0
+      }
+    },
+    {
+      "month": "2026-02",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 21402103.0,
+        "itemUsdAmt01": 6728639.0,
+        "itemUsdAmt02": 1226089.0,
+        "itemUsdAmt03": 1347327.0,
+        "itemUsdAmt04": 1562550.0,
+        "itemUsdAmt05": 570604.0,
+        "itemUsdAmt06": 665638.0,
+        "itemUsdAmt07": 519788.0,
+        "itemUsdAmt08": 462055.0,
+        "itemUsdAmt09": 290838.0,
+        "itemUsdAmt10": 202602.0
+      }
+    },
+    {
+      "month": "2026-02",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 43690692.0,
+        "itemUsdAmt01": 15110745.0,
+        "itemUsdAmt02": 2532078.0,
+        "itemUsdAmt03": 2643442.0,
+        "itemUsdAmt04": 3124380.0,
+        "itemUsdAmt05": 1030904.0,
+        "itemUsdAmt06": 1301485.0,
+        "itemUsdAmt07": 971224.0,
+        "itemUsdAmt08": 1345285.0,
+        "itemUsdAmt09": 523001.0,
+        "itemUsdAmt10": 372661.0
+      }
+    },
+    {
+      "month": "2026-02",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 67640029.0,
+        "itemUsdAmt01": 25254091.0,
+        "itemUsdAmt02": 3678487.0,
+        "itemUsdAmt03": 4503089.0,
+        "itemUsdAmt04": 4134731.0,
+        "itemUsdAmt05": 1403770.0,
+        "itemUsdAmt06": 2145152.0,
+        "itemUsdAmt07": 1368164.0,
+        "itemUsdAmt08": 2734202.0,
+        "itemUsdAmt09": 771341.0,
+        "itemUsdAmt10": 526282.0
+      }
+    },
+    {
+      "month": "2026-03",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 22047099.0,
+        "itemUsdAmt01": 7588184.0,
+        "itemUsdAmt02": 1088776.0,
+        "itemUsdAmt03": 1371429.0,
+        "itemUsdAmt04": 1978724.0,
+        "itemUsdAmt05": 454119.0,
+        "itemUsdAmt06": 465459.0,
+        "itemUsdAmt07": 489318.0,
+        "itemUsdAmt08": 815068.0,
+        "itemUsdAmt09": 266983.0,
+        "itemUsdAmt10": 167437.0
+      }
+    },
+    {
+      "month": "2026-03",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 54304485.0,
+        "itemUsdAmt01": 18657331.0,
+        "itemUsdAmt02": 2765818.0,
+        "itemUsdAmt03": 3658756.0,
+        "itemUsdAmt04": 4148072.0,
+        "itemUsdAmt05": 1068235.0,
+        "itemUsdAmt06": 2143259.0,
+        "itemUsdAmt07": 1182955.0,
+        "itemUsdAmt08": 2226086.0,
+        "itemUsdAmt09": 613171.0,
+        "itemUsdAmt10": 397359.0
+      }
+    },
+    {
+      "month": "2026-03",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 87363606.0,
+        "itemUsdAmt01": 32972545.0,
+        "itemUsdAmt02": 4108175.0,
+        "itemUsdAmt03": 6077528.0,
+        "itemUsdAmt04": 6314997.0,
+        "itemUsdAmt05": 1573396.0,
+        "itemUsdAmt06": 3413486.0,
+        "itemUsdAmt07": 1695084.0,
+        "itemUsdAmt08": 3602148.0,
+        "itemUsdAmt09": 942020.0,
+        "itemUsdAmt10": 620067.0
+      }
+    },
+    {
+      "month": "2026-04",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 25125632.0,
+        "itemUsdAmt01": 8572668.0,
+        "itemUsdAmt02": 1423854.0,
+        "itemUsdAmt03": 1706632.0,
+        "itemUsdAmt04": 1705644.0,
+        "itemUsdAmt05": 568770.0,
+        "itemUsdAmt06": 815043.0,
+        "itemUsdAmt07": 651723.0,
+        "itemUsdAmt08": 522693.0,
+        "itemUsdAmt09": 317628.0,
+        "itemUsdAmt10": 160339.0
+      }
+    },
+    {
+      "month": "2026-04",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 50256203.0,
+        "itemUsdAmt01": 18285235.0,
+        "itemUsdAmt02": 2587115.0,
+        "itemUsdAmt03": 3142524.0,
+        "itemUsdAmt04": 3121570.0,
+        "itemUsdAmt05": 1024594.0,
+        "itemUsdAmt06": 1773569.0,
+        "itemUsdAmt07": 1094770.0,
+        "itemUsdAmt08": 2197332.0,
+        "itemUsdAmt09": 544321.0,
+        "itemUsdAmt10": 313221.0
+      }
+    },
+    {
+      "month": "2026-04",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 85738054.0,
+        "itemUsdAmt01": 32037737.0,
+        "itemUsdAmt02": 4322512.0,
+        "itemUsdAmt03": 5841473.0,
+        "itemUsdAmt04": 5054233.0,
+        "itemUsdAmt05": 1479311.0,
+        "itemUsdAmt06": 2772718.0,
+        "itemUsdAmt07": 1792982.0,
+        "itemUsdAmt08": 4238219.0,
+        "itemUsdAmt09": 920435.0,
+        "itemUsdAmt10": 539174.0
+      }
+    },
+    {
+      "month": "2026-05",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 17939261.0,
+        "itemUsdAmt01": 8538611.0,
+        "itemUsdAmt02": 745232.0,
+        "itemUsdAmt03": 828408.0,
+        "itemUsdAmt04": 1043907.0,
+        "itemUsdAmt05": 421845.0,
+        "itemUsdAmt06": 261824.0,
+        "itemUsdAmt07": 291715.0,
+        "itemUsdAmt08": 627103.0,
+        "itemUsdAmt09": 170361.0,
+        "itemUsdAmt10": 107909.0
+      }
+    },
+    {
+      "month": "2026-05",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 52496403.0,
+        "itemUsdAmt01": 21950844.0,
+        "itemUsdAmt02": 2417392.0,
+        "itemUsdAmt03": 2762669.0,
+        "itemUsdAmt04": 3267858.0,
+        "itemUsdAmt05": 982517.0,
+        "itemUsdAmt06": 1414852.0,
+        "itemUsdAmt07": 950949.0,
+        "itemUsdAmt08": 2449304.0,
+        "itemUsdAmt09": 532856.0,
+        "itemUsdAmt10": 331809.0
+      }
+    },
+    {
+      "month": "2026-05",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 87551332.0,
+        "itemUsdAmt01": 37286217.0,
+        "itemUsdAmt02": 4040910.0,
+        "itemUsdAmt03": 5480541.0,
+        "itemUsdAmt04": 5236115.0,
+        "itemUsdAmt05": 1502301.0,
+        "itemUsdAmt06": 2503536.0,
+        "itemUsdAmt07": 1477120.0,
+        "itemUsdAmt08": 4337692.0,
+        "itemUsdAmt09": 838603.0,
+        "itemUsdAmt10": 580186.0
+      }
+    },
+    {
+      "month": "2026-06",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 28479622.0,
+        "itemUsdAmt01": 11066419.0,
+        "itemUsdAmt02": 1308813.0,
+        "itemUsdAmt03": 1620203.0,
+        "itemUsdAmt04": 1851977.0,
+        "itemUsdAmt05": 448340.0,
+        "itemUsdAmt06": 1353827.0,
+        "itemUsdAmt07": 566279.0,
+        "itemUsdAmt08": 928331.0,
+        "itemUsdAmt09": 312275.0,
+        "itemUsdAmt10": 187696.0
+      }
+    },
+    {
+      "month": "2026-06",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 61723905.0,
+        "itemUsdAmt01": 25503655.0,
+        "itemUsdAmt02": 2800128.0,
+        "itemUsdAmt03": 3731099.0,
+        "itemUsdAmt04": 3517665.0,
+        "itemUsdAmt05": 1049249.0,
+        "itemUsdAmt06": 2211475.0,
+        "itemUsdAmt07": 1101870.0,
+        "itemUsdAmt08": 3065561.0,
+        "itemUsdAmt09": 622046.0,
+        "itemUsdAmt10": 411346.0
+      }
+    },
+    {
+      "month": "2026-06",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 101958320.0,
+        "itemUsdAmt01": 44942578.0,
+        "itemUsdAmt02": 4351145.0,
+        "itemUsdAmt03": 6355332.0,
+        "itemUsdAmt04": 5449956.0,
+        "itemUsdAmt05": 1576253.0,
+        "itemUsdAmt06": 2714944.0,
+        "itemUsdAmt07": 1652276.0,
+        "itemUsdAmt08": 5584325.0,
+        "itemUsdAmt09": 981884.0,
+        "itemUsdAmt10": 660503.0
+      }
+    },
+    {
+      "month": "2026-07",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 29959300.0,
+        "itemUsdAmt01": 11210210.0,
+        "itemUsdAmt02": 1463456.0,
+        "itemUsdAmt03": 1892126.0,
+        "itemUsdAmt04": 1909931.0,
+        "itemUsdAmt05": 784320.0,
+        "itemUsdAmt06": 1542354.0,
+        "itemUsdAmt07": 613285.0,
+        "itemUsdAmt08": 866247.0,
+        "itemUsdAmt09": 333129.0,
+        "itemUsdAmt10": 229862.0
+      }
+    },
+    {
+      "month": "2026-07",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 55213846.0,
+        "itemUsdAmt01": 22120057.0,
+        "itemUsdAmt02": 2647300.0,
+        "itemUsdAmt03": 3224611.0,
+        "itemUsdAmt04": 3728896.0,
+        "itemUsdAmt05": 1336736.0,
+        "itemUsdAmt06": 2448114.0,
+        "itemUsdAmt07": 1047632.0,
+        "itemUsdAmt08": 2031224.0,
+        "itemUsdAmt09": 554172.0,
+        "itemUsdAmt10": 424005.0
+      }
+    },
+    {
+      "month": "2026-07",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 99204917.0,
+        "itemUsdAmt01": 41173391.0,
+        "itemUsdAmt02": 4671251.0,
+        "itemUsdAmt03": 5934820.0,
+        "itemUsdAmt04": 6142490.0,
+        "itemUsdAmt05": 2051111.0,
+        "itemUsdAmt06": 3111712.0,
+        "itemUsdAmt07": 1854443.0,
+        "itemUsdAmt08": 4938494.0,
+        "itemUsdAmt09": 994563.0,
+        "itemUsdAmt10": 697489.0
+      }
+    },
+    {
+      "month": "2026-08",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 21338961.0,
+        "itemUsdAmt01": 9950038.0,
+        "itemUsdAmt02": 888834.0,
+        "itemUsdAmt03": 181373.0,
+        "itemUsdAmt04": 2077743.0,
+        "itemUsdAmt05": 470566.0,
+        "itemUsdAmt06": 470680.0,
+        "itemUsdAmt07": 222005.0,
+        "itemUsdAmt08": 587423.0,
+        "itemUsdAmt09": 206059.0,
+        "itemUsdAmt10": 113074.0
+      }
+    },
+    {
+      "month": "2026-08",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 55377004.0,
+        "itemUsdAmt01": 26032817.0,
+        "itemUsdAmt02": 2391009.0,
+        "itemUsdAmt03": 1520673.0,
+        "itemUsdAmt04": 4400757.0,
+        "itemUsdAmt05": 1041143.0,
+        "itemUsdAmt06": 913926.0,
+        "itemUsdAmt07": 796814.0,
+        "itemUsdAmt08": 2278066.0,
+        "itemUsdAmt09": 524032.0,
+        "itemUsdAmt10": 304427.0
+      }
+    },
+    {
+      "month": "2026-08",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 98373699.0,
+        "itemUsdAmt01": 46827824.0,
+        "itemUsdAmt02": 4040548.0,
+        "itemUsdAmt03": 3642581.0,
+        "itemUsdAmt04": 6984817.0,
+        "itemUsdAmt05": 1650964.0,
+        "itemUsdAmt06": 1632034.0,
+        "itemUsdAmt07": 1415065.0,
+        "itemUsdAmt08": 6410280.0,
+        "itemUsdAmt09": 864025.0,
+        "itemUsdAmt10": 507680.0
+      }
+    },
+    {
+      "month": "2026-09",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 35012898.0,
+        "itemUsdAmt01": 16483060.0,
+        "itemUsdAmt02": 1363051.0,
+        "itemUsdAmt03": 1706553.0,
+        "itemUsdAmt04": 1939185.0,
+        "itemUsdAmt05": 654250.0,
+        "itemUsdAmt06": 1495855.0,
+        "itemUsdAmt07": 664560.0,
+        "itemUsdAmt08": 634513.0,
+        "itemUsdAmt09": 337750.0,
+        "itemUsdAmt10": 199143.0
+      }
+    },
+    {
+      "month": "2026-09",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 71400637.0,
+        "itemUsdAmt01": 34117219.0,
+        "itemUsdAmt02": 2710030.0,
+        "itemUsdAmt03": 3733227.0,
+        "itemUsdAmt04": 4103660.0,
+        "itemUsdAmt05": 1245425.0,
+        "itemUsdAmt06": 2447579.0,
+        "itemUsdAmt07": 1132048.0,
+        "itemUsdAmt08": 2329974.0,
+        "itemUsdAmt09": 639123.0,
+        "itemUsdAmt10": 378000.0
+      }
+    },
+    {
+      "month": "2026-09",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 121050082.0,
+        "itemUsdAmt01": 60503447.0,
+        "itemUsdAmt02": 4279404.0,
+        "itemUsdAmt03": 5705504.0,
+        "itemUsdAmt04": 7349512.0,
+        "itemUsdAmt05": 1815314.0,
+        "itemUsdAmt06": 3639267.0,
+        "itemUsdAmt07": 1678374.0,
+        "itemUsdAmt08": 7145081.0,
+        "itemUsdAmt09": 966886.0,
+        "itemUsdAmt10": 580706.0
+      }
+    },
+    {
+      "month": "2026-10",
+      "window": 10,
+      "values": {
+        "itemUsdAmt00": 26104040.0,
+        "itemUsdAmt01": 12197797.0,
+        "itemUsdAmt02": 1085385.0,
+        "itemUsdAmt03": 1213652.0,
+        "itemUsdAmt04": 1758085.0,
+        "itemUsdAmt05": 595225.0,
+        "itemUsdAmt06": 681850.0,
+        "itemUsdAmt07": 428866.0,
+        "itemUsdAmt08": 587926.0,
+        "itemUsdAmt09": 241086.0,
+        "itemUsdAmt10": 148887.0
+      }
+    },
+    {
+      "month": "2026-10",
+      "window": 20,
+      "values": {
+        "itemUsdAmt00": 61612241.0,
+        "itemUsdAmt01": 27516150.0,
+        "itemUsdAmt02": 2588031.0,
+        "itemUsdAmt03": 3358393.0,
+        "itemUsdAmt04": 3948342.0,
+        "itemUsdAmt05": 1256453.0,
+        "itemUsdAmt06": 1621345.0,
+        "itemUsdAmt07": 985056.0,
+        "itemUsdAmt08": 2431846.0,
+        "itemUsdAmt09": 546096.0,
+        "itemUsdAmt10": 359696.0
+      }
+    }
+  ],
+  "responseHashes": {
+    "202401": "ed23cebd7372f786af3a822600e0f4b98a7bdbdad2b66c445f4e28eb89283a23",
+    "202402": "3dca18b50730ccb72af176a950f117f31be65a5256e261ad9def05d39019ddcf",
+    "202403": "d1c040e5cabd7291a8d9ac980e5ee454949a47e8ae7af8b629ba1fc484054b2a",
+    "202404": "686a904c02781e37d0209f061f59ce4d1540d8040ffb46d8edeaf615bd97378d",
+    "202405": "e5a917be05e2f81d1b136115866f1e921049b5bdb7e9e1efb0dbfc7651e00f9d",
+    "202406": "c2f099121bfc0dac297942194bb527224a2ad55193ccb18d9b3a1962acaea69a",
+    "202407": "5a97057482b3f368beba47a8bc8afc2625fe837c2ddd93fb79dfd29d05373f7f",
+    "202408": "86899570944e62693310c056c400973ac641f6694d96db7b6380d7b847c6924a",
+    "202409": "cfcf2a9d9a6f4a38e1bc8a5e6ed240a581f662ea41804e2d86215c6b85dd6432",
+    "202410": "2e393c66d16e314fdcdc799048ca1c051214dbd18cf5e02da7e6b984d45bf627",
+    "202411": "9bb931874faba4b07005a19d932aa60233bb5042003b74ab031b8d292afd2dbf",
+    "202412": "60bf7fbe45bae362386c73635ee1094418f2c40643912042869d8417fedd53b6",
+    "202501": "12132c09b8f1cec18e8a4d5a8f03767b0f6d3f8c47a6797e83b8ea1badb553dd",
+    "202502": "72fc5b2beab4e40e20c96386fb34e9b03b3066f09fdf78f5a80e1cd91ad2483f",
+    "202503": "51ac01621d6f6d527103dba77564fd593ce8c7162611fd05f05a6d31a14b2ef0",
+    "202504": "0a3dbdf2627cc324b026bab2446f78be44df2f8786c1a41228a14d952ce16ca5",
+    "202505": "d848fe2ca1c96d6006cf4b14ab14046d9db4605243ec2f47bcf7c1710d098a97",
+    "202506": "91f737ff6ca292934ff80963d179b375e16b704d54005418e9caf4b67d1d2b03",
+    "202507": "28b7ebae0b75af8af9b9463241c874f8c76e7feddfc6116f0e3181c61fc15b78",
+    "202508": "169fb18b8377efa52c65e548bc0402fbf37a491ed2001b37bb4cd4a0c4e660da",
+    "202509": "d75e9e8116791807cd9acc92d6390893c50ab7c4b49f5b541a4c7099273c0199",
+    "202510": "12c92012327871ea1672d810fb0e258620045af7deb793a26174aa25d7f08e29",
+    "202511": "0e7246143fdde44757a59240b1ea0394c8da2c6f5fee6086067e0651b41d6909",
+    "202512": "9408167afb38c7f59c7ce24382bf7a54e14bc095d824d43386e5545a0c090d99",
+    "202601": "05a7f295062a4f2a5b566d4a653816763b1e684a103681c3150c8d848f64bbe7",
+    "202602": "d45c40018abc5898613126c18ac5abff3d01171010153a1a6d1e0ad0ae6115e4",
+    "202603": "7ee34adbe35d6cbe295fd3bb29d05c7e9aca43d72a8604966bf1fdbe492b729d",
+    "202604": "65a57c320aadfeb26b73c4af4ac735eab239fc713ec9605a59fe9ab90333a0bc",
+    "202605": "ceb3cfdbe1a0b6470d96b0bca3298f16bfbd76ba5d83149853d6a3da5c83f7fc",
+    "202606": "1c77472b5ec2f53ec31f671bec439b847f686594953f445a2a887a077bfdbce3",
+    "202607": "91d40d32621b30e791343ef1ea2641baedf07daef12817c5077de8556a58c950",
+    "202608": "c234dc00c93c73aeba93359be56f346fb3d777964c042f7c33e2488e1853f57c",
+    "202609": "f7d9421c997028b5e6d71dfc4d33547730d20779ce653c02d993e484b159a7cc",
+    "202610": "9c88374719217b840ad1d29f52dfabead83fc585c73a2390047a9fb871abf365"
+  }
+}
