@@ -2,7 +2,7 @@
   "status": "live",
   "unit": "천 달러",
   "sourceUrl": "https://www.data.go.kr/data/15157908/openapi.do",
-  "updatedAt": "2026-10-22T14:41:44.379565+09:00",
+  "updatedAt": "2026-11-02T15:57:22.940075+09:00",
   "products": [
     {
       "id": "itemUsdAmt00",
@@ -1765,6 +1765,23 @@
         "itemUsdAmt08": 2431846.0,
         "itemUsdAmt09": 546096.0,
         "itemUsdAmt10": 359696.0
+      }
+    },
+    {
+      "month": "2026-10",
+      "window": 30,
+      "values": {
+        "itemUsdAmt00": 115275677.0,
+        "itemUsdAmt01": 56702143.0,
+        "itemUsdAmt02": 4332505.0,
+        "itemUsdAmt03": 6109234.0,
+        "itemUsdAmt04": 6958357.0,
+        "itemUsdAmt05": 2036472.0,
+        "itemUsdAmt06": 2506689.0,
+        "itemUsdAmt07": 1639516.0,
+        "itemUsdAmt08": 6003411.0,
+        "itemUsdAmt09": 969173.0,
+        "itemUsdAmt10": 575054.0
       }
     }
   ]

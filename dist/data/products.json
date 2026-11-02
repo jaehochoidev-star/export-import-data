@@ -2,19 +2,19 @@
   "mode": "live",
   "unit": "억 달러",
   "source": "ministry-report",
-  "updatedAt": "2026-10-02T06:22:56.063743+00:00",
+  "updatedAt": "2026-11-02T06:57:21.908539+00:00",
   "report": {
-    "title": "2026년 9월 수출입동향",
-    "publishedAt": "2026-10-01",
-    "firstMonth": "2025-09",
-    "lastMonth": "2026-09",
+    "title": "2026년 10월 수출입동향",
+    "publishedAt": "2026-11-01",
+    "firstMonth": "2025-10",
+    "lastMonth": "2026-10",
     "pages": [
       20,
       21
     ],
-    "url": "https://www.korea.kr/common/download.do?fileId=198563931&tblKey=GMN",
-    "policyUrl": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783912",
-    "sha256": "e7f7ba494d7b43cd14eb054cd2e6ee66d4391e64863a1f47baf7ef6021df5003"
+    "url": "https://www.korea.kr/common/download.do?fileId=198581810&tblKey=GMN",
+    "policyUrl": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787411",
+    "sha256": "e78ea4dcb939da6a8dc7e01cb6b00e92374c8d29601b50486612ea3d5fe53a0f"
   },
   "products": [
     {
@@ -209,14 +209,20 @@
         },
         {
           "month": "2026-08",
-          "exports": 466.53,
-          "reportedYoy": 209.1,
+          "exports": 466.51,
+          "reportedYoy": 209.0,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
           "exports": 602.95,
           "reportedYoy": 262.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 564.38,
+          "reportedYoy": 259.4,
           "sourceId": "ministry-report"
         }
       ]
@@ -413,7 +419,7 @@
         },
         {
           "month": "2026-08",
-          "exports": 62.43,
+          "exports": 62.44,
           "reportedYoy": 419.5,
           "sourceId": "ministry-report"
         },
@@ -421,6 +427,12 @@
           "month": "2026-09",
           "exports": 69.97,
           "reportedYoy": 435.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 58.53,
+          "reportedYoy": 496.6,
           "sourceId": "ministry-report"
         }
       ]
@@ -605,26 +617,32 @@
         },
         {
           "month": "2026-06",
-          "exports": 54.07,
-          "reportedYoy": 44.9,
+          "exports": 54.12,
+          "reportedYoy": 45.0,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-07",
-          "exports": 60.82,
-          "reportedYoy": 43.6,
+          "exports": 61.04,
+          "reportedYoy": 44.1,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-08",
-          "exports": 68.51,
-          "reportedYoy": 65.4,
+          "exports": 69.54,
+          "reportedYoy": 67.9,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
-          "exports": 72.24,
-          "reportedYoy": 72.0,
+          "exports": 73.13,
+          "reportedYoy": 74.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 69.19,
+          "reportedYoy": 80.0,
           "sourceId": "ministry-report"
         }
       ]
@@ -779,8 +797,8 @@
         },
         {
           "month": "2026-01",
-          "exports": 35.74,
-          "reportedYoy": -0.1,
+          "exports": 35.75,
+          "reportedYoy": -0.0,
           "sourceId": "ministry-report"
         },
         {
@@ -791,44 +809,50 @@
         },
         {
           "month": "2026-03",
-          "exports": 40.23,
+          "exports": 40.25,
           "reportedYoy": 10.1,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-04",
-          "exports": 41.13,
+          "exports": 41.14,
           "reportedYoy": 8.4,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-05",
-          "exports": 36.77,
+          "exports": 36.78,
           "reportedYoy": 10.5,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-06",
-          "exports": 40.33,
-          "reportedYoy": 17.7,
+          "exports": 40.31,
+          "reportedYoy": 17.6,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-07",
-          "exports": 42.11,
-          "reportedYoy": 10.9,
+          "exports": 42.18,
+          "reportedYoy": 11.1,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-08",
-          "exports": 38.78,
-          "reportedYoy": 12.7,
+          "exports": 38.99,
+          "reportedYoy": 13.3,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
-          "exports": 39.53,
-          "reportedYoy": 5.1,
+          "exports": 39.78,
+          "reportedYoy": 5.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 40.02,
+          "reportedYoy": 27.5,
           "sourceId": "ministry-report"
         }
       ]
@@ -1013,26 +1037,32 @@
         },
         {
           "month": "2026-06",
-          "exports": 66.99,
-          "reportedYoy": 5.7,
+          "exports": 66.98,
+          "reportedYoy": 5.6,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-07",
-          "exports": 62.22,
+          "exports": 62.18,
           "reportedYoy": 6.7,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-08",
-          "exports": 38.51,
-          "reportedYoy": -29.8,
+          "exports": 38.45,
+          "reportedYoy": -29.9,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
           "exports": 60.52,
           "reportedYoy": -5.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 65.49,
+          "reportedYoy": 18.1,
           "sourceId": "ministry-report"
         }
       ]
@@ -1217,7 +1247,7 @@
         },
         {
           "month": "2026-06",
-          "exports": 40.69,
+          "exports": 40.68,
           "reportedYoy": 7.2,
           "sourceId": "ministry-report"
         },
@@ -1229,14 +1259,20 @@
         },
         {
           "month": "2026-08",
-          "exports": 35.27,
-          "reportedYoy": 1.8,
+          "exports": 35.23,
+          "reportedYoy": 1.7,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
-          "exports": 40.73,
+          "exports": 40.74,
           "reportedYoy": -3.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 41.31,
+          "reportedYoy": 23.7,
           "sourceId": "ministry-report"
         }
       ]
@@ -1433,14 +1469,20 @@
         },
         {
           "month": "2026-08",
-          "exports": 21.07,
+          "exports": 21.08,
           "reportedYoy": 7.9,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
-          "exports": 22.41,
-          "reportedYoy": 3.3,
+          "exports": 22.39,
+          "reportedYoy": 3.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 22.93,
+          "reportedYoy": 22.3,
           "sourceId": "ministry-report"
         }
       ]
@@ -1625,7 +1667,7 @@
         },
         {
           "month": "2026-06",
-          "exports": 17.42,
+          "exports": 17.41,
           "reportedYoy": -2.5,
           "sourceId": "ministry-report"
         },
@@ -1643,8 +1685,14 @@
         },
         {
           "month": "2026-09",
-          "exports": 17.73,
-          "reportedYoy": -7.2,
+          "exports": 17.72,
+          "reportedYoy": -7.3,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 17.35,
+          "reportedYoy": 15.0,
           "sourceId": "ministry-report"
         }
       ]
@@ -1842,13 +1890,19 @@
         {
           "month": "2026-08",
           "exports": 15.7,
-          "reportedYoy": -4.7,
+          "reportedYoy": -4.8,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
           "exports": 15.81,
           "reportedYoy": -9.5,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 19.1,
+          "reportedYoy": 29.3,
           "sourceId": "ministry-report"
         }
       ]
@@ -2045,14 +2099,20 @@
         },
         {
           "month": "2026-08",
-          "exports": 16.92,
-          "reportedYoy": -45.9,
+          "exports": 16.93,
+          "reportedYoy": -45.8,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
-          "exports": 37.57,
+          "exports": 37.58,
           "reportedYoy": 29.9,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 26.44,
+          "reportedYoy": -43.6,
           "sourceId": "ministry-report"
         }
       ]
@@ -2244,19 +2304,25 @@
         {
           "month": "2026-07",
           "exports": 18.12,
-          "reportedYoy": 51.1,
+          "reportedYoy": 51.0,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-08",
-          "exports": 18.84,
-          "reportedYoy": 21.2,
+          "exports": 18.86,
+          "reportedYoy": 21.3,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
           "exports": 21.44,
           "reportedYoy": 23.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 19.48,
+          "reportedYoy": 6.7,
           "sourceId": "ministry-report"
         }
       ]
@@ -2417,8 +2483,8 @@
         },
         {
           "month": "2026-02",
-          "exports": 13.3,
-          "reportedYoy": 7.0,
+          "exports": 13.27,
+          "reportedYoy": 6.7,
           "sourceId": "ministry-report"
         },
         {
@@ -2441,7 +2507,7 @@
         },
         {
           "month": "2026-06",
-          "exports": 19.12,
+          "exports": 19.13,
           "reportedYoy": 13.8,
           "sourceId": "ministry-report"
         },
@@ -2461,6 +2527,12 @@
           "month": "2026-09",
           "exports": 15.47,
           "reportedYoy": -8.6,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 15.3,
+          "reportedYoy": 30.2,
           "sourceId": "ministry-report"
         }
       ]
@@ -2627,7 +2699,7 @@
         },
         {
           "month": "2026-03",
-          "exports": 9.29,
+          "exports": 9.28,
           "reportedYoy": 4.9,
           "sourceId": "ministry-report"
         },
@@ -2645,26 +2717,32 @@
         },
         {
           "month": "2026-06",
-          "exports": 9.67,
-          "reportedYoy": 11.3,
+          "exports": 9.66,
+          "reportedYoy": 11.2,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-07",
           "exports": 9.32,
-          "reportedYoy": 3.5,
+          "reportedYoy": 3.4,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-08",
-          "exports": 7.51,
-          "reportedYoy": 0.2,
+          "exports": 7.46,
+          "reportedYoy": -0.4,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
-          "exports": 8.79,
+          "exports": 8.78,
           "reportedYoy": -6.8,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 9.62,
+          "reportedYoy": 24.7,
           "sourceId": "ministry-report"
         }
       ]
@@ -2861,14 +2939,20 @@
         },
         {
           "month": "2026-08",
-          "exports": 6.02,
-          "reportedYoy": 24.0,
+          "exports": 6.0,
+          "reportedYoy": 23.8,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
           "exports": 7.24,
           "reportedYoy": 14.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 7.41,
+          "reportedYoy": 38.4,
           "sourceId": "ministry-report"
         }
       ]
@@ -3065,14 +3149,20 @@
         },
         {
           "month": "2026-08",
-          "exports": 5.22,
-          "reportedYoy": -1.5,
+          "exports": 5.2,
+          "reportedYoy": -2.0,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
           "exports": 5.96,
           "reportedYoy": -13.2,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 5.87,
+          "reportedYoy": 6.4,
           "sourceId": "ministry-report"
         }
       ]
@@ -3126,7 +3216,7 @@
         {
           "month": "2026-03",
           "exports": 15.15,
-          "reportedYoy": 5.3,
+          "reportedYoy": 5.4,
           "sourceId": "ministry-report"
         },
         {
@@ -3149,20 +3239,26 @@
         },
         {
           "month": "2026-07",
-          "exports": 17.19,
+          "exports": 17.2,
           "reportedYoy": 9.2,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-08",
-          "exports": 15.0,
-          "reportedYoy": 16.2,
+          "exports": 15.01,
+          "reportedYoy": 16.3,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
           "exports": 18.26,
           "reportedYoy": 23.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 19.89,
+          "reportedYoy": 74.0,
           "sourceId": "ministry-report"
         }
       ]
@@ -3233,7 +3329,7 @@
         },
         {
           "month": "2026-06",
-          "exports": 18.27,
+          "exports": 18.26,
           "reportedYoy": 46.6,
           "sourceId": "ministry-report"
         },
@@ -3245,14 +3341,20 @@
         },
         {
           "month": "2026-08",
-          "exports": 14.82,
-          "reportedYoy": 24.2,
+          "exports": 14.88,
+          "reportedYoy": 24.7,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
-          "exports": 17.37,
-          "reportedYoy": 33.6,
+          "exports": 17.42,
+          "reportedYoy": 34.0,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 16.72,
+          "reportedYoy": 37.7,
           "sourceId": "ministry-report"
         }
       ]
@@ -3458,6 +3560,12 @@
           "exports": 11.07,
           "reportedYoy": -4.7,
           "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 11.05,
+          "reportedYoy": 11.6,
+          "sourceId": "ministry-report"
         }
       ]
     },
@@ -3641,26 +3749,32 @@
         },
         {
           "month": "2026-06",
-          "exports": 13.3,
+          "exports": 13.29,
           "reportedYoy": 41.3,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-07",
-          "exports": 13.48,
-          "reportedYoy": 37.5,
+          "exports": 13.45,
+          "reportedYoy": 37.2,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-08",
-          "exports": 13.11,
-          "reportedYoy": 52.0,
+          "exports": 13.01,
+          "reportedYoy": 50.8,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
           "exports": 15.06,
           "reportedYoy": 31.4,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 14.44,
+          "reportedYoy": 57.5,
           "sourceId": "ministry-report"
         }
       ]
@@ -3725,7 +3839,7 @@
         },
         {
           "month": "2026-05",
-          "exports": 6.52,
+          "exports": 6.53,
           "reportedYoy": -5.2,
           "sourceId": "ministry-report"
         },
@@ -3743,14 +3857,20 @@
         },
         {
           "month": "2026-08",
-          "exports": 6.46,
-          "reportedYoy": -3.4,
+          "exports": 6.42,
+          "reportedYoy": -4.1,
           "sourceId": "ministry-report"
         },
         {
           "month": "2026-09",
-          "exports": 7.27,
-          "reportedYoy": -5.0,
+          "exports": 7.26,
+          "reportedYoy": -5.1,
+          "sourceId": "ministry-report"
+        },
+        {
+          "month": "2026-10",
+          "exports": 7.47,
+          "reportedYoy": -13.4,
           "sourceId": "ministry-report"
         }
       ]
