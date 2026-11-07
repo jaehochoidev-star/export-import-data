@@ -88,3 +88,11 @@ GitHub Actions `Publish dashboard`:
 - FRED 15개 시리즈: 기존 10개에 DEXKOUS, DTWEXBGS, DFII10, T10YIE, INDPRO를 추가합니다. INDPRO는 2017=100 계절조정 지수이며 나머지는 공식 원래 주기를 유지합니다.
 - 세계은행 은은 `scripts/fetch-worldbank.py`로 공식 Pink Sheet 월별 XLSX의 Silver 열과 단위를 검증합니다. `data/worldbank.json`, `data/worldbank/raw/pink-sheet-monthly.xlsx`를 저장하고 `dist/data/worldbank.json`으로 표시합니다. 기존 월을 보존하며 같은 월은 수정치를 반영합니다. 원본 XLSX는 값이 바뀔 때만 갱신합니다.
 - 매일 FRED 갱신 작업에서 세계은행 파일도 확인하므로 월별 자료 발표 뒤 자동 반영됩니다. 공식 다운로드 주소가 변경되면 수집은 실패하고 기존 공개 자료를 유지합니다.
+
+### 부분 수집 실패 시 처리
+
+- FRED와 세계은행은 독립적으로 수집·검증합니다. 한 출처가 실패하면 해당 출처의 누적·원본·공개 파일을 수집 전 상태로 복구하고 다음 출처 수집을 계속합니다.
+- 성공한 출처와 수집 상태를 함께 커밋·배포합니다. 일부 실패는 Actions warning 및 실행 요약에 남습니다. 통계 검증이나 배포 자체의 오류는 계속 실패로 처리합니다.
+- `data/update-status.json`과 `dist/data/update-status.json`에 출처별 최근 시도, 마지막 수집 성공, 마지막 데이터 반영 시각을 보관합니다. 상태 기록 도입 전 마지막 수집 성공 시각은 추정하지 않고 기록 없음으로 표시합니다.
+- 화면 상단에서 출처별 상태를 확인할 수 있고, 실패한 출처의 카드에는 이전 데이터 표시가 붙습니다. 다음 수집 성공 시 경고가 해제됩니다. 성공했어도 새 발표가 없으면 데이터 기준일은 그대로입니다.
+

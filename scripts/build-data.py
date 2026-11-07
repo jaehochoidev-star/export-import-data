@@ -29,4 +29,8 @@ def main():
     if worldbank.exists():
         Path('dist/data/worldbank.json').write_bytes(worldbank.read_bytes())
 
+    status=Path('data/update-status.json')
+    if status.exists():
+        Path('dist/data/update-status.json').write_bytes(status.read_bytes())
+
 if __name__=='__main__': main()

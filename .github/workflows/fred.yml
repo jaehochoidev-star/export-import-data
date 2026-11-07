@@ -28,22 +28,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-      - name: Collect official FRED series and revisions
-        id: collect
-        env:
-          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
-        run: node scripts/fetch-fred.mjs
-      - name: Summarize collection failure
-        if: failure() && steps.collect.outcome == 'failure'
-        run: |
-          echo 'FRED collection failed. Existing repository data and the published site were retained. See the safe HTTP/API/network error code in the collection step.' >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/setup-python@v5
+        id: python
+        continue-on-error: true
         with:
           python-version: "3.12"
-      - name: Collect World Bank monthly silver
-        run: |
-          python -m pip install openpyxl==3.1.5
-          python scripts/fetch-worldbank.py
+      - name: Collect sources independently and record freshness
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          WORLDBANK_PYTHON_READY: ${{ steps.python.outcome }}
+        run: node scripts/update-market-data.mjs
       - name: Verify statistics
         run: node --test
       - name: Save accumulated observations
@@ -51,7 +45,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/fred.json data/fred dist/data/fred.json data/worldbank.json data/worldbank dist/data/worldbank.json
+          git add data/update-status.json dist/data/update-status.json data/fred.json data/fred dist/data/fred.json data/worldbank.json data/worldbank dist/data/worldbank.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update accumulated FRED statistics'
             git push origin HEAD:main
