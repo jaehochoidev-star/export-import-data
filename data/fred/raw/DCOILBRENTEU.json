@@ -3,14 +3,14 @@
     "id": "DCOILBRENTEU",
     "title": "Crude Oil Prices: Brent - Europe",
     "observation_start": "1987-05-20",
-    "observation_end": "2026-10-20",
+    "observation_end": "2026-11-03",
     "frequency": "Daily",
     "frequency_short": "D",
     "units": "Dollars per Barrel",
     "units_short": "$ per Barrel",
     "seasonal_adjustment": "Not Seasonally Adjusted",
     "seasonal_adjustment_short": "NSA",
-    "last_updated": "2026-10-21 12:18:26-05",
+    "last_updated": "2026-11-04 12:18:32-06",
     "popularity": 81,
     "notes": "Definitions, Sources and Explanatory Notes (http://www.eia.doe.gov/dnav/pet/TblDefs/pet_pri_spt_tbldef2.asp)"
   },
@@ -41966,6 +41966,66 @@
       "realtime_end": "2026-10-22",
       "date": "2026-10-20",
       "value": "115.22"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-21",
+      "value": "117.37"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-22",
+      "value": "125.39"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-23",
+      "value": "128.3"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-26",
+      "value": "128.12"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-27",
+      "value": "123.1"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-28",
+      "value": "119.2"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-29",
+      "value": "115.28"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-30",
+      "value": "120.15"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-11-02",
+      "value": "107.39"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-11-03",
+      "value": "107.03"
     }
   ]
 }

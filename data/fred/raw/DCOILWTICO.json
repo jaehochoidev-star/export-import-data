@@ -3,14 +3,14 @@
     "id": "DCOILWTICO",
     "title": "Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma",
     "observation_start": "1986-01-02",
-    "observation_end": "2026-10-20",
+    "observation_end": "2026-11-03",
     "frequency": "Daily",
     "frequency_short": "D",
     "units": "Dollars per Barrel",
     "units_short": "$ per Barrel",
     "seasonal_adjustment": "Not Seasonally Adjusted",
     "seasonal_adjustment_short": "NSA",
-    "last_updated": "2026-10-21 12:18:25-05",
+    "last_updated": "2026-11-04 12:18:32-06",
     "popularity": 84,
     "notes": "Definitions, Sources and Explanatory Notes (http://www.eia.doe.gov/dnav/pet/TblDefs/pet_pri_spt_tbldef2.asp)"
   },
@@ -41966,6 +41966,66 @@
       "realtime_end": "2026-10-22",
       "date": "2026-10-20",
       "value": "107.89"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-21",
+      "value": "103.95"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-22",
+      "value": "104.27"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-23",
+      "value": "109.72"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-26",
+      "value": "105.25"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-27",
+      "value": "103.37"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-28",
+      "value": "106.25"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-29",
+      "value": "105.51"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-10-30",
+      "value": "107.56"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-11-02",
+      "value": "100.06"
+    },
+    {
+      "realtime_start": "2026-11-06",
+      "realtime_end": "2026-11-06",
+      "date": "2026-11-03",
+      "value": "99.64"
     }
   ]
 }

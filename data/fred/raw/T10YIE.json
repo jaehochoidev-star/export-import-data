@@ -3,14 +3,14 @@
     "id": "T10YIE",
     "title": "10-Year Breakeven Inflation Rate",
     "observation_start": "2003-01-02",
-    "observation_end": "2026-10-21",
+    "observation_end": "2026-11-06",
     "frequency": "Daily",
     "frequency_short": "D",
     "units": "Percent",
     "units_short": "%",
     "seasonal_adjustment": "Not Seasonally Adjusted",
     "seasonal_adjustment_short": "NSA",
-    "last_updated": "2026-10-21 16:03:26-05",
+    "last_updated": "2026-11-06 16:03:50-06",
     "popularity": 91,
     "notes": "The breakeven inflation rate represents a measure of expected inflation derived from 10-Year Treasury Constant Maturity Securities (DGS10 (https://fred.stlouisfed.org/series/DGS10)) and 10-Year Treasury Inflation-Indexed Constant Maturity Securities (DFII10 (https://fred.stlouisfed.org/series/DFII10)). The latest value implies what market participants expect inflation to be in the next 10 years, on average.\r\nStarting with the update on June 21, 2019, the Treasury bond data used in calculating interest rate spreads is obtained directly from the U.S. Treasury Department (https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=yield)."
   },
@@ -37274,6 +37274,78 @@
       "realtime_end": "2026-10-22",
       "date": "2026-10-21",
       "value": "2.37"
+    },
+    {
+      "realtime_start": "2026-11-07",
+      "realtime_end": "2026-11-07",
+      "date": "2026-10-22",
+      "value": "2.32"
+    },
+    {
+      "realtime_start": "2026-11-07",
+      "realtime_end": "2026-11-07",
+      "date": "2026-10-23",
+      "value": "2.34"
+    },
+    {
+      "realtime_start": "2026-11-07",
+      "realtime_end": "2026-11-07",
+      "date": "2026-10-26",
+      "value": "2.34"
+    },
+    {
+      "realtime_start": "2026-11-07",
+      "realtime_end": "2026-11-07",
+      "date": "2026-10-27",
+      "value": "2.35"
+    },
+    {
+      "realtime_start": "2026-11-07",
+      "realtime_end": "2026-11-07",
+      "date": "2026-10-28",
+      "value": "2.38"
+    },
+    {
+      "realtime_start": "2026-11-07",
+      "realtime_end": "2026-11-07",
+      "date": "2026-10-29",
+      "value": "2.35"
+    },
+    {
+      "realtime_start": "2026-11-07",
+      "realtime_end": "2026-11-07",
+      "date": "2026-10-30",
+      "value": "2.34"
+    },
+    {
+      "realtime_start": "2026-11-07",
+      "realtime_end": "2026-11-07",
+      "date": "2026-11-02",
+      "value": "2.29"
+    },
+    {
+      "realtime_start": "2026-11-07",
+      "realtime_end": "2026-11-07",
+      "date": "2026-11-03",
+      "value": "2.3"
+    },
+    {
+      "realtime_start": "2026-11-07",
+      "realtime_end": "2026-11-07",
+      "date": "2026-11-04",
+      "value": "2.26"
+    },
+    {
+      "realtime_start": "2026-11-07",
+      "realtime_end": "2026-11-07",
+      "date": "2026-11-05",
+      "value": "2.24"
+    },
+    {
+      "realtime_start": "2026-11-07",
+      "realtime_end": "2026-11-07",
+      "date": "2026-11-06",
+      "value": "2.23"
     }
   ]
 }
