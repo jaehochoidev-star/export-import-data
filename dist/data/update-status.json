@@ -3,14 +3,14 @@
   "sources": {
     "fred": {
       "state": "success",
-      "lastAttemptAt": "2026-11-10T07:58:27.699Z",
-      "lastSuccessAt": "2026-11-10T07:58:27.699Z",
-      "lastDataUpdatedAt": "2026-11-10T07:58:49.258Z",
+      "lastAttemptAt": "2026-11-11T07:28:05.705Z",
+      "lastSuccessAt": "2026-11-11T07:28:05.705Z",
+      "lastDataUpdatedAt": "2026-11-11T07:28:33.425Z",
       "error": null
     },
     "worldbank": {
       "state": "failed",
-      "lastAttemptAt": "2026-11-10T07:58:49.657Z",
+      "lastAttemptAt": "2026-11-11T07:28:33.951Z",
       "lastSuccessAt": null,
       "lastDataUpdatedAt": "2026-10-03T05:59:38.021244+00:00",
       "error": "collection_or_validation_failed",
