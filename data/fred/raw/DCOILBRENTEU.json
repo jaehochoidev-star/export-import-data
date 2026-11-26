@@ -3,14 +3,14 @@
     "id": "DCOILBRENTEU",
     "title": "Crude Oil Prices: Brent - Europe",
     "observation_start": "1987-05-20",
-    "observation_end": "2026-11-17",
+    "observation_end": "2026-11-24",
     "frequency": "Daily",
     "frequency_short": "D",
     "units": "Dollars per Barrel",
     "units_short": "$ per Barrel",
     "seasonal_adjustment": "Not Seasonally Adjusted",
     "seasonal_adjustment_short": "NSA",
-    "last_updated": "2026-11-18 12:18:23-06",
+    "last_updated": "2026-11-25 12:17:32-06",
     "popularity": 81,
     "notes": "Definitions, Sources and Explanatory Notes (http://www.eia.doe.gov/dnav/pet/TblDefs/pet_pri_spt_tbldef2.asp)"
   },
@@ -42086,6 +42086,36 @@
       "realtime_end": "2026-11-19",
       "date": "2026-11-17",
       "value": "92.94"
+    },
+    {
+      "realtime_start": "2026-11-25",
+      "realtime_end": "2026-11-25",
+      "date": "2026-11-18",
+      "value": "92.88"
+    },
+    {
+      "realtime_start": "2026-11-25",
+      "realtime_end": "2026-11-25",
+      "date": "2026-11-19",
+      "value": "95.17"
+    },
+    {
+      "realtime_start": "2026-11-25",
+      "realtime_end": "2026-11-25",
+      "date": "2026-11-20",
+      "value": "92.76"
+    },
+    {
+      "realtime_start": "2026-11-25",
+      "realtime_end": "2026-11-25",
+      "date": "2026-11-23",
+      "value": "91.2"
+    },
+    {
+      "realtime_start": "2026-11-25",
+      "realtime_end": "2026-11-25",
+      "date": "2026-11-24",
+      "value": "91.8"
     }
   ]
 }
